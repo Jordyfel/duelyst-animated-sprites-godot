@@ -1,0 +1,81 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://blypjeh2ohyyp"]
+
+[ext_resource type="Texture2D" uid="uid://d33m0l6hixyqp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_firefallground.png" id="1_shv3t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8120"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 2, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4h153"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 126, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jyj02"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 250, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h10mx"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 374, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xr3ib"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 374, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f2a8l"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 374, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fjp7o"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 250, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t57qv"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 126, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38wdq"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 2, 130, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tfpnk"]
+atlas = ExtResource("1_shv3t")
+region = Rect2(2, 2, 130, 122)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8120")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4h153")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jyj02")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h10mx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xr3ib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f2a8l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fjp7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t57qv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38wdq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tfpnk")
+}],
+"loop": true,
+"name": &"firefallground",
+"speed": 9.0
+}]

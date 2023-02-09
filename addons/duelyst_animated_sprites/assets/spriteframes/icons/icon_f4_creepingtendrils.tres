@@ -1,0 +1,128 @@
+[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://d0wh4ix4ecns6"]
+
+[ext_resource type="Texture2D" uid="uid://dx15cl1fl1pr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_creepingtendrils.png" id="1_il3sk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01ymo"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_heguh"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47aer"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eahom"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgaao"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_snwsr"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwgl4"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tcp7v"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnohq"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3s0ge"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51dtu"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4bf81"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y45eb"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ow31b"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ris4u"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tnbm5"]
+atlas = ExtResource("1_il3sk")
+region = Rect2(49, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01ymo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_heguh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47aer")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eahom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vgaao")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_snwsr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lwgl4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tcp7v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnohq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3s0ge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51dtu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4bf81")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y45eb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ow31b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ris4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tnbm5")
+}],
+"loop": true,
+"name": &"creepingtendrils",
+"speed": 9.0
+}]

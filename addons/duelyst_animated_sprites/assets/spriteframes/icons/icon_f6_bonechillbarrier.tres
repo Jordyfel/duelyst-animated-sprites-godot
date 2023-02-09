@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://d3c1rywpv42nf"]
+
+[ext_resource type="Texture2D" uid="uid://sa4punqtdxdn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_bonechillbarrier.png" id="1_5fjo8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5gk7o"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t6mjf"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1athm"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wykuy"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et1q7"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n52yg"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mdmuv"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rs7hm"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcey4"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5jtc"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h37we"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vahiy"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2y6p1"]
+atlas = ExtResource("1_5fjo8")
+region = Rect2(49, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5gk7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t6mjf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1athm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wykuy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et1q7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n52yg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mdmuv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rs7hm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcey4")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5jtc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h37we")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vahiy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2y6p1")
+}],
+"loop": true,
+"name": &"bonechillbarrier",
+"speed": 9.0
+}]

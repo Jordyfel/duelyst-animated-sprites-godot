@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://b3jel0a0pstos"]
+
+[ext_resource type="Texture2D" uid="uid://ccw84t604a5p5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_stophittingyourself.png" id="1_ht7gt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7tdxg"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tmsho"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1hgr"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cyte8"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_khsav"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0erve"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywid0"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mw58l"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0bpgd"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e3tpb"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_unfuu"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mv0vc"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li5s7"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6pf8"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkcpn"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nc81i"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ge80q"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vw1qf"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0koq"]
+atlas = ExtResource("1_ht7gt")
+region = Rect2(147, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7tdxg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tmsho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1hgr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cyte8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_khsav")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0erve")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywid0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mw58l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0bpgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e3tpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_unfuu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mv0vc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_li5s7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6pf8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkcpn")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nc81i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ge80q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vw1qf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0koq")
+}],
+"loop": true,
+"name": &"stophittingyourself",
+"speed": 9.0
+}]

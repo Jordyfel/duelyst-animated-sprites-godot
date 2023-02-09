@@ -1,0 +1,88 @@
+[gd_resource type="SpriteFrames" load_steps=13 format=3 uid="uid://bsuiu7hro1fuh"]
+
+[ext_resource type="Texture2D" uid="uid://c7en7mkf8gwt2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_heavenlystrike.png" id="1_1tyto"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_blaw5"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(162, 241, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nvenv"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(324, 241, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l131a"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(324, 0, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_woru6"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(243, 241, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gr8th"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(243, 0, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmy02"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(405, 0, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2611g"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(162, 0, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_83n6c"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(81, 241, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssetp"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(81, 0, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_da74c"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(0, 241, 80, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydgkk"]
+atlas = ExtResource("1_1tyto")
+region = Rect2(0, 0, 80, 240)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_blaw5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nvenv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l131a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_woru6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gr8th")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmy02")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2611g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_83n6c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ssetp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_da74c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydgkk")
+}],
+"loop": true,
+"name": &"heavenlystrike",
+"speed": 9.0
+}]

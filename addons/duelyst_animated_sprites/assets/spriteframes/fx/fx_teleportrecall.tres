@@ -1,0 +1,109 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://dblau6k4b3acr"]
+
+[ext_resource type="Texture2D" uid="uid://b106d655goiil" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportrecall.png" id="1_2cprx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dklxx"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(162, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2plpv"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(324, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2j1h"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(243, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uivhy"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(243, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6dk74"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(243, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhrui"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(162, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5txbd"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(162, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fypyq"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(324, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ps7rh"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(81, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bolm"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(81, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lpxvr"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(81, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5j2i8"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(0, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ef78m"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(0, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_baqc1"]
+atlas = ExtResource("1_2cprx")
+region = Rect2(0, 0, 80, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dklxx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2plpv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y2j1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uivhy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6dk74")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhrui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5txbd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fypyq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ps7rh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3bolm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lpxvr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5j2i8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ef78m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_baqc1")
+}],
+"loop": true,
+"name": &"teleportrecall",
+"speed": 9.0
+}]

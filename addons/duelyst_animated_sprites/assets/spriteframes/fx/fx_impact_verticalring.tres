@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://omyv41ot7fvu"]
+
+[ext_resource type="Texture2D" uid="uid://b1swgsyntsvd1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_impact_verticalring.png" id="1_qrbyc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xw67a"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(47, 0, 46, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kcvd"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(47, 162, 46, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7poxq"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(47, 81, 46, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5i26a"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(94, 0, 46, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1f06"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(0, 162, 46, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kj10k"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(0, 81, 46, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a8wpk"]
+atlas = ExtResource("1_qrbyc")
+region = Rect2(0, 0, 46, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xw67a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kcvd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7poxq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5i26a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1f06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kj10k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a8wpk")
+}],
+"loop": true,
+"name": &"verticalring",
+"speed": 9.0
+}]

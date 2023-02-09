@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://bseh3x8in8ck3"]
+
+[ext_resource type="Texture2D" uid="uid://dobqbkbm4xmh6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_egggrenade.png" id="1_nvsng"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_64s1h"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwkn3"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8l8m3"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5v0f8"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6b4x3"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j1nkf"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kx8x4"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0sgm"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mjp44"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llv5y"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xlc5u"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxaxf"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_63nx4"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aggkj"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bbibd"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itinv"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jcwru"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aeop5"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qk0l"]
+atlas = ExtResource("1_nvsng")
+region = Rect2(147, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_64s1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwkn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8l8m3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5v0f8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6b4x3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j1nkf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kx8x4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0sgm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mjp44")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llv5y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xlc5u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxaxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_63nx4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aggkj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bbibd")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itinv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jcwru")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aeop5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qk0l")
+}],
+"loop": true,
+"name": &"egggrenade",
+"speed": 9.0
+}]

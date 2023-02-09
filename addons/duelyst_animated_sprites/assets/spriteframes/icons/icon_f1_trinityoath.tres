@@ -1,0 +1,114 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://dvrbhqnnahnaa"]
+
+[ext_resource type="Texture2D" uid="uid://461i62t0ulgd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_trinityoath.png" id="1_vocnm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxaxo"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydqhj"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_by37e"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqqj3"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sussc"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ysj3"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_anbqs"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s6vrq"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ajy4"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8i1wv"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mdy03"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5d3i"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ww4ay"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qcv5b"]
+atlas = ExtResource("1_vocnm")
+region = Rect2(98, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxaxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydqhj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_by37e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqqj3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sussc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ysj3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_anbqs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s6vrq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ajy4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8i1wv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mdy03")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5d3i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ww4ay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qcv5b")
+}],
+"loop": true,
+"name": &"trinityoath",
+"speed": 9.0
+}]

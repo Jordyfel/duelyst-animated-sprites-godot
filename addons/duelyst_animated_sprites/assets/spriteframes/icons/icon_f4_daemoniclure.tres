@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://xqg115fo7s0w"]
+
+[ext_resource type="Texture2D" uid="uid://bgwpdq3nielyc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_daemoniclure.png" id="1_r5n7d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ew0ud"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nubnt"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cppe3"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50rle"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpqd4"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxyat"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ntbmr"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4aub7"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yjkk7"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3e37m"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_afmng"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42p20"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j1mw7"]
+atlas = ExtResource("1_r5n7d")
+region = Rect2(49, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ew0ud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nubnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cppe3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_50rle")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpqd4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxyat")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ntbmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4aub7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yjkk7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3e37m")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_afmng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42p20")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j1mw7")
+}],
+"loop": true,
+"name": &"daemoniclure",
+"speed": 9.0
+}]

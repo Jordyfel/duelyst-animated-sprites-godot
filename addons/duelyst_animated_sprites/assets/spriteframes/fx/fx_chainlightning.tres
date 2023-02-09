@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://rpo6vf1aams3"]
+
+[ext_resource type="Texture2D" uid="uid://s3td21n1bg2x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_chainlightning.png" id="1_v7s46"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aftqo"]
+atlas = ExtResource("1_v7s46")
+region = Rect2(0, 34, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jlko"]
+atlas = ExtResource("1_v7s46")
+region = Rect2(49, 17, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xel3e"]
+atlas = ExtResource("1_v7s46")
+region = Rect2(49, 0, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dpg2x"]
+atlas = ExtResource("1_v7s46")
+region = Rect2(49, 34, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_va2lt"]
+atlas = ExtResource("1_v7s46")
+region = Rect2(0, 17, 48, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i528h"]
+atlas = ExtResource("1_v7s46")
+region = Rect2(0, 0, 48, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aftqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jlko")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xel3e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dpg2x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_va2lt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i528h")
+}],
+"loop": true,
+"name": &"chainlightningblue",
+"speed": 9.0
+}]

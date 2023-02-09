@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://biqiwmm2vptjq"]
+
+[ext_resource type="Texture2D" uid="uid://cudlco1i1ivlf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_curseofagony.png" id="1_qayt3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wswb1"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdjx3"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kyrt6"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o8o2"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hf04u"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qylyf"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cosf"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dysxw"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fver"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tyokm"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ptyj"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xftr4"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4hgjn"]
+atlas = ExtResource("1_qayt3")
+region = Rect2(49, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wswb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdjx3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kyrt6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3o8o2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hf04u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qylyf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cosf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dysxw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3fver")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tyokm")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ptyj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xftr4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4hgjn")
+}],
+"loop": true,
+"name": &"curseofagony",
+"speed": 9.0
+}]

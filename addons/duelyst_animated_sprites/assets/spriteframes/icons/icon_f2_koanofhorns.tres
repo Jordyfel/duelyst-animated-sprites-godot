@@ -1,0 +1,121 @@
+[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://dtjh63wiqnfae"]
+
+[ext_resource type="Texture2D" uid="uid://bcl744js1g371" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_koanofhorns.png" id="1_833xd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwva2"]
+atlas = ExtResource("1_833xd")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lba3b"]
+atlas = ExtResource("1_833xd")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1ydh"]
+atlas = ExtResource("1_833xd")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xj5pn"]
+atlas = ExtResource("1_833xd")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ximi"]
+atlas = ExtResource("1_833xd")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4okj7"]
+atlas = ExtResource("1_833xd")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4eq8j"]
+atlas = ExtResource("1_833xd")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mkdq0"]
+atlas = ExtResource("1_833xd")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47vdp"]
+atlas = ExtResource("1_833xd")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e8dh0"]
+atlas = ExtResource("1_833xd")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivvdb"]
+atlas = ExtResource("1_833xd")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llt1b"]
+atlas = ExtResource("1_833xd")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ffpyc"]
+atlas = ExtResource("1_833xd")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ow54"]
+atlas = ExtResource("1_833xd")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3l7lg"]
+atlas = ExtResource("1_833xd")
+region = Rect2(98, 49, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwva2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lba3b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1ydh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xj5pn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ximi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4okj7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4eq8j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mkdq0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47vdp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e8dh0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ivvdb")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llt1b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ffpyc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ow54")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3l7lg")
+}],
+"loop": true,
+"name": &"koanofhorns",
+"speed": 9.0
+}]

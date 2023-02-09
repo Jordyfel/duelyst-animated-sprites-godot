@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://cfqmu0636b5fg"]
+
+[ext_resource type="Texture2D" uid="uid://dpxk0g5nvtfjl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bluewatersplash.png" id="1_x5i5i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3is7g"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 132, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsbh7"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(45, 0, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ykksr"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 198, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swrww"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 165, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jnq3"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(45, 33, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w0ivy"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 99, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abnk1"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 66, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0e4y"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 33, 44, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ox5sr"]
+atlas = ExtResource("1_x5i5i")
+region = Rect2(0, 0, 44, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3is7g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsbh7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ykksr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swrww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jnq3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w0ivy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_abnk1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g0e4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ox5sr")
+}],
+"loop": true,
+"name": &"bluewatersplash",
+"speed": 9.0
+}]

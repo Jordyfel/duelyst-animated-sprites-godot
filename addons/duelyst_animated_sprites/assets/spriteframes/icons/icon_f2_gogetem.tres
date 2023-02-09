@@ -1,0 +1,86 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://dmaso73vvsq5j"]
+
+[ext_resource type="Texture2D" uid="uid://s2k1mm8ggo8d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_gogetem.png" id="1_1u3f7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckp3m"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xog5v"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuwbe"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n88nw"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dtrrg"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h6btn"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vmgod"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8fsr"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_racj2"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iv86i"]
+atlas = ExtResource("1_1u3f7")
+region = Rect2(49, 49, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ckp3m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xog5v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuwbe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n88nw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dtrrg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h6btn")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmgod")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8fsr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_racj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iv86i")
+}],
+"loop": true,
+"name": &"gogetem",
+"speed": 9.0
+}]

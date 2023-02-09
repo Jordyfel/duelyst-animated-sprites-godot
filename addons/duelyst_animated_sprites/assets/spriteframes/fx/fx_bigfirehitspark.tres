@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://c5pxof4k15dnb"]
+
+[ext_resource type="Texture2D" uid="uid://bpq1jr5kbn1i7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bigfirehitspark.png" id="1_gdkka"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_53y2h"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(0, 543, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_udtxq"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(181, 181, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_det4k"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(181, 0, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsbxa"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(0, 724, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlo64"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(181, 362, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxwp7"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(0, 362, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wsww3"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(0, 181, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4ft7"]
+atlas = ExtResource("1_gdkka")
+region = Rect2(0, 0, 180, 180)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_53y2h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_udtxq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_det4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dsbxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlo64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxwp7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wsww3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4ft7")
+}],
+"loop": true,
+"name": &"bigfirehitspark",
+"speed": 9.0
+}]

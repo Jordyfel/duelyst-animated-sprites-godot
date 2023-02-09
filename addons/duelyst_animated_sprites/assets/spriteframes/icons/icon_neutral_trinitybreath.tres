@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cv4h27huw23y4"]
+
+[ext_resource type="Texture2D" uid="uid://0ngwgccibnuc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_trinitybreath.png" id="1_metji"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g7qlp"]
+atlas = ExtResource("1_metji")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dfp1"]
+atlas = ExtResource("1_metji")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_702p8"]
+atlas = ExtResource("1_metji")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j7p8k"]
+atlas = ExtResource("1_metji")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xv848"]
+atlas = ExtResource("1_metji")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b22kr"]
+atlas = ExtResource("1_metji")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2f46t"]
+atlas = ExtResource("1_metji")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x3fce"]
+atlas = ExtResource("1_metji")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ve034"]
+atlas = ExtResource("1_metji")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e577x"]
+atlas = ExtResource("1_metji")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ippr3"]
+atlas = ExtResource("1_metji")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xmpfk"]
+atlas = ExtResource("1_metji")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u4fu5"]
+atlas = ExtResource("1_metji")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqaqf"]
+atlas = ExtResource("1_metji")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7qis"]
+atlas = ExtResource("1_metji")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rjnpi"]
+atlas = ExtResource("1_metji")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6hto2"]
+atlas = ExtResource("1_metji")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aqwlw"]
+atlas = ExtResource("1_metji")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3hlqg"]
+atlas = ExtResource("1_metji")
+region = Rect2(98, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g7qlp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3dfp1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_702p8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j7p8k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xv848")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b22kr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2f46t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x3fce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ve034")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e577x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ippr3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xmpfk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u4fu5")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqaqf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7qis")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rjnpi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6hto2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aqwlw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3hlqg")
+}],
+"loop": true,
+"name": &"trinitybreath",
+"speed": 9.0
+}]

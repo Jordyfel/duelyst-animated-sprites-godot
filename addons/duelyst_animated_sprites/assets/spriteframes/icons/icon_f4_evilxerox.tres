@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://dfjnf5d0j6nka"]
+
+[ext_resource type="Texture2D" uid="uid://du02og6se3bfh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_evilxerox.png" id="1_861ul"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ultg"]
+atlas = ExtResource("1_861ul")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1kbj"]
+atlas = ExtResource("1_861ul")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d0poo"]
+atlas = ExtResource("1_861ul")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywe07"]
+atlas = ExtResource("1_861ul")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3imde"]
+atlas = ExtResource("1_861ul")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gl3jm"]
+atlas = ExtResource("1_861ul")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42jiy"]
+atlas = ExtResource("1_861ul")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m527k"]
+atlas = ExtResource("1_861ul")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f716o"]
+atlas = ExtResource("1_861ul")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0mybg"]
+atlas = ExtResource("1_861ul")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hu2g0"]
+atlas = ExtResource("1_861ul")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5snwy"]
+atlas = ExtResource("1_861ul")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mr4af"]
+atlas = ExtResource("1_861ul")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_418v8"]
+atlas = ExtResource("1_861ul")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcmxa"]
+atlas = ExtResource("1_861ul")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48pq6"]
+atlas = ExtResource("1_861ul")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grnci"]
+atlas = ExtResource("1_861ul")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_34307"]
+atlas = ExtResource("1_861ul")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0o880"]
+atlas = ExtResource("1_861ul")
+region = Rect2(98, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ultg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1kbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d0poo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywe07")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3imde")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gl3jm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42jiy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m527k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f716o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0mybg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hu2g0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5snwy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mr4af")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_418v8")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcmxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48pq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grnci")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_34307")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0o880")
+}],
+"loop": true,
+"name": &"evilxerox",
+"speed": 9.0
+}]

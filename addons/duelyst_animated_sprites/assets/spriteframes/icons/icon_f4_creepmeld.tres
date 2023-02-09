@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cqstasvr504t4"]
+
+[ext_resource type="Texture2D" uid="uid://dxqha3qqnb05m" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_creepmeld.png" id="1_fm4wj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8410"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ugv2b"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6n8ud"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vt2d"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxoe8"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_njn24"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mfjd1"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ogj7c"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l43ue"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yaapq"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_80csh"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elnt2"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x5tpm"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wclk2"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pnx1w"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fk5b5"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5p2g7"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0p6h7"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_biwg4"]
+atlas = ExtResource("1_fm4wj")
+region = Rect2(98, 98, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8410")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ugv2b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6n8ud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vt2d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxoe8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_njn24")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mfjd1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ogj7c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l43ue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yaapq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_80csh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elnt2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x5tpm")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wclk2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pnx1w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fk5b5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5p2g7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0p6h7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_biwg4")
+}],
+"loop": true,
+"name": &"creepmeld",
+"speed": 9.0
+}]

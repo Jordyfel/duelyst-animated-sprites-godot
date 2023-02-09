@@ -1,0 +1,30 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://rfce7xbib505"]
+
+[ext_resource type="Texture2D" uid="uid://ct5hfam876jxx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_braceletblidingstrike.png" id="1_0q517"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3373q"]
+atlas = ExtResource("1_0q517")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3wuyv"]
+atlas = ExtResource("1_0q517")
+region = Rect2(0, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3373q")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3wuyv")
+}],
+"loop": true,
+"name": &"braceletblidingstrike",
+"speed": 9.0
+}]

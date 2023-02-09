@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://i5cu4ukn8q8r"]
+
+[ext_resource type="Texture2D" uid="uid://dpqjadnsf1hdo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_fireimpact.png" id="1_e2nw8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thyyo"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(93, 0, 92, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whchp"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(93, 162, 92, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12ssm"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(93, 81, 92, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kqbb1"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(186, 0, 92, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6q06c"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(0, 162, 92, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04wp4"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(0, 81, 92, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c4y3o"]
+atlas = ExtResource("1_e2nw8")
+region = Rect2(0, 0, 92, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thyyo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whchp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12ssm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kqbb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6q06c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_04wp4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4y3o")
+}],
+"loop": true,
+"name": &"fireimpact",
+"speed": 9.0
+}]

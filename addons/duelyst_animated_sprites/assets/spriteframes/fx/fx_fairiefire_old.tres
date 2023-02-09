@@ -1,0 +1,100 @@
+[gd_resource type="SpriteFrames" load_steps=14 format=3 uid="uid://cevx8hbrjngag"]
+
+[ext_resource type="Texture2D" uid="uid://d0n6bfmhcodry" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_fairiefire_old.png" id="1_toxvh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gytf"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(81, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_og7mu"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(243, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7acyl"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(243, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2sm6t"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(162, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sli4o"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(162, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kucr"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(162, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dw5rj"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(243, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p623k"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(81, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x5h0s"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(81, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axqik"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(0, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tvchj"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(0, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rwhd1"]
+atlas = ExtResource("1_toxvh")
+region = Rect2(0, 0, 80, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gytf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_og7mu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7acyl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2sm6t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sli4o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kucr")
+}],
+"loop": true,
+"name": &"fairiefirepurple",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dw5rj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p623k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x5h0s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axqik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvchj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rwhd1")
+}],
+"loop": true,
+"name": &"fairiefirered",
+"speed": 9.0
+}]

@@ -1,0 +1,102 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://bgspwhmj1avqq"]
+
+[ext_resource type="Texture2D" uid="uid://cpddnbwwu278" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_firetornado.png" id="1_wxiu4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grjnm"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(130, 0, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u4s3n"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(195, 142, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gp70a"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(195, 71, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ciygo"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(195, 0, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8fve"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(130, 142, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5bvy"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(130, 71, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxo23"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(260, 0, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sucyy"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(65, 142, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_snfws"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(65, 71, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ki5yb"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(65, 0, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hfig1"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(0, 142, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v13gd"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(0, 71, 64, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dtai"]
+atlas = ExtResource("1_wxiu4")
+region = Rect2(0, 0, 64, 70)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grjnm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u4s3n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gp70a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ciygo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m8fve")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5bvy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxo23")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sucyy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_snfws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ki5yb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hfig1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v13gd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dtai")
+}],
+"loop": true,
+"name": &"firetornado",
+"speed": 9.0
+}]

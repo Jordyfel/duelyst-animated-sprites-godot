@@ -1,0 +1,88 @@
+[gd_resource type="SpriteFrames" load_steps=13 format=3 uid="uid://dl7yf3cpthjyf"]
+
+[ext_resource type="Texture2D" uid="uid://v4ni61h0h14c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_disintegrate.png" id="1_nslaa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wai64"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(81, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_advhm"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(243, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nc68"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(162, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfs6w"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(162, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_br7yx"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(162, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3wjia"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(243, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gy0ow"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(81, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fhs5"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(81, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rkxw6"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(0, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7naqd"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(0, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pjymd"]
+atlas = ExtResource("1_nslaa")
+region = Rect2(0, 0, 80, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wai64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_advhm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nc68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfs6w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_br7yx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3wjia")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gy0ow")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1fhs5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rkxw6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7naqd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pjymd")
+}],
+"loop": true,
+"name": &"disintegrate",
+"speed": 9.0
+}]

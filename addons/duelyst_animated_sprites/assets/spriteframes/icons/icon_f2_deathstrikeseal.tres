@@ -1,0 +1,128 @@
+[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://ilj8bm6e4emo"]
+
+[ext_resource type="Texture2D" uid="uid://t8rgul5jxgjm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_deathstrikeseal.png" id="1_jsfu0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_081vp"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o48er"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p874r"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u5ns2"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xcr7"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ynrie"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4q51"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hodnu"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xx55"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vtwr"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lv526"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nvudq"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_peyls"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6hvpb"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52ugu"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85hav"]
+atlas = ExtResource("1_jsfu0")
+region = Rect2(98, 98, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_081vp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o48er")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p874r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u5ns2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xcr7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ynrie")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4q51")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hodnu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xx55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vtwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lv526")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nvudq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_peyls")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6hvpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52ugu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85hav")
+}],
+"loop": true,
+"name": &"deathstrikeseal",
+"speed": 9.0
+}]

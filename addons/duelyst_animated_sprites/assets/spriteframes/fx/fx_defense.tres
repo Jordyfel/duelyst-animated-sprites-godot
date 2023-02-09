@@ -1,0 +1,114 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://c73d2ctm801eh"]
+
+[ext_resource type="Texture2D" uid="uid://cilk68d30o7ov" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_defense.png" id="1_cq7a6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gc1hi"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(162, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1pn0b"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(324, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mo7rk"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(243, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpunp"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(243, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8i8js"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(243, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_junoy"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(162, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8nv71"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(162, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_isumv"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(324, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i78ay"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(81, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alfk7"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(81, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a0dge"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(81, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c7f2o"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(0, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thrsy"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(0, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhyjl"]
+atlas = ExtResource("1_cq7a6")
+region = Rect2(0, 0, 80, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gc1hi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1pn0b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mo7rk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpunp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8i8js")
+}],
+"loop": true,
+"name": &"floatingshield",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_junoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8nv71")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_isumv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i78ay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alfk7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a0dge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c7f2o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thrsy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhyjl")
+}],
+"loop": true,
+"name": &"forcefield",
+"speed": 9.0
+}]

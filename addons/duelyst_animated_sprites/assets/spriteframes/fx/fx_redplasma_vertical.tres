@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://b0nx0hsiu31es"]
+
+[ext_resource type="Texture2D" uid="uid://dofbb4u1nevyd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_redplasma_vertical.png" id="1_utbtr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3h8ya"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(0, 147, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ycxjl"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(47, 49, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ehdod"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(47, 0, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_873pu"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(0, 196, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eeiof"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(47, 98, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhir8"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(0, 98, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p8eis"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(0, 49, 46, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_22ok8"]
+atlas = ExtResource("1_utbtr")
+region = Rect2(0, 0, 46, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3h8ya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ycxjl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ehdod")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_873pu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eeiof")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhir8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p8eis")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_22ok8")
+}],
+"loop": true,
+"name": &"vertical",
+"speed": 9.0
+}]

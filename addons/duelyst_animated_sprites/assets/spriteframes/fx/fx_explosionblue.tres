@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://b3rer3mel74m"]
+
+[ext_resource type="Texture2D" uid="uid://c5p8otjwaknhx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionblue.png" id="1_cjec1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_he4do"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(0, 172, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fn8q"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(57, 86, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ee4y"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(57, 43, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pc74k"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(57, 0, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iyujt"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(57, 129, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtsw2"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(0, 129, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqwi8"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(0, 86, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o36iy"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(0, 43, 56, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8acbj"]
+atlas = ExtResource("1_cjec1")
+region = Rect2(0, 0, 56, 42)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_he4do")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3fn8q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ee4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pc74k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iyujt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtsw2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqwi8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o36iy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8acbj")
+}],
+"loop": true,
+"name": &"ground",
+"speed": 9.0
+}]

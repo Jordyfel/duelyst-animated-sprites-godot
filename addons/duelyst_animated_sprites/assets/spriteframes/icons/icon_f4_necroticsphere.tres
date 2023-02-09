@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://qkbiqs6k1tqp"]
+
+[ext_resource type="Texture2D" uid="uid://otsk2doei6pa" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_necroticsphere.png" id="1_qa84o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmn5f"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_548on"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gf8pd"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d8mxk"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s7ko1"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_diunh"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gtfh2"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xaahy"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j3mdi"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4qju"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0cess"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fvyvy"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dudw"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_71hr4"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2afwd"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxf1d"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3xby"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_765xy"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dequc"]
+atlas = ExtResource("1_qa84o")
+region = Rect2(147, 49, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmn5f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_548on")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gf8pd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d8mxk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s7ko1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_diunh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gtfh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xaahy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j3mdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4qju")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0cess")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fvyvy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5dudw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_71hr4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2afwd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxf1d")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3xby")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_765xy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dequc")
+}],
+"loop": true,
+"name": &"necroticsphere",
+"speed": 9.0
+}]

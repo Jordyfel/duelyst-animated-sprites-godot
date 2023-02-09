@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cnnxefx5dfndc"]
+
+[ext_resource type="Texture2D" uid="uid://c1d2bues4akeq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_fortifiedassault.png" id="1_l07nt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlkvl"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4duvf"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07pex"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdt1s"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g40hm"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o7gb5"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b4nmu"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e117u"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uprqp"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxyja"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ait7q"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dwa7a"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gjy55"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nihfb"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ioxfp"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sx4ah"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62gjy"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0n5tw"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p5ccs"]
+atlas = ExtResource("1_l07nt")
+region = Rect2(98, 98, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlkvl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4duvf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07pex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdt1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g40hm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o7gb5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b4nmu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e117u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uprqp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxyja")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ait7q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dwa7a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gjy55")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nihfb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ioxfp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sx4ah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62gjy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0n5tw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p5ccs")
+}],
+"loop": true,
+"name": &"fortifiedassault",
+"speed": 9.0
+}]

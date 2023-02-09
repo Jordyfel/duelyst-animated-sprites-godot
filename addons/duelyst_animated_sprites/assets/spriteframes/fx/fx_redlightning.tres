@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://83ulc8pnsfcb"]
+
+[ext_resource type="Texture2D" uid="uid://dhogasoalksjn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_redlightning.png" id="1_extts"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eduvt"]
+atlas = ExtResource("1_extts")
+region = Rect2(0, 42, 48, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jm2yq"]
+atlas = ExtResource("1_extts")
+region = Rect2(49, 21, 48, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ppbdb"]
+atlas = ExtResource("1_extts")
+region = Rect2(49, 0, 48, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skwot"]
+atlas = ExtResource("1_extts")
+region = Rect2(49, 42, 48, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i56q3"]
+atlas = ExtResource("1_extts")
+region = Rect2(0, 21, 48, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3jqg"]
+atlas = ExtResource("1_extts")
+region = Rect2(0, 0, 48, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eduvt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jm2yq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ppbdb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_skwot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i56q3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3jqg")
+}],
+"loop": true,
+"name": &"redlightning",
+"speed": 9.0
+}]

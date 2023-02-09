@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://hcam6wtcb58g"]
+
+[ext_resource type="Texture2D" uid="uid://dx1ptdkx17tir" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_pandajail.png" id="1_1dsw2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fxt5t"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixb0x"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gg7g0"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i2jyt"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2u3x0"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nupp6"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n0uo8"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vavmc"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pj4m8"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8sjv"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jclwc"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ovssd"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tu5bb"]
+atlas = ExtResource("1_1dsw2")
+region = Rect2(49, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fxt5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixb0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gg7g0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i2jyt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2u3x0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nupp6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n0uo8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vavmc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pj4m8")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8sjv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jclwc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ovssd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tu5bb")
+}],
+"loop": true,
+"name": &"pandajail",
+"speed": 9.0
+}]

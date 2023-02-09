@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://dw6bbncgd5mcm"]
+
+[ext_resource type="Texture2D" uid="uid://cl83p54ufv0um" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_energyhaloground.png" id="1_ljofv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_es7mm"]
+atlas = ExtResource("1_ljofv")
+region = Rect2(0, 66, 80, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s457f"]
+atlas = ExtResource("1_ljofv")
+region = Rect2(81, 33, 80, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_guemg"]
+atlas = ExtResource("1_ljofv")
+region = Rect2(81, 0, 80, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c3boj"]
+atlas = ExtResource("1_ljofv")
+region = Rect2(81, 66, 80, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_56eul"]
+atlas = ExtResource("1_ljofv")
+region = Rect2(0, 33, 80, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdasx"]
+atlas = ExtResource("1_ljofv")
+region = Rect2(0, 0, 80, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_es7mm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s457f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_guemg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c3boj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_56eul")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdasx")
+}],
+"loop": true,
+"name": &"energyhaloground",
+"speed": 9.0
+}]

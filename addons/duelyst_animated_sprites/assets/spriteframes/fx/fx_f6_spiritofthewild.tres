@@ -1,0 +1,214 @@
+[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://b1in1otjpchjr"]
+
+[ext_resource type="Texture2D" uid="uid://b87btpy255ajd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_spiritofthewild.png" id="1_idxil"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gierf"]
+atlas = ExtResource("1_idxil")
+region = Rect2(690, 614, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2iybi"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1380, 921, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xye4r"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1380, 614, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sua77"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1380, 307, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_np1re"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1380, 0, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wmcby"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1035, 1535, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33rqv"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1035, 1228, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_64vgo"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1035, 921, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4tkh"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1035, 614, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pba02"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1035, 307, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i7381"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1035, 0, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gmifi"]
+atlas = ExtResource("1_idxil")
+region = Rect2(690, 1535, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dfjy7"]
+atlas = ExtResource("1_idxil")
+region = Rect2(690, 1228, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7op7u"]
+atlas = ExtResource("1_idxil")
+region = Rect2(690, 921, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5765"]
+atlas = ExtResource("1_idxil")
+region = Rect2(1380, 1228, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7f3hj"]
+atlas = ExtResource("1_idxil")
+region = Rect2(690, 307, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ak7u0"]
+atlas = ExtResource("1_idxil")
+region = Rect2(690, 0, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8rovn"]
+atlas = ExtResource("1_idxil")
+region = Rect2(345, 1535, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6602"]
+atlas = ExtResource("1_idxil")
+region = Rect2(345, 1228, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_apxda"]
+atlas = ExtResource("1_idxil")
+region = Rect2(345, 921, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_spbrx"]
+atlas = ExtResource("1_idxil")
+region = Rect2(345, 614, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oph6l"]
+atlas = ExtResource("1_idxil")
+region = Rect2(345, 307, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhd6x"]
+atlas = ExtResource("1_idxil")
+region = Rect2(345, 0, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1887c"]
+atlas = ExtResource("1_idxil")
+region = Rect2(0, 1535, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2c8vv"]
+atlas = ExtResource("1_idxil")
+region = Rect2(0, 1228, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elojd"]
+atlas = ExtResource("1_idxil")
+region = Rect2(0, 921, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ttex"]
+atlas = ExtResource("1_idxil")
+region = Rect2(0, 614, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mu0bf"]
+atlas = ExtResource("1_idxil")
+region = Rect2(0, 307, 344, 306)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2c60t"]
+atlas = ExtResource("1_idxil")
+region = Rect2(0, 0, 344, 306)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gierf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2iybi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xye4r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sua77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_np1re")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wmcby")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33rqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_64vgo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4tkh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pba02")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7381")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gmifi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dfjy7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7op7u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5765")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7f3hj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ak7u0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8rovn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6602")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_apxda")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_spbrx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oph6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhd6x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1887c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2c8vv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elojd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ttex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mu0bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2c60t")
+}],
+"loop": true,
+"name": &"spiritofthewild",
+"speed": 9.0
+}]

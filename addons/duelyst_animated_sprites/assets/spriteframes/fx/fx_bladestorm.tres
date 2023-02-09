@@ -1,0 +1,95 @@
+[gd_resource type="SpriteFrames" load_steps=14 format=3 uid="uid://co00vvtaeukar"]
+
+[ext_resource type="Texture2D" uid="uid://j3isesg7yqlr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bladestorm.png" id="1_ymuyl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gcyk5"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(63, 0, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsnqq"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(126, 0, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ul7vb"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(63, 196, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vl6lg"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(63, 147, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kqm8d"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(63, 98, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jakul"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(63, 49, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sr1d0"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(126, 49, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_revox"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(0, 196, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7lyt0"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(0, 147, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dkm0c"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(0, 98, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cmj0u"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(0, 49, 62, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wx2l6"]
+atlas = ExtResource("1_ymuyl")
+region = Rect2(0, 0, 62, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gcyk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dsnqq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ul7vb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vl6lg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kqm8d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jakul")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sr1d0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_revox")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7lyt0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dkm0c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cmj0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wx2l6")
+}],
+"loop": true,
+"name": &"bladestorm",
+"speed": 9.0
+}]

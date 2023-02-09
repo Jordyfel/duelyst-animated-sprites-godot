@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://eml2sbmtf6w7"]
+
+[ext_resource type="Texture2D" uid="uid://dqstibn6qtt5o" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_distortion_water_bubble.png" id="1_ury0y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1p58"]
+atlas = ExtResource("1_ury0y")
+region = Rect2(2, 2, 272, 272)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1p58")
+}],
+"loop": true,
+"name": &"bubble",
+"speed": 9.0
+}]

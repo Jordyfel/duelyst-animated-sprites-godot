@@ -1,0 +1,144 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://ckauauuihm08g"]
+
+[ext_resource type="Texture2D" uid="uid://f34im5cbd3p1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportyelloworb.png" id="1_8hqwn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qp7dt"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(101, 404, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6vmwn"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(303, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jw4a2"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(303, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itobc"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(303, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gyka2"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(202, 404, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kwcye"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(202, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xvfam"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(202, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oqw7d"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(202, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nwu6t"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(202, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b2f0r"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(303, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4kal"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(101, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o5n5l"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(101, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1mju"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(101, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i33bj"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(101, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gx3kc"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(0, 404, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xaaa"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(0, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3u84r"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(0, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r18o7"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(0, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vk5wc"]
+atlas = ExtResource("1_8hqwn")
+region = Rect2(0, 0, 100, 100)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qp7dt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6vmwn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jw4a2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itobc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gyka2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kwcye")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xvfam")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oqw7d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nwu6t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b2f0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4kal")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o5n5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1mju")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i33bj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gx3kc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xaaa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3u84r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r18o7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vk5wc")
+}],
+"loop": true,
+"name": &"teleportyelloworb",
+"speed": 9.0
+}]

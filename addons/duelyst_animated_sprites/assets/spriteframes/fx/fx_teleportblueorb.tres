@@ -1,0 +1,144 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://2mioejsa6rjc"]
+
+[ext_resource type="Texture2D" uid="uid://6x5yvurrjrhk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportblueorb.png" id="1_it8xj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmm55"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(101, 404, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_72y1m"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(303, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yejbo"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(303, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c11ek"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(303, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ddoku"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(202, 404, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxf26"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(202, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r83qr"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(202, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ur284"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(202, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_forbq"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(202, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ox0k2"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(303, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q11su"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(101, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1u6f"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(101, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g4hyl"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(101, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_madtn"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(101, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b334d"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(0, 404, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oldh6"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(0, 303, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p21dt"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(0, 202, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vruce"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(0, 101, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5u5r"]
+atlas = ExtResource("1_it8xj")
+region = Rect2(0, 0, 100, 100)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmm55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_72y1m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yejbo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c11ek")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ddoku")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxf26")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r83qr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ur284")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_forbq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ox0k2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q11su")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1u6f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g4hyl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_madtn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b334d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oldh6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p21dt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vruce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5u5r")
+}],
+"loop": true,
+"name": &"teleportblueorb",
+"speed": 9.0
+}]

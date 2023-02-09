@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://lbm6c5rbmj0s"]
+
+[ext_resource type="Texture2D" uid="uid://dyvbquq8mdhek" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_aspectofthefox.png" id="1_rjflr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_inbra"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_auv6j"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpp0u"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cvyln"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_30fop"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ftyy6"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_scx1m"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pkvs7"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw4x0"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2bjt6"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5okt"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4htb"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u31ie"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ngxbi"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbjui"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nb4yg"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xooq"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_myik1"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mmro"]
+atlas = ExtResource("1_rjflr")
+region = Rect2(0, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_inbra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_auv6j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpp0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cvyln")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_30fop")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ftyy6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_scx1m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pkvs7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aw4x0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2bjt6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5okt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4htb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u31ie")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ngxbi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbjui")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nb4yg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xooq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_myik1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mmro")
+}],
+"loop": true,
+"name": &"aspectofthefox",
+"speed": 9.0
+}]

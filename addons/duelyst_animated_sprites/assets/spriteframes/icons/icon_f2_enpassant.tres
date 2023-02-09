@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://c1vg83aiecrkj"]
+
+[ext_resource type="Texture2D" uid="uid://duuaflexpfyaf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_enpassant.png" id="1_0qi2l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_08c2t"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vn6n0"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_glrpn"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqpe6"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v4atj"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrlv4"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42xv4"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1005l"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vfpf"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tcj42"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eedvo"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0o256"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cfcg1"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqw77"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1646"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hw07q"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qexfv"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hllr4"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2h3le"]
+atlas = ExtResource("1_0qi2l")
+region = Rect2(98, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_08c2t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vn6n0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_glrpn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqpe6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v4atj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrlv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42xv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1005l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vfpf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tcj42")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eedvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0o256")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cfcg1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqw77")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1646")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hw07q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qexfv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hllr4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2h3le")
+}],
+"loop": true,
+"name": &"enpassant",
+"speed": 9.0
+}]

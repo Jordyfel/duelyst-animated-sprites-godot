@@ -1,0 +1,81 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://ccndhul41owmv"]
+
+[ext_resource type="Texture2D" uid="uid://dgcujhfo8bgf6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionredelectrical.png" id="1_ryogd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwr7k"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(53, 0, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fapnt"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(106, 0, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jk8fm"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(53, 171, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1nwv"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(53, 114, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oiaf3"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(53, 57, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bckgu"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(106, 57, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vy0du"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(0, 171, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s82si"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(0, 114, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6kst1"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(0, 57, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfbvj"]
+atlas = ExtResource("1_ryogd")
+region = Rect2(0, 0, 52, 56)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pwr7k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fapnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jk8fm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1nwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oiaf3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bckgu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vy0du")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s82si")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6kst1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfbvj")
+}],
+"loop": true,
+"name": &"explosionredelectrical",
+"speed": 9.0
+}]

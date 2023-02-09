@@ -1,0 +1,114 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://cc5u88c8cxboe"]
+
+[ext_resource type="Texture2D" uid="uid://cgh8646is5iem" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_sickem.png" id="1_ayo4t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jl2kv"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ad6vv"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdbx1"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jm0qj"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5r7ce"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsodb"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ifei"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0vd4n"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhtb2"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oei16"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_toic3"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_shn53"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iygq4"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_reca2"]
+atlas = ExtResource("1_ayo4t")
+region = Rect2(49, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jl2kv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ad6vv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdbx1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jm0qj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5r7ce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsodb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ifei")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0vd4n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhtb2")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oei16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_toic3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_shn53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iygq4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_reca2")
+}],
+"loop": true,
+"name": &"sickem",
+"speed": 9.0
+}]

@@ -1,0 +1,79 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://dkrcf7cvlnmuq"]
+
+[ext_resource type="Texture2D" uid="uid://txxr0jjrinxt" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_diretidefrenzy.png" id="1_ru3lj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7byi8"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ykrpx"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4gvw"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8bnv4"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ao4it"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kwnea"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_euh2w"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5mu8"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b723v"]
+atlas = ExtResource("1_ru3lj")
+region = Rect2(49, 49, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7byi8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ykrpx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4gvw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8bnv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ao4it")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kwnea")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_euh2w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5mu8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b723v")
+}],
+"loop": true,
+"name": &"diretidefrenzy",
+"speed": 9.0
+}]

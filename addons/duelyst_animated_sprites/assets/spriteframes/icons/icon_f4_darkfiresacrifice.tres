@@ -1,0 +1,121 @@
+[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://bepen2sx0lggp"]
+
+[ext_resource type="Texture2D" uid="uid://b4ysfqbkucilf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_darkfiresacrifice.png" id="1_dale1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1ehn"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ihyv"]
+atlas = ExtResource("1_dale1")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idy5n"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51dn7"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsmto"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11wf6"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_newk5"]
+atlas = ExtResource("1_dale1")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kr3qy"]
+atlas = ExtResource("1_dale1")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ylt0"]
+atlas = ExtResource("1_dale1")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2a0g"]
+atlas = ExtResource("1_dale1")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yubed"]
+atlas = ExtResource("1_dale1")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1yg1"]
+atlas = ExtResource("1_dale1")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1pkfa"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0mwqn"]
+atlas = ExtResource("1_dale1")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mqvs1"]
+atlas = ExtResource("1_dale1")
+region = Rect2(49, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b1ehn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ihyv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idy5n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51dn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsmto")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11wf6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_newk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kr3qy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ylt0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2a0g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yubed")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1yg1")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1pkfa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0mwqn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mqvs1")
+}],
+"loop": true,
+"name": &"darkfiresacrifice",
+"speed": 9.0
+}]

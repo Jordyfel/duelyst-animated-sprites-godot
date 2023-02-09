@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://skxhhsefejy5"]
+
+[ext_resource type="Texture2D" uid="uid://0jobyl1i33a6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_riddle.png" id="1_tonrh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42kjo"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fu1k4"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_btp5e"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_340h8"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_82dwr"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8gaqy"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70kn3"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hb35w"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c55bj"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wem2u"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bi7j"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jc7ov"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cy4ru"]
+atlas = ExtResource("1_tonrh")
+region = Rect2(49, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42kjo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fu1k4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_btp5e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_340h8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_82dwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8gaqy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70kn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hb35w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c55bj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wem2u")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bi7j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jc7ov")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cy4ru")
+}],
+"loop": true,
+"name": &"riddle",
+"speed": 9.0
+}]

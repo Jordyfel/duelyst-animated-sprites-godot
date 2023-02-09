@@ -1,0 +1,93 @@
+[gd_resource type="SpriteFrames" load_steps=13 format=3 uid="uid://daideyxxtvh65"]
+
+[ext_resource type="Texture2D" uid="uid://cv8mxx23ewxc2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_tremor.png" id="1_sn8gw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckvc5"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06kap"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_soeab"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsraw"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cot6c"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k70wa"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g054l"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5gk5p"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4adbw"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ki2h4"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1tclj"]
+atlas = ExtResource("1_sn8gw")
+region = Rect2(49, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ckvc5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06kap")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_soeab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsraw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cot6c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k70wa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g054l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5gk5p")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4adbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ki2h4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1tclj")
+}],
+"loop": true,
+"name": &"tremor",
+"speed": 9.0
+}]

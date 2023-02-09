@@ -1,0 +1,86 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://ds70rt1bs6usf"]
+
+[ext_resource type="Texture2D" uid="uid://bqekkv5otmkbe" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_mindsteal.png" id="1_3cppa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2plgy"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ppvk"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oi5ns"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_myjep"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6q3pc"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6sese"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhr3w"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iaswe"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmg1g"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3cni5"]
+atlas = ExtResource("1_3cppa")
+region = Rect2(0, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2plgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ppvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oi5ns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_myjep")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6q3pc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6sese")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhr3w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iaswe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmg1g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3cni5")
+}],
+"loop": true,
+"name": &"mindsteal",
+"speed": 9.0
+}]

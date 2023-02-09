@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://301kmhix28eu"]
+
+[ext_resource type="Texture2D" uid="uid://didu1hpmkrbve" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_deathplagueicon.png" id="1_2gj1q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kqib4"]
+atlas = ExtResource("1_2gj1q")
+region = Rect2(25, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1s7o"]
+atlas = ExtResource("1_2gj1q")
+region = Rect2(50, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xlld"]
+atlas = ExtResource("1_2gj1q")
+region = Rect2(25, 25, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k02x2"]
+atlas = ExtResource("1_2gj1q")
+region = Rect2(50, 25, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mny3u"]
+atlas = ExtResource("1_2gj1q")
+region = Rect2(0, 25, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5umh7"]
+atlas = ExtResource("1_2gj1q")
+region = Rect2(0, 0, 24, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kqib4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1s7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xlld")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k02x2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mny3u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5umh7")
+}],
+"loop": true,
+"name": &"deathplagueicon",
+"speed": 9.0
+}]

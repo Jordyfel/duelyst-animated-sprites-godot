@@ -1,0 +1,114 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://dgryt3opagp01"]
+
+[ext_resource type="Texture2D" uid="uid://dv3s5a1vwlnfu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_curseofshadows.png" id="1_bc5ss"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tb10w"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tyijc"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfusl"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikr1j"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m302c"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ah3n3"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3i7vk"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cst1r"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vvx68"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ghejx"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hwxo8"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhdkd"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ho0v"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7scol"]
+atlas = ExtResource("1_bc5ss")
+region = Rect2(49, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tb10w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tyijc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfusl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikr1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m302c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ah3n3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3i7vk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cst1r")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vvx68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ghejx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hwxo8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vhdkd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ho0v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7scol")
+}],
+"loop": true,
+"name": &"curseofshadows",
+"speed": 9.0
+}]

@@ -1,0 +1,102 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://b7exlsyfvp5yw"]
+
+[ext_resource type="Texture2D" uid="uid://c3yxm8el1b3tm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_radial_bluenoise.png" id="1_h8nq4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_csyrw"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ut4n7"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5hnmt"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5u6mf"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hdky8"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1xb4"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q5thg"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7dmnd"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cw1x4"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdb7e"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ndot"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bxlp"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_si4in"]
+atlas = ExtResource("1_h8nq4")
+region = Rect2(0, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_csyrw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ut4n7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5hnmt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5u6mf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hdky8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1xb4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5thg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7dmnd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cw1x4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdb7e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ndot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3bxlp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_si4in")
+}],
+"loop": true,
+"name": &"bluenoise",
+"speed": 9.0
+}]

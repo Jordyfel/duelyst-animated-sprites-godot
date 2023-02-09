@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://bja5srtg7j2ut"]
+
+[ext_resource type="Texture2D" uid="uid://b8yv6ox306fy7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_thumpingwave.png" id="1_kgcb0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skbu3"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5tj2p"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ftrrn"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jwod"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ewnah"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qains"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jckrf"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kl43v"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hm8d0"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xisw4"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ie1du"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5tuv"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ujij"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_coud7"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipegv"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_so1qn"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pbdsj"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1a7o"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_inuja"]
+atlas = ExtResource("1_kgcb0")
+region = Rect2(147, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_skbu3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5tj2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ftrrn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jwod")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ewnah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qains")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jckrf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kl43v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hm8d0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xisw4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ie1du")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5tuv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ujij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_coud7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipegv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_so1qn")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pbdsj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1a7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_inuja")
+}],
+"loop": true,
+"name": &"thumpingwave",
+"speed": 9.0
+}]

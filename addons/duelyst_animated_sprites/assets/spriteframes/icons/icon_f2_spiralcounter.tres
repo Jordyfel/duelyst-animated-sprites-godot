@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://bfa6tsk0lsjwg"]
+
+[ext_resource type="Texture2D" uid="uid://0n0bjmdmn7d2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_spiralcounter.png" id="1_i3pv8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvw0i"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8bpp0"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4f7y8"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xrldd"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ohmhx"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvkdp"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_njc7o"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x3m2a"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2sqcf"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1d5y"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_53yje"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llkxv"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iolb3"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d27ab"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_45b28"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vsvj"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eiwme"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qd3xo"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iya77"]
+atlas = ExtResource("1_i3pv8")
+region = Rect2(98, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gvw0i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8bpp0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4f7y8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xrldd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ohmhx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvkdp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_njc7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x3m2a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2sqcf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1d5y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_53yje")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llkxv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iolb3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d27ab")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_45b28")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vsvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eiwme")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qd3xo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iya77")
+}],
+"loop": true,
+"name": &"spiralcounter",
+"speed": 9.0
+}]

@@ -1,0 +1,81 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://d2gmobmauqnfv"]
+
+[ext_resource type="Texture2D" uid="uid://dxt67gyskkswh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_searingchasm.png" id="1_n4suc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pkplv"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(81, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6h4wx"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(162, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkc7s"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(162, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pjyu6"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(162, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u16hc"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(81, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66dyo"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(243, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7udl7"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(81, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_knfi5"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(0, 162, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7djwt"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(0, 81, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ak0t1"]
+atlas = ExtResource("1_n4suc")
+region = Rect2(0, 0, 80, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pkplv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6h4wx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkc7s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pjyu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u16hc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66dyo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7udl7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_knfi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7djwt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ak0t1")
+}],
+"loop": true,
+"name": &"searingchasm",
+"speed": 9.0
+}]

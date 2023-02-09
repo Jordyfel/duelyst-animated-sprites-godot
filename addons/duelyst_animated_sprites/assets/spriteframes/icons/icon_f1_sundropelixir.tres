@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cvs5313f5v4ei"]
+
+[ext_resource type="Texture2D" uid="uid://blff5xiop6d21" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_sundropelixir.png" id="1_4lfoo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgulf"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwclk"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jq25m"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvwl5"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4payx"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h5ht"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gbilr"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_up7pg"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77f80"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tl8rx"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s7c5v"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3d4s"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jwy80"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pm6ma"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2hk1c"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4n41t"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_krn7m"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdq3v"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d2id0"]
+atlas = ExtResource("1_4lfoo")
+region = Rect2(98, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kgulf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwclk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jq25m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jvwl5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4payx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h5ht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gbilr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_up7pg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77f80")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tl8rx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s7c5v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h3d4s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jwy80")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pm6ma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2hk1c")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4n41t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_krn7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdq3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2id0")
+}],
+"loop": true,
+"name": &"sundropelixir",
+"speed": 9.0
+}]

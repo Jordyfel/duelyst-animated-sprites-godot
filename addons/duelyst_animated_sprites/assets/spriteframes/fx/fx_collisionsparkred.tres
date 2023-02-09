@@ -1,0 +1,109 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://1evfhmslvygj"]
+
+[ext_resource type="Texture2D" uid="uid://csdo6swyu8wdg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_collisionsparkred.png" id="1_jla8c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58bxm"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(81, 114, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_of756"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(243, 0, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ik6bk"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(162, 171, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_obsjc"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(162, 114, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3rw72"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(162, 57, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kdabs"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(162, 0, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q5wys"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(81, 171, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5i0b0"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(243, 57, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e04vl"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(81, 57, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_emv0u"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(81, 0, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jr8fa"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(0, 171, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4h78i"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(0, 114, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ek57s"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(0, 57, 80, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_56gud"]
+atlas = ExtResource("1_jla8c")
+region = Rect2(0, 0, 80, 56)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58bxm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_of756")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ik6bk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_obsjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3rw72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kdabs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5wys")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5i0b0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e04vl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_emv0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jr8fa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4h78i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ek57s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_56gud")
+}],
+"loop": true,
+"name": &"collisionsparksred",
+"speed": 9.0
+}]

@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://ntqsvesq721t"]
+
+[ext_resource type="Texture2D" uid="uid://eva3cwf2hx7y" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_mirrormeld.png" id="1_dhsp8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et2em"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n7kd0"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijle8"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fcf6d"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wmaw"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vq6by"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dvqii"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hthi3"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wemm3"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rvgvv"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pr2ev"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in1m7"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a0xf6"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cpge4"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xyogp"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d7m0x"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5o46"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rvsq"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nm7d7"]
+atlas = ExtResource("1_dhsp8")
+region = Rect2(98, 147, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et2em")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n7kd0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ijle8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fcf6d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wmaw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vq6by")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dvqii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hthi3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wemm3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rvgvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pr2ev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_in1m7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a0xf6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cpge4")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xyogp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d7m0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5o46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rvsq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nm7d7")
+}],
+"loop": true,
+"name": &"mirrormeld",
+"speed": 9.0
+}]

@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://soh8dkin7gg0"]
+
+[ext_resource type="Texture2D" uid="uid://dc2wwv8wug5fu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_lightninghitgreen.png" id="1_ylk1h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fms2g"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(0, 159, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6idmb"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(47, 106, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0gabu"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(47, 53, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20fga"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(47, 0, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5huae"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(47, 159, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqlvm"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(0, 106, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_403l3"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(0, 53, 46, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_unnpy"]
+atlas = ExtResource("1_ylk1h")
+region = Rect2(0, 0, 46, 52)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fms2g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6idmb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0gabu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20fga")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5huae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqlvm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_403l3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_unnpy")
+}],
+"loop": true,
+"name": &"lightninghitgreen",
+"speed": 9.0
+}]

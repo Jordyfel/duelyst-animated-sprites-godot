@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://mbsglscds1eg"]
+
+[ext_resource type="Texture2D" uid="uid://bpnbidjtsfwqq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_attackplus.png" id="1_y0s5r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1hll6"]
+atlas = ExtResource("1_y0s5r")
+region = Rect2(33, 49, 16, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xk7f3"]
+atlas = ExtResource("1_y0s5r")
+region = Rect2(0, 49, 33, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g764h"]
+atlas = ExtResource("1_y0s5r")
+region = Rect2(0, 0, 50, 49)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1hll6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xk7f3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g764h")
+}],
+"loop": true,
+"name": &"attackplus",
+"speed": 9.0
+}]

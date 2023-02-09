@@ -1,0 +1,170 @@
+[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://dcq8g25yuu6cj"]
+
+[ext_resource type="Texture2D" uid="uid://dkv6xpa1xi8o1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_mightofvespyr.png" id="1_3gp25"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yl2im"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h8ib"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i8nin"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_46nwi"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(196, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xy04w"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b4sh3"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l26b7"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yi8ki"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqrla"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66qhy"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ait24"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cyors"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bidrw"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_geip6"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dpg3p"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gu5gv"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(196, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lf3gy"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(147, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhtvy"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07prp"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6n3q3"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d0gae"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axnds"]
+atlas = ExtResource("1_3gp25")
+region = Rect2(98, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yl2im")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h8ib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i8nin")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_46nwi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xy04w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b4sh3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l26b7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yi8ki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqrla")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66qhy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ait24")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cyors")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bidrw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_geip6")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dpg3p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gu5gv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lf3gy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhtvy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07prp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6n3q3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d0gae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axnds")
+}],
+"loop": true,
+"name": &"mightofvespyr",
+"speed": 9.0
+}]

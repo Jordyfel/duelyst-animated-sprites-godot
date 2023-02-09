@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://bv6tpf3sps8ia"]
+
+[ext_resource type="Texture2D" uid="uid://b5micu3ubcd84" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_ancientknowledge.png" id="1_dewfb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_btm8x"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(35, 70, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kw34a"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(35, 35, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vu0i3"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(35, 0, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mwb5"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(35, 175, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qw5r"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 175, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ouqwe"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 140, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x0ag6"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 105, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6u6lj"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 70, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d6axw"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 35, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ns4ms"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 0, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_65u48"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(0, 210, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ahb0k"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(35, 140, 34, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mo5lh"]
+atlas = ExtResource("1_dewfb")
+region = Rect2(35, 105, 34, 34)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_btm8x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kw34a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vu0i3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3mwb5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2qw5r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ouqwe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x0ag6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6u6lj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d6axw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ns4ms")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_65u48")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ahb0k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mo5lh")
+}],
+"loop": true,
+"name": &"ancientknowledge",
+"speed": 9.0
+}]

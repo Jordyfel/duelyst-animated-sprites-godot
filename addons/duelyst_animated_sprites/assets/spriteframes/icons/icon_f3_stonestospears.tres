@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://1kgadqo764pv"]
+
+[ext_resource type="Texture2D" uid="uid://rmn30wxp03qb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_stonestospears.png" id="1_t64qi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c7aah"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6hxe"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ql7jb"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d5n46"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8k2in"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t0tw8"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4v4nt"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4821f"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bg1sk"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c5veb"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vln3"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s8mxo"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1omsb"]
+atlas = ExtResource("1_t64qi")
+region = Rect2(98, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c7aah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6hxe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ql7jb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d5n46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8k2in")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t0tw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4v4nt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4821f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bg1sk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c5veb")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vln3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s8mxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1omsb")
+}],
+"loop": true,
+"name": &"stonestospears",
+"speed": 9.0
+}]

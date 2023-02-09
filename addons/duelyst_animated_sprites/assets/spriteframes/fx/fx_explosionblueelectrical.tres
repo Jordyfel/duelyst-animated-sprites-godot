@@ -1,0 +1,81 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://c3bjj8yvar4qy"]
+
+[ext_resource type="Texture2D" uid="uid://chtuml1ikfhkd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionblueelectrical.png" id="1_1hulv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0hea8"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(53, 0, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3v18a"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(106, 0, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dfg4b"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(53, 171, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b4nvn"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(53, 114, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sl6if"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(53, 57, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5cdp"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(106, 57, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_43w5n"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(0, 171, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldekc"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(0, 114, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_na0hw"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(0, 57, 52, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mfmsy"]
+atlas = ExtResource("1_1hulv")
+region = Rect2(0, 0, 52, 56)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0hea8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3v18a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dfg4b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b4nvn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sl6if")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5cdp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_43w5n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldekc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na0hw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mfmsy")
+}],
+"loop": true,
+"name": &"explosionblueelectrical",
+"speed": 9.0
+}]

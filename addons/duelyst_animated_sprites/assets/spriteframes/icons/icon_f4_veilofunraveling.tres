@@ -1,0 +1,128 @@
+[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://b4uwwds68sqyt"]
+
+[ext_resource type="Texture2D" uid="uid://bifeixvd6ipci" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_veilofunraveling.png" id="1_hm1k6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbqw1"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qx4h"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_73q73"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1xx4"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bun7o"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_05xh6"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_akknm"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_obw8p"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e07nw"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67gyq"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7phd"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2d6k"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70jma"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kce64"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v2rle"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ff6jj"]
+atlas = ExtResource("1_hm1k6")
+region = Rect2(98, 98, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbqw1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2qx4h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_73q73")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1xx4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bun7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_05xh6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_akknm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_obw8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e07nw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67gyq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v7phd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2d6k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70jma")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kce64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v2rle")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ff6jj")
+}],
+"loop": true,
+"name": &"veilofunraveling",
+"speed": 9.0
+}]

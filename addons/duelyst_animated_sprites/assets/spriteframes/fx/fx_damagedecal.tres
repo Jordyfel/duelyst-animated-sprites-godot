@@ -1,0 +1,109 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://c3iekuco3hlm"]
+
+[ext_resource type="Texture2D" uid="uid://bw8hp5jwtg8u7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_damagedecal.png" id="1_5hsh6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uiddk"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(1124, 0, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kmbl"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(843, 562, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mexts"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(843, 281, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nah7x"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(843, 0, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6d6k"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(562, 562, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bcmdd"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(562, 281, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcmwu"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(1124, 281, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5e4u4"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(281, 562, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0wr0s"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(281, 281, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tj01f"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(281, 0, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pyi18"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(0, 562, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nbloe"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(0, 281, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxcsb"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(0, 0, 280, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gl4g4"]
+atlas = ExtResource("1_5hsh6")
+region = Rect2(562, 0, 280, 280)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uiddk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1kmbl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mexts")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nah7x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q6d6k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bcmdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcmwu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5e4u4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0wr0s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tj01f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pyi18")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nbloe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxcsb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gl4g4")
+}],
+"loop": true,
+"name": &"damagedecal",
+"speed": 9.0
+}]

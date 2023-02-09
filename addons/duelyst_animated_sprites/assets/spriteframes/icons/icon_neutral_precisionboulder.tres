@@ -1,0 +1,114 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://b4kuoxd08vxdx"]
+
+[ext_resource type="Texture2D" uid="uid://c43uo58g6qimo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_precisionboulder.png" id="1_n1bkf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bn7gi"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o25tn"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nnpxo"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pby5s"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(98, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qablm"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iaj16"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sirfr"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v4hnf"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ds3w"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfake"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37dno"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ce0s"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fp6ds"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ah38u"]
+atlas = ExtResource("1_n1bkf")
+region = Rect2(49, 196, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bn7gi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o25tn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nnpxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pby5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qablm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iaj16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sirfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v4hnf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ds3w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfake")
+}],
+"loop": true,
+"name": &"active",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_37dno")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ce0s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fp6ds")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ah38u")
+}],
+"loop": true,
+"name": &"precisionboulder",
+"speed": 9.0
+}]

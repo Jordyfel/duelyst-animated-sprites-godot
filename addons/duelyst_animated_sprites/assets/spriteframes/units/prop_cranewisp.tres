@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://bcqkyfo6vvspv"]
+
+[ext_resource type="Texture2D" uid="uid://kdtom3w6mrr1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/prop_cranewisp.png" id="1_hbbg4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y7bnc"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(67, 0, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gv082"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(134, 0, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tusnd"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(67, 74, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g40gs"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(67, 37, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wl5j5"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(134, 37, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kcyj1"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(0, 74, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6enl5"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(0, 37, 66, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipjd0"]
+atlas = ExtResource("1_hbbg4")
+region = Rect2(0, 0, 66, 36)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y7bnc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gv082")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tusnd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g40gs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wl5j5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kcyj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6enl5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipjd0")
+}],
+"loop": true,
+"name": &"cranewisp",
+"speed": 9.0
+}]

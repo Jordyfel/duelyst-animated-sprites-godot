@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://ctce7lkhj87s6"]
+
+[ext_resource type="Texture2D" uid="uid://dxpml3vdn2vsv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionorangesmoke.png" id="1_r3ay8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5afpg"]
+atlas = ExtResource("1_r3ay8")
+region = Rect2(0, 90, 58, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2gq1w"]
+atlas = ExtResource("1_r3ay8")
+region = Rect2(0, 180, 58, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vpe6"]
+atlas = ExtResource("1_r3ay8")
+region = Rect2(0, 135, 58, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpk8p"]
+atlas = ExtResource("1_r3ay8")
+region = Rect2(59, 0, 58, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yl14h"]
+atlas = ExtResource("1_r3ay8")
+region = Rect2(0, 45, 58, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u4owt"]
+atlas = ExtResource("1_r3ay8")
+region = Rect2(0, 0, 58, 44)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5afpg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2gq1w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vpe6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpk8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yl14h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u4owt")
+}],
+"loop": true,
+"name": &"explosionorangesmoke",
+"speed": 9.0
+}]

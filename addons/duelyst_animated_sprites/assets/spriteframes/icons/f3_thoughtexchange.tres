@@ -1,0 +1,149 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://b7y5bovnvye0v"]
+
+[ext_resource type="Texture2D" uid="uid://blngke7wqlkj3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/f3_thoughtexchange.png" id="1_kurjj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06ypb"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(98, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sgw42"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(98, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wsdwg"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(147, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_na3w4"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(49, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtcr5"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(49, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxt6f"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(49, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kldyk"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(49, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a7ylb"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(0, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ubju"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(0, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h5inh"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(0, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_45ow2"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(0, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5es1w"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aruc0"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(49, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5538b"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(147, 98, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8e5i7"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(147, 49, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_suqr7"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(147, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_imk7p"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(98, 196, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvkfn"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(98, 147, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6amd"]
+atlas = ExtResource("1_kurjj")
+region = Rect2(98, 98, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06ypb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sgw42")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wsdwg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na3w4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xtcr5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxt6f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kldyk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a7ylb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ubju")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h5inh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_45ow2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5es1w")
+}],
+"loop": true,
+"name": &"action",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aruc0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5538b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8e5i7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_suqr7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_imk7p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gvkfn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6amd")
+}],
+"loop": true,
+"name": &"thoughtexchange",
+"speed": 9.0
+}]

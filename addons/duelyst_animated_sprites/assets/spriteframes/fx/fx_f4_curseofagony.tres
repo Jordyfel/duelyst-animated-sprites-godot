@@ -1,0 +1,158 @@
+[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://dbmm3jbmmirwn"]
+
+[ext_resource type="Texture2D" uid="uid://c3cfjnphbkg4o" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_curseofagony.png" id="1_xgl1n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpvp0"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(362, 0, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7fcyi"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(543, 724, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_po4yt"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(543, 543, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vmb4r"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(543, 362, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sec55"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(543, 181, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_otvfb"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(543, 0, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idqkq"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(362, 724, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d4eu5"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(362, 543, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6hrn"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(362, 362, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pu2me"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(362, 181, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fgmx"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(724, 0, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_stotk"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(181, 724, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gd4pp"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(181, 543, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ujhx"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(181, 362, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cx87r"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(181, 181, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mj0u2"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(181, 0, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jj17o"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(0, 724, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbhjs"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(0, 543, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8v3kf"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(0, 362, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k82af"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(0, 181, 180, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fmacy"]
+atlas = ExtResource("1_xgl1n")
+region = Rect2(0, 0, 180, 180)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpvp0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7fcyi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_po4yt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmb4r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sec55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_otvfb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idqkq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d4eu5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u6hrn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pu2me")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fgmx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_stotk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gd4pp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ujhx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cx87r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mj0u2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jj17o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbhjs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8v3kf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k82af")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fmacy")
+}],
+"loop": true,
+"name": &"curseofagony",
+"speed": 9.0
+}]

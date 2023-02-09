@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3 uid="uid://cyy5ieqb20cdc"]
+
+[ext_resource type="Texture2D" uid="uid://div3d3vjwgjcx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_clawslash.png" id="1_5j1hq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pora6"]
+atlas = ExtResource("1_5j1hq")
+region = Rect2(0, 98, 56, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1x4cm"]
+atlas = ExtResource("1_5j1hq")
+region = Rect2(0, 147, 56, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pn8gv"]
+atlas = ExtResource("1_5j1hq")
+region = Rect2(0, 196, 56, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24m33"]
+atlas = ExtResource("1_5j1hq")
+region = Rect2(0, 49, 56, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wi7ts"]
+atlas = ExtResource("1_5j1hq")
+region = Rect2(0, 0, 56, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pora6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1x4cm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pn8gv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24m33")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wi7ts")
+}],
+"loop": true,
+"name": &"clawslash",
+"speed": 9.0
+}]
