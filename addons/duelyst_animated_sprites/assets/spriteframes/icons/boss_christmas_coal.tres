@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cha2xe1i8ts1h"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cha2xe1i8ts1h"]
 
-[ext_resource type="Texture2D" uid="uid://t8esnfq4tgxl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_coal.png" id="1_j0vgb"]
+[ext_resource type="Texture2D" uid="uid://bj0v0notdvspj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_coal.png" id="1_j0vgb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6ejui"]
 atlas = ExtResource("1_j0vgb")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mwlel")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yjess")
 }],
-"loop": true,
+"loop": 1,
 "name": &"coal",
 "speed": 9.0
 }]

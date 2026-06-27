@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://pdipmnklq3qw"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://pdipmnklq3qw"]
 
-[ext_resource type="Texture2D" uid="uid://dfkxgy5mgt3gs" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_kinectequilibrium.png" id="1_yb7mo"]
+[ext_resource type="Texture2D" uid="uid://dx3jbkotd705h" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_kinectequilibrium.png" id="1_yb7mo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mbs8i"]
 atlas = ExtResource("1_yb7mo")
@@ -152,7 +152,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_86fkk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"kinectequilibrium",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://c5pxof4k15dnb"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5pxof4k15dnb"]
 
-[ext_resource type="Texture2D" uid="uid://bpq1jr5kbn1i7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bigfirehitspark.png" id="1_gdkka"]
+[ext_resource type="Texture2D" uid="uid://ce25kmj2ewuws" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bigfirehitspark.png" id="1_gdkka"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_53y2h"]
 atlas = ExtResource("1_gdkka")
@@ -61,7 +61,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_y4ft7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bigfirehitspark",
 "speed": 9.0
 }]

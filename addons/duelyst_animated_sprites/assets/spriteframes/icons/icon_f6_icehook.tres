@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://eb1p5g1iyljr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://eb1p5g1iyljr"]
 
-[ext_resource type="Texture2D" uid="uid://2h2np6gs2cob" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_icehook.png" id="1_6t8jm"]
+[ext_resource type="Texture2D" uid="uid://ffu7hig2f3k" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_icehook.png" id="1_6t8jm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rx3eh"]
 atlas = ExtResource("1_6t8jm")
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gjto6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ywudg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"icehook",
 "speed": 9.0
 }]

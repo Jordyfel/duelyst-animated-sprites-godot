@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://000bkp3ixq4a"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://000bkp3ixq4a"]
 
-[ext_resource type="Texture2D" uid="uid://dleqqodo12mah" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_smoke2.png" id="1_d6f60"]
+[ext_resource type="Texture2D" uid="uid://ct101fl5vci2q" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_smoke2.png" id="1_d6f60"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8oafd"]
 atlas = ExtResource("1_d6f60")
@@ -61,7 +61,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_81ht1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smokeground",
 "speed": 9.0
 }]

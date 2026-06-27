@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://u0op0f44t7r2"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://u0op0f44t7r2"]
 
-[ext_resource type="Texture2D" uid="uid://b45cnt1rfew3c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_enslave.png" id="1_cch7r"]
+[ext_resource type="Texture2D" uid="uid://73ncchvyuvxm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_enslave.png" id="1_cch7r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oher5"]
 atlas = ExtResource("1_cch7r")
@@ -133,7 +133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mvq17")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pb7vw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"enslave",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://18m0yqy36gng"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://18m0yqy36gng"]
 
-[ext_resource type="Texture2D" uid="uid://cnhc2agasgn7o" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_swirl.png" id="1_0x5uq"]
+[ext_resource type="Texture2D" uid="uid://dskluvaxaiijg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_swirl.png" id="1_0x5uq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_emkir"]
 atlas = ExtResource("1_0x5uq")
@@ -54,7 +54,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dfm6h")
 }],
-"loop": true,
+"loop": 1,
 "name": &"swirlloop",
 "speed": 9.0
 }]

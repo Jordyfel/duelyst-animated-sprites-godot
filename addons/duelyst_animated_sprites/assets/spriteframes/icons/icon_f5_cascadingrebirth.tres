@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://ibb6g2b8wqfq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ibb6g2b8wqfq"]
 
-[ext_resource type="Texture2D" uid="uid://bqbgb7e84xmpg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_cascadingrebirth.png" id="1_hn4vk"]
+[ext_resource type="Texture2D" uid="uid://cx7k7jowkmcgr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_cascadingrebirth.png" id="1_hn4vk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ovpat"]
 atlas = ExtResource("1_hn4vk")
@@ -141,7 +141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mbhys")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qjmu5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cascadingrebirth",
 "speed": 9.0
 }]

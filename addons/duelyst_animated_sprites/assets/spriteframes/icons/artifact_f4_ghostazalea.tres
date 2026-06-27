@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://d11oepaj8kn4t"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://d11oepaj8kn4t"]
 
-[ext_resource type="Texture2D" uid="uid://wc5c8l7kpn8g" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_ghostazalea.png" id="1_8upyi"]
+[ext_resource type="Texture2D" uid="uid://dxiopt4bm7bnx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_ghostazalea.png" id="1_8upyi"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t6oik"]
 atlas = ExtResource("1_8upyi")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3wr17")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vq7df")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ghostazalea",
 "speed": 9.0
 }]

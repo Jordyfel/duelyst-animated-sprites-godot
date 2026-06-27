@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://di8s520o4x1u"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://di8s520o4x1u"]
 
-[ext_resource type="Texture2D" uid="uid://ckuxqaosm3jaw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_repairstaff.png" id="1_d14c6"]
+[ext_resource type="Texture2D" uid="uid://nisohqix2h8x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_repairstaff.png" id="1_d14c6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lxt42"]
 atlas = ExtResource("1_d14c6")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ncbln")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7kl2p")
 }],
-"loop": true,
+"loop": 1,
 "name": &"repairstaff",
 "speed": 9.0
 }]

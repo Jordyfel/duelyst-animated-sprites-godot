@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://dpotsulo1fclt"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dpotsulo1fclt"]
 
-[ext_resource type="Texture2D" uid="uid://l51ify71sl8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_soulclamp.png" id="1_yrdbc"]
+[ext_resource type="Texture2D" uid="uid://bgjrlmcwu6rqi" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_soulclamp.png" id="1_yrdbc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qle28"]
 atlas = ExtResource("1_yrdbc")
@@ -98,7 +98,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_b1m3o")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ichvi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"soulclamp",
 "speed": 9.0
 }]

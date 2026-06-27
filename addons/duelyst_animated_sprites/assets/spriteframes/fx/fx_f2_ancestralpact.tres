@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=40 format=3 uid="uid://bnnhm6ayy56mf"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bnnhm6ayy56mf"]
 
-[ext_resource type="Texture2D" uid="uid://bwsst0gh4lbd3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_ancestralpact.png" id="1_24iv8"]
+[ext_resource type="Texture2D" uid="uid://cjy6ge7637jpw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_ancestralpact.png" id="1_24iv8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3hm4c"]
 atlas = ExtResource("1_24iv8")
@@ -271,7 +271,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l1khl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ancestralpact",
 "speed": 9.0
 }]

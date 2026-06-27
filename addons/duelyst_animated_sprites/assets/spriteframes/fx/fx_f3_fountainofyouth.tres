@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://81qtkknkrfuc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://81qtkknkrfuc"]
 
-[ext_resource type="Texture2D" uid="uid://we8j4memeydp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_fountainofyouth.png" id="1_wc44c"]
+[ext_resource type="Texture2D" uid="uid://btt7tgbcdvdui" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_fountainofyouth.png" id="1_wc44c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3cmm5"]
 atlas = ExtResource("1_wc44c")
@@ -166,7 +166,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_strri")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fountainofyouth",
 "speed": 9.0
 }]

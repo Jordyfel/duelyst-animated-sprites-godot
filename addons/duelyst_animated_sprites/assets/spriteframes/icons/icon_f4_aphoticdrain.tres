@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://cf8pi4u80lu2s"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cf8pi4u80lu2s"]
 
-[ext_resource type="Texture2D" uid="uid://bbyuyu0d4qmlg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_aphoticdrain.png" id="1_fqd8q"]
+[ext_resource type="Texture2D" uid="uid://dd413ynliphku" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_aphoticdrain.png" id="1_fqd8q"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nmvet"]
 atlas = ExtResource("1_fqd8q")
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_04re2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gxsui")
 }],
-"loop": true,
+"loop": 1,
 "name": &"aphoticdrain",
 "speed": 9.0
 }]

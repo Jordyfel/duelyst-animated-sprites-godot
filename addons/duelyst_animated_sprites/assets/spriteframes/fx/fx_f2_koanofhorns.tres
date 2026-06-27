@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://b4selik1d7j5i"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4selik1d7j5i"]
 
-[ext_resource type="Texture2D" uid="uid://bfqgtdhn0mvjc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_koanofhorns.png" id="1_1kc6w"]
+[ext_resource type="Texture2D" uid="uid://dj6wag1t4ds53" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_koanofhorns.png" id="1_1kc6w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f0x5m"]
 atlas = ExtResource("1_1kc6w")
@@ -166,7 +166,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5yvpp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"koanofhorns",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=80 format=3 uid="uid://bw6gyx4ovk3sn"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bw6gyx4ovk3sn"]
 
-[ext_resource type="Texture2D" uid="uid://dgu6yxltp561h" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_komodokin.png" id="1_uglne"]
+[ext_resource type="Texture2D" uid="uid://ldtoekf7ux7i" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_komodokin.png" id="1_uglne"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l3ute"]
 atlas = ExtResource("1_uglne")
@@ -410,7 +410,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2p5y8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -457,7 +457,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lh0ep")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -498,7 +498,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ak3at")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -512,7 +512,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5drtt")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -547,7 +547,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rcifi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -576,7 +576,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lc54d")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

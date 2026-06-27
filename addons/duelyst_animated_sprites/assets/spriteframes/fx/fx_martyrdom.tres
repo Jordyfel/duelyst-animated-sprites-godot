@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://cfcjl2dqydnag"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfcjl2dqydnag"]
 
-[ext_resource type="Texture2D" uid="uid://c1wcqutbml147" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_martyrdom.png" id="1_q41yd"]
+[ext_resource type="Texture2D" uid="uid://iviy45y84ru8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_martyrdom.png" id="1_q41yd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_562be"]
 atlas = ExtResource("1_q41yd")
@@ -131,7 +131,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u1kx3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"martyrdom",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=119 format=3 uid="uid://cgiwwg4b5t7wn"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgiwwg4b5t7wn"]
 
-[ext_resource type="Texture2D" uid="uid://lxat5nj4s5gl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f6_altgeneraltier2.png" id="1_dbgca"]
+[ext_resource type="Texture2D" uid="uid://bjdrvbpw6bi84" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f6_altgeneraltier2.png" id="1_dbgca"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mlwp7"]
 atlas = ExtResource("1_dbgca")
@@ -563,7 +563,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nlcot")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -610,7 +610,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mlate")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -654,7 +654,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_me6yu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cast",
 "speed": 9.0
 }, {
@@ -671,7 +671,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vvwf7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"castend",
 "speed": 9.0
 }, {
@@ -694,7 +694,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_etp4p")
 }],
-"loop": true,
+"loop": 1,
 "name": &"castloop",
 "speed": 9.0
 }, {
@@ -711,7 +711,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6k2cx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"caststart",
 "speed": 9.0
 }, {
@@ -773,7 +773,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ucjl4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -787,7 +787,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hmbag")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -840,7 +840,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dihhj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -869,7 +869,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_exnyq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

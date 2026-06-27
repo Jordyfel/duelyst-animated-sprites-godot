@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=37 format=3 uid="uid://fdps1ixovma0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://fdps1ixovma0"]
 
-[ext_resource type="Texture2D" uid="uid://c1obuhthok20d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_wailingoverdrive.png" id="1_botoy"]
+[ext_resource type="Texture2D" uid="uid://djp6d3543gmr8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_wailingoverdrive.png" id="1_botoy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xx8mc"]
 atlas = ExtResource("1_botoy")
@@ -232,7 +232,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_k5r6s")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -255,7 +255,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8o5tr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wailingoverdrive",
 "speed": 9.0
 }]

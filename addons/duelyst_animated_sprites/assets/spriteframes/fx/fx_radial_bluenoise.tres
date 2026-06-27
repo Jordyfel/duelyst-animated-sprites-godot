@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://b7exlsyfvp5yw"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7exlsyfvp5yw"]
 
-[ext_resource type="Texture2D" uid="uid://c3yxm8el1b3tm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_radial_bluenoise.png" id="1_h8nq4"]
+[ext_resource type="Texture2D" uid="uid://ciedihx56keda" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_radial_bluenoise.png" id="1_h8nq4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_csyrw"]
 atlas = ExtResource("1_h8nq4")
@@ -96,7 +96,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_si4in")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bluenoise",
 "speed": 9.0
 }]

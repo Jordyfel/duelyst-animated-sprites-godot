@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=13 format=3 uid="uid://bkwa4qvm7vk6s"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bkwa4qvm7vk6s"]
 
-[ext_resource type="Texture2D" uid="uid://du65bwos1iff1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_boundedlifeforce.png" id="1_vjp2g"]
+[ext_resource type="Texture2D" uid="uid://ddhq0e4ptcsfy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_boundedlifeforce.png" id="1_vjp2g"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_svv1g"]
 atlas = ExtResource("1_vjp2g")
@@ -73,7 +73,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jmq65")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -87,7 +87,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tfm4m")
 }],
-"loop": true,
+"loop": 1,
 "name": &"boundedlifeforce",
 "speed": 9.0
 }]

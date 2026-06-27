@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://c0x1j5cb4nx0n"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c0x1j5cb4nx0n"]
 
-[ext_resource type="Texture2D" uid="uid://c8md1firk218u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_verdantfulmination.png" id="1_i2gf2"]
+[ext_resource type="Texture2D" uid="uid://dgv5uap6inoaf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_verdantfulmination.png" id="1_i2gf2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_weh0g"]
 atlas = ExtResource("1_i2gf2")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qcchu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8fu4b")
 }],
-"loop": true,
+"loop": 1,
 "name": &"verdantfulmination",
 "speed": 9.0
 }]

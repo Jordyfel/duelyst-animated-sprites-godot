@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://del7ytdixkiw5"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://del7ytdixkiw5"]
 
-[ext_resource type="Texture2D" uid="uid://bvy1qj53a5v44" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_drainingwave.png" id="1_kd8mh"]
+[ext_resource type="Texture2D" uid="uid://dx336rpceedk1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_drainingwave.png" id="1_kd8mh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ucmmh"]
 atlas = ExtResource("1_kd8mh")
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kkyhv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dmwg0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"drainingwave",
 "speed": 9.0
 }]

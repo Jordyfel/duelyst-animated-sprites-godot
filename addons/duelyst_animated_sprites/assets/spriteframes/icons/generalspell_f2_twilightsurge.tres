@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=34 format=3 uid="uid://q5uk6pomnkbu"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://q5uk6pomnkbu"]
 
-[ext_resource type="Texture2D" uid="uid://c5bnv6v6phe2n" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f2_twilightsurge.png" id="1_hnfhe"]
+[ext_resource type="Texture2D" uid="uid://c80s28s0elklj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f2_twilightsurge.png" id="1_hnfhe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yb5y2"]
 atlas = ExtResource("1_hnfhe")
@@ -181,7 +181,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_j1dqm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -234,7 +234,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_21wya")
 }],
-"loop": true,
+"loop": 1,
 "name": &"twilightsurge",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://21r7vourb6qj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://21r7vourb6qj"]
 
-[ext_resource type="Texture2D" uid="uid://bx4n21fwo8qgb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_darkseed.png" id="1_qvr6k"]
+[ext_resource type="Texture2D" uid="uid://hi05pykdxpdl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_darkseed.png" id="1_qvr6k"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vpxwb"]
 atlas = ExtResource("1_qvr6k")
@@ -180,7 +180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bim3n")
 }],
-"loop": true,
+"loop": 1,
 "name": &"darkseed",
 "speed": 9.0
 }]

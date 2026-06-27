@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://wtlq483wf72p"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://wtlq483wf72p"]
 
-[ext_resource type="Texture2D" uid="uid://d228gbn32100c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_neutral_f5_goldenhammer.png" id="1_5ig44"]
+[ext_resource type="Texture2D" uid="uid://c46y5l5r5kmla" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_neutral_f5_goldenhammer.png" id="1_5ig44"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a84mn"]
 atlas = ExtResource("1_5ig44")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4rqnf")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gc8sp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"goldenhammer",
 "speed": 9.0
 }]

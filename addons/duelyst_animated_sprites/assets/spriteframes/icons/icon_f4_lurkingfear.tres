@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://dobcimmlnpc5i"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dobcimmlnpc5i"]
 
-[ext_resource type="Texture2D" uid="uid://dpyg6olm5ubhl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_lurkingfear.png" id="1_xbhl6"]
+[ext_resource type="Texture2D" uid="uid://coyml8hfskfh3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_lurkingfear.png" id="1_xbhl6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cmt6c"]
 atlas = ExtResource("1_xbhl6")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xl6dh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_70hei")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lurkingfear",
 "speed": 9.0
 }]

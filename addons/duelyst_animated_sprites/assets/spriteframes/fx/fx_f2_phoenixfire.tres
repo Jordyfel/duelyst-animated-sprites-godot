@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=40 format=3 uid="uid://c4n46jvsnjumo"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c4n46jvsnjumo"]
 
-[ext_resource type="Texture2D" uid="uid://bw5wicvl78ja2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_phoenixfire.png" id="1_fo53a"]
+[ext_resource type="Texture2D" uid="uid://h4rj6njfg0r6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_phoenixfire.png" id="1_fo53a"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bly31"]
 atlas = ExtResource("1_fo53a")
@@ -271,7 +271,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3nh5w")
 }],
-"loop": true,
+"loop": 1,
 "name": &"phoenixfire",
 "speed": 9.0
 }]

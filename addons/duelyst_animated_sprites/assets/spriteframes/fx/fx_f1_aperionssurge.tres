@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=33 format=3 uid="uid://hfns1xm73l5c"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://hfns1xm73l5c"]
 
-[ext_resource type="Texture2D" uid="uid://tpwh6m4cmj1x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_aperionssurge.png" id="1_emux0"]
+[ext_resource type="Texture2D" uid="uid://cfm1lj6xqnqxq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_aperionssurge.png" id="1_emux0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rvj7m"]
 atlas = ExtResource("1_emux0")
@@ -222,7 +222,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_81nm0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"aperionssurge",
 "speed": 9.0
 }]

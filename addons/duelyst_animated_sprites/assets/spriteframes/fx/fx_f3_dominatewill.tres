@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=36 format=3 uid="uid://co5ouyoce6n60"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://co5ouyoce6n60"]
 
-[ext_resource type="Texture2D" uid="uid://cbl07gfnvrnpu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_dominatewill.png" id="1_72inf"]
+[ext_resource type="Texture2D" uid="uid://dqrmar4gbkanb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_dominatewill.png" id="1_72inf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2ftb2"]
 atlas = ExtResource("1_72inf")
@@ -243,7 +243,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hp6yw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"dominatewill",
 "speed": 9.0
 }]

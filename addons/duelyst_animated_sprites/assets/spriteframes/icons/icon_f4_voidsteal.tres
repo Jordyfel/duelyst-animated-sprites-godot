@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://n42dju3ryfae"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://n42dju3ryfae"]
 
-[ext_resource type="Texture2D" uid="uid://5vp5h5ge2mo5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_voidsteal.png" id="1_qqevw"]
+[ext_resource type="Texture2D" uid="uid://dviprmd80wsvc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_voidsteal.png" id="1_qqevw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lkkkt"]
 atlas = ExtResource("1_qqevw")
@@ -186,7 +186,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1ibvq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -206,7 +206,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6pncc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"voidsteal",
 "speed": 9.0
 }]

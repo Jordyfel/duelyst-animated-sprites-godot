@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://b3e6j1kavlycm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b3e6j1kavlycm"]
 
-[ext_resource type="Texture2D" uid="uid://bmgohwcykcs3f" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_beamshock.png" id="1_8iw8n"]
+[ext_resource type="Texture2D" uid="uid://bpu74iqbi664u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_beamshock.png" id="1_8iw8n"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u2hsc"]
 atlas = ExtResource("1_8iw8n")
@@ -92,7 +92,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_flpur")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ksqks")
 }],
-"loop": true,
+"loop": 1,
 "name": &"beamshock",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://bsmuw6i2rgsw4"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bsmuw6i2rgsw4"]
 
-[ext_resource type="Texture2D" uid="uid://d2hke5y5muxb6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_naturesconfluence.png" id="1_5olaf"]
+[ext_resource type="Texture2D" uid="uid://ca5xe3euh83ix" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_naturesconfluence.png" id="1_5olaf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i3gpu"]
 atlas = ExtResource("1_5olaf")
@@ -190,7 +190,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r6n6d")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -213,7 +213,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_erv52")
 }],
-"loop": true,
+"loop": 1,
 "name": &"naturesconfluence",
 "speed": 9.0
 }]

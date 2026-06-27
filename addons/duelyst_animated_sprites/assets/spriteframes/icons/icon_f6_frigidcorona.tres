@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://34u86to6de7e"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://34u86to6de7e"]
 
-[ext_resource type="Texture2D" uid="uid://db5ffr03axs16" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_frigidcorona.png" id="1_0qo1h"]
+[ext_resource type="Texture2D" uid="uid://dnkumixp86gim" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_frigidcorona.png" id="1_0qo1h"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_aw5ck"]
 atlas = ExtResource("1_0qo1h")
@@ -161,7 +161,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_17w8g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jticf")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigidcorona",
 "speed": 9.0
 }]

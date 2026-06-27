@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://hcam6wtcb58g"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://hcam6wtcb58g"]
 
-[ext_resource type="Texture2D" uid="uid://dx1ptdkx17tir" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_pandajail.png" id="1_1dsw2"]
+[ext_resource type="Texture2D" uid="uid://c7ntvbr8g1pbw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_pandajail.png" id="1_1dsw2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fxt5t"]
 atlas = ExtResource("1_1dsw2")
@@ -84,7 +84,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pj4m8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tu5bb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pandajail",
 "speed": 9.0
 }]

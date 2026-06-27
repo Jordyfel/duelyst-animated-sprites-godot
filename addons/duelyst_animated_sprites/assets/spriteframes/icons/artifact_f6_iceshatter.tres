@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dwocqohw5vnma"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dwocqohw5vnma"]
 
-[ext_resource type="Texture2D" uid="uid://cj28qj83h50p2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f6_iceshatter.png" id="1_lq8xp"]
+[ext_resource type="Texture2D" uid="uid://cuom1n5p7bct1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f6_iceshatter.png" id="1_lq8xp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h3xvx"]
 atlas = ExtResource("1_lq8xp")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1pn6l")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jcw61")
 }],
-"loop": true,
+"loop": 1,
 "name": &"iceshatter",
 "speed": 9.0
 }]

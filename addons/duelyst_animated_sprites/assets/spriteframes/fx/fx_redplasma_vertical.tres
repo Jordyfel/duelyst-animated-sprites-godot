@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://b0nx0hsiu31es"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b0nx0hsiu31es"]
 
-[ext_resource type="Texture2D" uid="uid://dofbb4u1nevyd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_redplasma_vertical.png" id="1_utbtr"]
+[ext_resource type="Texture2D" uid="uid://lddlelvgrcae" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_redplasma_vertical.png" id="1_utbtr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3h8ya"]
 atlas = ExtResource("1_utbtr")
@@ -61,7 +61,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_22ok8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"vertical",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://chsk4iu5bbwcm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://chsk4iu5bbwcm"]
 
-[ext_resource type="Texture2D" uid="uid://nutywg0nwrpq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_spookem.png" id="1_ts23x"]
+[ext_resource type="Texture2D" uid="uid://ds6o4ufoi072" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_spookem.png" id="1_ts23x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ms787"]
 atlas = ExtResource("1_ts23x")
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_iagsj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1ha4n")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spookem",
 "speed": 9.0
 }]

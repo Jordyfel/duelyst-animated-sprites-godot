@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=76 format=3 uid="uid://htrec4irffxx"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://htrec4irffxx"]
 
-[ext_resource type="Texture2D" uid="uid://b0nji06kk1k1j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_mercarcanelimiter.png" id="1_3b1yk"]
+[ext_resource type="Texture2D" uid="uid://cwsmm4rwbahf3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_mercarcanelimiter.png" id="1_3b1yk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kcpdw"]
 atlas = ExtResource("1_3b1yk")
@@ -364,7 +364,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_srj5d")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -417,7 +417,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hrpox")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -452,7 +452,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rr445")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -466,7 +466,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_m0g0q")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -519,7 +519,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7jfqs")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -548,7 +548,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8cy1r")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

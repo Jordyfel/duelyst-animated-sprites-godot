@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cvs5313f5v4ei"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cvs5313f5v4ei"]
 
-[ext_resource type="Texture2D" uid="uid://blff5xiop6d21" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_sundropelixir.png" id="1_4lfoo"]
+[ext_resource type="Texture2D" uid="uid://cjpjclydbcvlm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_sundropelixir.png" id="1_4lfoo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kgulf"]
 atlas = ExtResource("1_4lfoo")
@@ -126,7 +126,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2hk1c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_d2id0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"sundropelixir",
 "speed": 9.0
 }]

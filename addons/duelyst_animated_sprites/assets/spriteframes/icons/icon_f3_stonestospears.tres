@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://1kgadqo764pv"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://1kgadqo764pv"]
 
-[ext_resource type="Texture2D" uid="uid://rmn30wxp03qb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_stonestospears.png" id="1_t64qi"]
+[ext_resource type="Texture2D" uid="uid://5c31cplhikah" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_stonestospears.png" id="1_t64qi"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c7aah"]
 atlas = ExtResource("1_t64qi")
@@ -87,7 +87,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_c5veb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1omsb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stonestospears",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dc8qlabmdbi0m"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dc8qlabmdbi0m"]
 
-[ext_resource type="Texture2D" uid="uid://d0svbltalrj6n" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f6_winterblade.png" id="1_jtpl7"]
+[ext_resource type="Texture2D" uid="uid://ivu40fns2826" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f6_winterblade.png" id="1_jtpl7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5l61q"]
 atlas = ExtResource("1_jtpl7")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wxtsn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_oc7ml")
 }],
-"loop": true,
+"loop": 1,
 "name": &"winterblade",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://bguehtugyf84b"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bguehtugyf84b"]
 
-[ext_resource type="Texture2D" uid="uid://cgymxpporivcp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_celestialconduit.png" id="1_0qs8q"]
+[ext_resource type="Texture2D" uid="uid://d0gi3e44n2tlu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_celestialconduit.png" id="1_0qs8q"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5dxkn"]
 atlas = ExtResource("1_0qs8q")
@@ -113,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mkuee")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1fext")
 }],
-"loop": true,
+"loop": 1,
 "name": &"celestialconduit",
 "speed": 9.0
 }]

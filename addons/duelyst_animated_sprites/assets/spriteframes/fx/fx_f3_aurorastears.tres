@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://cg1xk3clvmi1p"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cg1xk3clvmi1p"]
 
-[ext_resource type="Texture2D" uid="uid://doxmoe2swibv8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_aurorastears.png" id="1_spxo3"]
+[ext_resource type="Texture2D" uid="uid://pwv07581mif1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_aurorastears.png" id="1_spxo3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w0ytc"]
 atlas = ExtResource("1_spxo3")
@@ -180,7 +180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_umoc7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"aurorastears",
 "speed": 9.0
 }]

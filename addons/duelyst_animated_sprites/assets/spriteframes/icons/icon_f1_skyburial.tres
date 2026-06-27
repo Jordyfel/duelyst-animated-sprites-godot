@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://bdxyeevvi6p2k"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bdxyeevvi6p2k"]
 
-[ext_resource type="Texture2D" uid="uid://bmcl5ggfaj4ac" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_skyburial.png" id="1_ugtld"]
+[ext_resource type="Texture2D" uid="uid://cstr4vidfs4s5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_skyburial.png" id="1_ugtld"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fnnqb"]
 atlas = ExtResource("1_ugtld")
@@ -155,7 +155,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4f4le")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2hkr5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"skyburial",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://301kmhix28eu"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://301kmhix28eu"]
 
-[ext_resource type="Texture2D" uid="uid://didu1hpmkrbve" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_deathplagueicon.png" id="1_2gj1q"]
+[ext_resource type="Texture2D" uid="uid://thf385qnog1p" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_deathplagueicon.png" id="1_2gj1q"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kqib4"]
 atlas = ExtResource("1_2gj1q")
@@ -47,7 +47,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5umh7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"deathplagueicon",
 "speed": 9.0
 }]

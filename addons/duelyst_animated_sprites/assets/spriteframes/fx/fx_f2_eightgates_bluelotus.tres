@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=37 format=3 uid="uid://b01pcb4eu6cs"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b01pcb4eu6cs"]
 
-[ext_resource type="Texture2D" uid="uid://cikgu4o7x0gl4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_eightgates_bluelotus.png" id="1_xus0e"]
+[ext_resource type="Texture2D" uid="uid://1dxiui4fu2aa" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_eightgates_bluelotus.png" id="1_xus0e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sku2t"]
 atlas = ExtResource("1_xus0e")
@@ -250,7 +250,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_elk35")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bluelotus",
 "speed": 9.0
 }]

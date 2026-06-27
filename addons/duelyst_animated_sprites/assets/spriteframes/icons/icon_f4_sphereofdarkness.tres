@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://bejxrgclivj8d"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bejxrgclivj8d"]
 
-[ext_resource type="Texture2D" uid="uid://dhstpfci7jyar" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_sphereofdarkness.png" id="1_twngn"]
+[ext_resource type="Texture2D" uid="uid://cgact8jeimqjd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_sphereofdarkness.png" id="1_twngn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0252l"]
 atlas = ExtResource("1_twngn")
@@ -121,7 +121,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sly7e")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s4for")
 }],
-"loop": true,
+"loop": 1,
 "name": &"sphereofdarkness",
 "speed": 9.0
 }]

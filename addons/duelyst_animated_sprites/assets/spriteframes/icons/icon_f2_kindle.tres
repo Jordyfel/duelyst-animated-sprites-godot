@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://bumxh444i0y5a"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bumxh444i0y5a"]
 
-[ext_resource type="Texture2D" uid="uid://cgcw50phtenta" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_kindle.png" id="1_1k1nc"]
+[ext_resource type="Texture2D" uid="uid://dxni4j4bbypkb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_kindle.png" id="1_1k1nc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c3a8h"]
 atlas = ExtResource("1_1k1nc")
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7k57t")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_c6e2w")
 }],
-"loop": true,
+"loop": 1,
 "name": &"kindle",
 "speed": 9.0
 }]

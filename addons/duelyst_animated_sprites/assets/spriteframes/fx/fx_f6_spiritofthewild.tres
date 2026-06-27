@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://b1in1otjpchjr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b1in1otjpchjr"]
 
-[ext_resource type="Texture2D" uid="uid://b87btpy255ajd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_spiritofthewild.png" id="1_idxil"]
+[ext_resource type="Texture2D" uid="uid://b1mc6ay25l5ri" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_spiritofthewild.png" id="1_idxil"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gierf"]
 atlas = ExtResource("1_idxil")
@@ -208,7 +208,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2c60t")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spiritofthewild",
 "speed": 9.0
 }]

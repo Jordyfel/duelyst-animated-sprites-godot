@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=78 format=3 uid="uid://c5hx3xboekxct"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5hx3xboekxct"]
 
-[ext_resource type="Texture2D" uid="uid://iasqddxp2tdl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f3_plague_totem.png" id="1_3tl0v"]
+[ext_resource type="Texture2D" uid="uid://ba1un4i6sqobj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f3_plague_totem.png" id="1_3tl0v"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_glifl"]
 atlas = ExtResource("1_3tl0v")
@@ -378,7 +378,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_v17p8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -425,7 +425,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0y8hc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -496,7 +496,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1y0mg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -510,7 +510,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r2ad4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -557,7 +557,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2twbj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }]

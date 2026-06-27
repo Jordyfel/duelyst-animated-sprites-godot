@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://dcq8g25yuu6cj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dcq8g25yuu6cj"]
 
-[ext_resource type="Texture2D" uid="uid://dkv6xpa1xi8o1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_mightofvespyr.png" id="1_3gp25"]
+[ext_resource type="Texture2D" uid="uid://d2743ephxdwvj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_mightofvespyr.png" id="1_3gp25"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yl2im"]
 atlas = ExtResource("1_3gp25")
@@ -135,7 +135,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_geip6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_axnds")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mightofvespyr",
 "speed": 9.0
 }]

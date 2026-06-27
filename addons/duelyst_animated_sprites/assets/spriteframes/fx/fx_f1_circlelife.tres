@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=53 format=3 uid="uid://cr6rsklsq8gwc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cr6rsklsq8gwc"]
 
-[ext_resource type="Texture2D" uid="uid://dtpn7wr3lvtnc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_circlelife.png" id="1_ei53n"]
+[ext_resource type="Texture2D" uid="uid://dxubupevum5tn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_circlelife.png" id="1_ei53n"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h002s"]
 atlas = ExtResource("1_ei53n")
@@ -362,7 +362,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_h2spd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"circlelife",
 "speed": 9.0
 }]

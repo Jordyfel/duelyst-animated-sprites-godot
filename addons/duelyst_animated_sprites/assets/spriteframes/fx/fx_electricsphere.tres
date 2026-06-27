@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=43 format=3 uid="uid://3s4uxyg22mwe"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://3s4uxyg22mwe"]
 
-[ext_resource type="Texture2D" uid="uid://bg5i436pttxpg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_electricsphere.png" id="1_t1eal"]
+[ext_resource type="Texture2D" uid="uid://cr33h87quf0kn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_electricsphere.png" id="1_t1eal"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fbaqd"]
 atlas = ExtResource("1_t1eal")
@@ -292,7 +292,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_857n7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"electricsphere",
 "speed": 9.0
 }]

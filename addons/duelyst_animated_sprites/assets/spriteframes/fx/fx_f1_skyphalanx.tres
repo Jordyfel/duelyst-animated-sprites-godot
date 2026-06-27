@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://l40ir8o0q4iy"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://l40ir8o0q4iy"]
 
-[ext_resource type="Texture2D" uid="uid://bligxnumlxs3e" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_skyphalanx.png" id="1_msmjm"]
+[ext_resource type="Texture2D" uid="uid://chd3yuosxtukw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_skyphalanx.png" id="1_msmjm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rc81b"]
 atlas = ExtResource("1_msmjm")
@@ -215,7 +215,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ikvya")
 }],
-"loop": true,
+"loop": 1,
 "name": &"skyphalanx",
 "speed": 9.0
 }]

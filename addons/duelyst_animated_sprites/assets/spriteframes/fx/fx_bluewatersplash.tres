@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://cfqmu0636b5fg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfqmu0636b5fg"]
 
-[ext_resource type="Texture2D" uid="uid://dpxk0g5nvtfjl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bluewatersplash.png" id="1_x5i5i"]
+[ext_resource type="Texture2D" uid="uid://bfwp1scte6q2s" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bluewatersplash.png" id="1_x5i5i"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3is7g"]
 atlas = ExtResource("1_x5i5i")
@@ -68,7 +68,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ox5sr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bluewatersplash",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://dyoe7gjc35g1d"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dyoe7gjc35g1d"]
 
-[ext_resource type="Texture2D" uid="uid://c8iwxc3cueyjq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_saberspineseal.png" id="1_dtv2x"]
+[ext_resource type="Texture2D" uid="uid://dpsm0x2om47fn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_saberspineseal.png" id="1_dtv2x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_brkvq"]
 atlas = ExtResource("1_dtv2x")
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ix837")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_myab5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"saberspineseal",
 "speed": 9.0
 }]

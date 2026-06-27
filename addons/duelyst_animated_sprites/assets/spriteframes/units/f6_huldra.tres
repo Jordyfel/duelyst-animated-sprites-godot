@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=73 format=3 uid="uid://h857v4k2kikd"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://h857v4k2kikd"]
 
-[ext_resource type="Texture2D" uid="uid://ct23325kipb4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f6_huldra.png" id="1_gkbrr"]
+[ext_resource type="Texture2D" uid="uid://b4eyptmbdy10u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f6_huldra.png" id="1_gkbrr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jnbbv"]
 atlas = ExtResource("1_gkbrr")
@@ -358,7 +358,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rp372")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -405,7 +405,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4tfax")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -455,7 +455,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ytlgn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -469,7 +469,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_82e1a")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -504,7 +504,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x8p4w")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -527,7 +527,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ecgcf")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

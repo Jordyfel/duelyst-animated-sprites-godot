@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://w756uwocacir"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://w756uwocacir"]
 
-[ext_resource type="Texture2D" uid="uid://xdbcx2c4hxoe" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_spectralblade.png" id="1_jlbxs"]
+[ext_resource type="Texture2D" uid="uid://c0iuo0d4shbyl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_spectralblade.png" id="1_jlbxs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1kww8"]
 atlas = ExtResource("1_jlbxs")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kmrqi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_aqjqj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spectralblade",
 "speed": 9.0
 }]

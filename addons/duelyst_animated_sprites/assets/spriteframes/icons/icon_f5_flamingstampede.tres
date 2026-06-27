@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://f2fixchc0ewa"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://f2fixchc0ewa"]
 
-[ext_resource type="Texture2D" uid="uid://bg65txfc6e2vv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_flamingstampede.png" id="1_dcs2a"]
+[ext_resource type="Texture2D" uid="uid://bv5wcldpc6jgy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_flamingstampede.png" id="1_dcs2a"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p8lox"]
 atlas = ExtResource("1_dcs2a")
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_j5254")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_iycgy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"flamingstampede",
 "speed": 9.0
 }]

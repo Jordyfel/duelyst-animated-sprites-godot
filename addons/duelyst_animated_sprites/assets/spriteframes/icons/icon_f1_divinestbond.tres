@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://iwoponorg23x"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://iwoponorg23x"]
 
-[ext_resource type="Texture2D" uid="uid://cffiiijlu2yjo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_divinestbond.png" id="1_fvqth"]
+[ext_resource type="Texture2D" uid="uid://dwi53s1rpxfnn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_divinestbond.png" id="1_fvqth"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xyfp0"]
 atlas = ExtResource("1_fvqth")
@@ -127,7 +127,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ntuxj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_es8ex")
 }],
-"loop": true,
+"loop": 1,
 "name": &"divinestbond",
 "speed": 9.0
 }]

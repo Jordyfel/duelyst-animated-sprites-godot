@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=69 format=3 uid="uid://bwm4vph7lts87"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bwm4vph7lts87"]
 
-[ext_resource type="Texture2D" uid="uid://ckd327d63qc2d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f3_trifectaperfecta.png" id="1_qt7fv"]
+[ext_resource type="Texture2D" uid="uid://cjsqv6t0wd1gc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f3_trifectaperfecta.png" id="1_qt7fv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qwum7"]
 atlas = ExtResource("1_qt7fv")
@@ -318,7 +318,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pxpyc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -365,7 +365,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dnwuc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -439,7 +439,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_14jwe")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -453,7 +453,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_76ad6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -494,7 +494,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_w0wle")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }]

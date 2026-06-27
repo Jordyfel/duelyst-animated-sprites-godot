@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://chctppfpres35"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://chctppfpres35"]
 
-[ext_resource type="Texture2D" uid="uid://sg3qfow84b8t" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_present.png" id="1_84b4x"]
+[ext_resource type="Texture2D" uid="uid://crp51xlfnv86y" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_present.png" id="1_84b4x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fau2v"]
 atlas = ExtResource("1_84b4x")
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1qqio")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_14bit")
 }],
-"loop": true,
+"loop": 1,
 "name": &"present",
 "speed": 9.0
 }]

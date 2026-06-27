@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=42 format=3 uid="uid://cgxfdb1t1p2jd"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgxfdb1t1p2jd"]
 
-[ext_resource type="Texture2D" uid="uid://c28f0ysw52ubv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_ringswirl.png" id="1_3phkk"]
+[ext_resource type="Texture2D" uid="uid://3t8emdagbi6i" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_ringswirl.png" id="1_3phkk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gyp2k"]
 atlas = ExtResource("1_3phkk")
@@ -285,7 +285,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8thwa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ringswirl",
 "speed": 9.0
 }]

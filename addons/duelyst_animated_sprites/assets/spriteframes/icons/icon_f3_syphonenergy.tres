@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://dfy7p5gp4spku"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dfy7p5gp4spku"]
 
-[ext_resource type="Texture2D" uid="uid://cw47eyki7oi4i" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_syphonenergy.png" id="1_txte4"]
+[ext_resource type="Texture2D" uid="uid://b4pbv6lp2kclq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_syphonenergy.png" id="1_txte4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v5vpu"]
 atlas = ExtResource("1_txte4")
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hv5qa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_21cdg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"syphonenergy",
 "speed": 9.0
 }]

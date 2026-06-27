@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://cyb7cfctghj26"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyb7cfctghj26"]
 
-[ext_resource type="Texture2D" uid="uid://66f0fnsb0w8r" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_increasingdominance.png" id="1_trejr"]
+[ext_resource type="Texture2D" uid="uid://csea4qhoe3wql" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_increasingdominance.png" id="1_trejr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_huc2x"]
 atlas = ExtResource("1_trejr")
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_k71wt")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ymxmn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"increasingdominance",
 "speed": 9.0
 }]

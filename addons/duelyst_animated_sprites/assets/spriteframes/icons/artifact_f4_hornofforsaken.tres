@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://c3bm7c2paigeg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3bm7c2paigeg"]
 
-[ext_resource type="Texture2D" uid="uid://bdjq8bj4mbygy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_hornofforsaken.png" id="1_v0nka"]
+[ext_resource type="Texture2D" uid="uid://dmmnesywl25ht" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_hornofforsaken.png" id="1_v0nka"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k51ha"]
 atlas = ExtResource("1_v0nka")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_c6fd3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nwaex")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hornofforsaken",
 "speed": 9.0
 }]

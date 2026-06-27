@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://soh8dkin7gg0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://soh8dkin7gg0"]
 
-[ext_resource type="Texture2D" uid="uid://dc2wwv8wug5fu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_lightninghitgreen.png" id="1_ylk1h"]
+[ext_resource type="Texture2D" uid="uid://cki8uqphjfhhj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_lightninghitgreen.png" id="1_ylk1h"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fms2g"]
 atlas = ExtResource("1_ylk1h")
@@ -61,7 +61,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_unnpy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lightninghitgreen",
 "speed": 9.0
 }]

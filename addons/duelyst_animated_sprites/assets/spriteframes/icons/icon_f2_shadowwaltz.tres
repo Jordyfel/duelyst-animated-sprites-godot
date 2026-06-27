@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://i04pmmj3pxnm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://i04pmmj3pxnm"]
 
-[ext_resource type="Texture2D" uid="uid://cvwtwor0u48j7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_shadowwaltz.png" id="1_fd4xd"]
+[ext_resource type="Texture2D" uid="uid://ce4m4uyi5n8y4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_shadowwaltz.png" id="1_fd4xd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eoqw2"]
 atlas = ExtResource("1_fd4xd")
@@ -98,7 +98,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wp7jx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_57e0p")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shadowwaltz",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://cewd3gdv6iivs"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cewd3gdv6iivs"]
 
-[ext_resource type="Texture2D" uid="uid://dqcj01b5cbdjf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_manaburn.png" id="1_lg0ap"]
+[ext_resource type="Texture2D" uid="uid://c3x5gv53324x0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_manaburn.png" id="1_lg0ap"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4pe3k"]
 atlas = ExtResource("1_lg0ap")
@@ -173,7 +173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6emkm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"manaburn",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://dba45o1ceales"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dba45o1ceales"]
 
-[ext_resource type="Texture2D" uid="uid://bmhlf13rtstap" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_winterwave.png" id="1_8gvh0"]
+[ext_resource type="Texture2D" uid="uid://c6b7m75n2griq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_winterwave.png" id="1_8gvh0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7e3do"]
 atlas = ExtResource("1_8gvh0")
@@ -168,7 +168,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kgcx8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ja0xn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"winterwave",
 "speed": 9.0
 }]

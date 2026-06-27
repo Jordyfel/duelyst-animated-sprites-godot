@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://bnyyqm5m318mw"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bnyyqm5m318mw"]
 
-[ext_resource type="Texture2D" uid="uid://b7jtq7oc4jlqr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/f1_ironcliffeheart.png" id="1_yw7th"]
+[ext_resource type="Texture2D" uid="uid://e8fep355nwd1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/f1_ironcliffeheart.png" id="1_yw7th"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qil8a"]
 atlas = ExtResource("1_yw7th")
@@ -148,7 +148,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_06rhk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7fq6f")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ironcliffeheart",
 "speed": 9.0
 }]

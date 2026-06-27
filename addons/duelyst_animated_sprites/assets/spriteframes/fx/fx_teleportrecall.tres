@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://dblau6k4b3acr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dblau6k4b3acr"]
 
-[ext_resource type="Texture2D" uid="uid://b106d655goiil" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportrecall.png" id="1_2cprx"]
+[ext_resource type="Texture2D" uid="uid://bt8wl422agryy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportrecall.png" id="1_2cprx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dklxx"]
 atlas = ExtResource("1_2cprx")
@@ -103,7 +103,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_baqc1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"teleportrecall",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=42 format=3 uid="uid://bef6otk70g7gh"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bef6otk70g7gh"]
 
-[ext_resource type="Texture2D" uid="uid://b5s51nbyvj1wq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_markofsolitude.png" id="1_rmawa"]
+[ext_resource type="Texture2D" uid="uid://ov5kpq6twnkq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_markofsolitude.png" id="1_rmawa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s4lam"]
 atlas = ExtResource("1_rmawa")
@@ -285,7 +285,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xwaqr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"markofsolitude",
 "speed": 9.0
 }]

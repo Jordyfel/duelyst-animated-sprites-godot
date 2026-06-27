@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://d0wh4ix4ecns6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://d0wh4ix4ecns6"]
 
-[ext_resource type="Texture2D" uid="uid://dx15cl1fl1pr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_creepingtendrils.png" id="1_il3sk"]
+[ext_resource type="Texture2D" uid="uid://cjwuwagdi618v" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_creepingtendrils.png" id="1_il3sk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_01ymo"]
 atlas = ExtResource("1_il3sk")
@@ -105,7 +105,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4bf81")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tnbm5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"creepingtendrils",
 "speed": 9.0
 }]

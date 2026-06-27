@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://jmcetwfl6ji2"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://jmcetwfl6ji2"]
 
-[ext_resource type="Texture2D" uid="uid://qbcirfiahos8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_crescentspear.png" id="1_yekoi"]
+[ext_resource type="Texture2D" uid="uid://fiqwg20b87qu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_crescentspear.png" id="1_yekoi"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2q34n"]
 atlas = ExtResource("1_yekoi")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1jic1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sp7jp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"crescentspear",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://qkbiqs6k1tqp"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://qkbiqs6k1tqp"]
 
-[ext_resource type="Texture2D" uid="uid://otsk2doei6pa" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_necroticsphere.png" id="1_qa84o"]
+[ext_resource type="Texture2D" uid="uid://bmnmwexvicgol" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_necroticsphere.png" id="1_qa84o"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pmn5f"]
 atlas = ExtResource("1_qa84o")
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kxf1d")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dequc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"necroticsphere",
 "speed": 9.0
 }]

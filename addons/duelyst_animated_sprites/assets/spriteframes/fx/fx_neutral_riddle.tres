@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=40 format=3 uid="uid://dl6mksdxlonf6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dl6mksdxlonf6"]
 
-[ext_resource type="Texture2D" uid="uid://cl0g0uhn0dxnj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_neutral_riddle.png" id="1_7jqcv"]
+[ext_resource type="Texture2D" uid="uid://c0y54f72t71fm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_neutral_riddle.png" id="1_7jqcv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vpdsd"]
 atlas = ExtResource("1_7jqcv")
@@ -271,7 +271,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1u265")
 }],
-"loop": true,
+"loop": 1,
 "name": &"riddle",
 "speed": 9.0
 }]

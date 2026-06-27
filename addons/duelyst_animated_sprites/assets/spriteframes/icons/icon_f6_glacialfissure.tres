@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://dec6bscevk4x0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dec6bscevk4x0"]
 
-[ext_resource type="Texture2D" uid="uid://b31ockmf0jss2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_glacialfissure.png" id="1_j4u05"]
+[ext_resource type="Texture2D" uid="uid://dqi6nstxkg5bm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_glacialfissure.png" id="1_j4u05"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bloth"]
 atlas = ExtResource("1_j4u05")
@@ -166,7 +166,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_oeijn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -192,7 +192,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_btpba")
 }],
-"loop": true,
+"loop": 1,
 "name": &"glacialfissure",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://ck2i1f0dpts7x"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ck2i1f0dpts7x"]
 
-[ext_resource type="Texture2D" uid="uid://bg3ltwflank8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_infinitehowlers.png" id="1_rlbhm"]
+[ext_resource type="Texture2D" uid="uid://5tr38x1xcgge" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_infinitehowlers.png" id="1_rlbhm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_opy6q"]
 atlas = ExtResource("1_rlbhm")
@@ -240,7 +240,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l1v1e")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -269,7 +269,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kbjs1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"infinitehowlers",
 "speed": 9.0
 }]

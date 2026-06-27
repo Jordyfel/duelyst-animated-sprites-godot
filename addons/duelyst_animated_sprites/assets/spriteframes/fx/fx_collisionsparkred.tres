@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://1evfhmslvygj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://1evfhmslvygj"]
 
-[ext_resource type="Texture2D" uid="uid://csdo6swyu8wdg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_collisionsparkred.png" id="1_jla8c"]
+[ext_resource type="Texture2D" uid="uid://bpjdyxilw3cxr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_collisionsparkred.png" id="1_jla8c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_58bxm"]
 atlas = ExtResource("1_jla8c")
@@ -103,7 +103,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_56gud")
 }],
-"loop": true,
+"loop": 1,
 "name": &"collisionsparksred",
 "speed": 9.0
 }]

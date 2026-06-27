@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://i8q7u0arrbh0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://i8q7u0arrbh0"]
 
-[ext_resource type="Texture2D" uid="uid://c8ea0cwdhddb2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_restoringlight.png" id="1_0iog1"]
+[ext_resource type="Texture2D" uid="uid://bchbrim7ygntd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_restoringlight.png" id="1_0iog1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_moocn"]
 atlas = ExtResource("1_0iog1")
@@ -113,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ha5rs")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_y21ia")
 }],
-"loop": true,
+"loop": 1,
 "name": &"restoringlight",
 "speed": 9.0
 }]

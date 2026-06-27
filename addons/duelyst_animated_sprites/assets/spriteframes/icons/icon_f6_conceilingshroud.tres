@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://du3d5abew4ka2"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://du3d5abew4ka2"]
 
-[ext_resource type="Texture2D" uid="uid://ctrfw708q8hpf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_conceilingshroud.png" id="1_tlenf"]
+[ext_resource type="Texture2D" uid="uid://dkwo3d5ind3ij" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_conceilingshroud.png" id="1_tlenf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2uaa0"]
 atlas = ExtResource("1_tlenf")
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kg3gy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cylqf")
 }],
-"loop": true,
+"loop": 1,
 "name": &"conceilingshroud",
 "speed": 9.0
 }]

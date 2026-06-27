@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=35 format=3 uid="uid://3ecnr6l1a06l"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://3ecnr6l1a06l"]
 
-[ext_resource type="Texture2D" uid="uid://b1apgkkpgf5j4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_cosmicflesh.png" id="1_txkvq"]
+[ext_resource type="Texture2D" uid="uid://1yfcpvomcvxv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_cosmicflesh.png" id="1_txkvq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m6qkq"]
 atlas = ExtResource("1_txkvq")
@@ -188,7 +188,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dbquu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -241,7 +241,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3e6tn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cosmicflesh",
 "speed": 9.0
 }]

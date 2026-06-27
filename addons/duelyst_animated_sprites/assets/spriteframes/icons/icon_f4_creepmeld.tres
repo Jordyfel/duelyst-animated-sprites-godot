@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cqstasvr504t4"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cqstasvr504t4"]
 
-[ext_resource type="Texture2D" uid="uid://dxqha3qqnb05m" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_creepmeld.png" id="1_fm4wj"]
+[ext_resource type="Texture2D" uid="uid://bqixfcqqwkiha" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_creepmeld.png" id="1_fm4wj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t8410"]
 atlas = ExtResource("1_fm4wj")
@@ -120,7 +120,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x5tpm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_biwg4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"creepmeld",
 "speed": 9.0
 }]

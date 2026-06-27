@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=35 format=3 uid="uid://cdrog1roxh07s"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cdrog1roxh07s"]
 
-[ext_resource type="Texture2D" uid="uid://uqbjplm5hfi7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_spiraltechnique02.png" id="1_v2ogx"]
+[ext_resource type="Texture2D" uid="uid://b6su2k2o08j3k" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_spiraltechnique02.png" id="1_v2ogx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n843y"]
 atlas = ExtResource("1_v2ogx")
@@ -236,7 +236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tfapx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spiraltechnique02",
 "speed": 9.0
 }]

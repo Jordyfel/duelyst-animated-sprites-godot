@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://ctk6q7tm7wrtx"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ctk6q7tm7wrtx"]
 
-[ext_resource type="Texture2D" uid="uid://060x1d4jcxae" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_manadeathgrip.png" id="1_7cfj8"]
+[ext_resource type="Texture2D" uid="uid://cbostbhn5hxpu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_manadeathgrip.png" id="1_7cfj8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x47kr"]
 atlas = ExtResource("1_7cfj8")
@@ -147,7 +147,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t6hnw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5wxmp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"manadeathgrip",
 "speed": 9.0
 }]

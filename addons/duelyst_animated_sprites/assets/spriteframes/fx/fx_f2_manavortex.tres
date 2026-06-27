@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://cvy2qw5e32vpl"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cvy2qw5e32vpl"]
 
-[ext_resource type="Texture2D" uid="uid://dcp8u5wrofgry" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_manavortex.png" id="1_ipw5i"]
+[ext_resource type="Texture2D" uid="uid://dj73juoph1dw6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_manavortex.png" id="1_ipw5i"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5fsen"]
 atlas = ExtResource("1_ipw5i")
@@ -180,7 +180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_e0atk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"manavortex",
 "speed": 9.0
 }]

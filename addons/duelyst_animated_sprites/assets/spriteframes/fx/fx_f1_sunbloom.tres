@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://q268r52ie4ow"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://q268r52ie4ow"]
 
-[ext_resource type="Texture2D" uid="uid://dvk3uo4suxjbj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_sunbloom.png" id="1_87crw"]
+[ext_resource type="Texture2D" uid="uid://ckq5s6tdfufap" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_sunbloom.png" id="1_87crw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ao4tb"]
 atlas = ExtResource("1_87crw")
@@ -187,7 +187,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vpqif")
 }],
-"loop": true,
+"loop": 1,
 "name": &"sunbloom",
 "speed": 9.0
 }]

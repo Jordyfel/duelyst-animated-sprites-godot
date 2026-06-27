@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://dpgeaot5updok"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dpgeaot5updok"]
 
-[ext_resource type="Texture2D" uid="uid://dodogclqioase" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_metamorphosis.png" id="1_0553m"]
+[ext_resource type="Texture2D" uid="uid://d2121m702wncv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_metamorphosis.png" id="1_0553m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4nic1"]
 atlas = ExtResource("1_0553m")
@@ -174,7 +174,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p2rkp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -206,7 +206,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ofmsv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"metamorphosis",
 "speed": 9.0
 }]

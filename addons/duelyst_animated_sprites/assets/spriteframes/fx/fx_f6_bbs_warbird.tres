@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=48 format=3 uid="uid://bdq7fwcw85pco"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bdq7fwcw85pco"]
 
-[ext_resource type="Texture2D" uid="uid://bhdo02lfcdnn7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_bbs_warbird.png" id="1_plvxs"]
+[ext_resource type="Texture2D" uid="uid://bot8h4u1yr1fw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_bbs_warbird.png" id="1_plvxs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8d8ks"]
 atlas = ExtResource("1_plvxs")
@@ -327,7 +327,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0sgs1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"warbird",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cv8asmvsiwaea"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cv8asmvsiwaea"]
 
-[ext_resource type="Texture2D" uid="uid://dskioj2pythet" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_dawnseye.png" id="1_ctf2v"]
+[ext_resource type="Texture2D" uid="uid://crudgh2uabrrg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_dawnseye.png" id="1_ctf2v"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bff8x"]
 atlas = ExtResource("1_ctf2v")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u0ajf")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3gxlp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"dawnseye",
 "speed": 9.0
 }]

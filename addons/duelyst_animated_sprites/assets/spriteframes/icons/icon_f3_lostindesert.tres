@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=38 format=3 uid="uid://cgrbxlhiyhwgj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgrbxlhiyhwgj"]
 
-[ext_resource type="Texture2D" uid="uid://biuoki7lev8wh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_lostindesert.png" id="1_v210t"]
+[ext_resource type="Texture2D" uid="uid://b8xcj4mvontso" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_lostindesert.png" id="1_v210t"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8kdky"]
 atlas = ExtResource("1_v210t")
@@ -248,7 +248,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t6xk1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -262,7 +262,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_smtjm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lostindesert",
 "speed": 9.0
 }]

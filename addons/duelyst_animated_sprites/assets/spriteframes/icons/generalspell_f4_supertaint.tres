@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=34 format=3 uid="uid://chfswnmyuowpg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://chfswnmyuowpg"]
 
-[ext_resource type="Texture2D" uid="uid://c4lf8yqyw87nd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f4_supertaint.png" id="1_oc6nh"]
+[ext_resource type="Texture2D" uid="uid://6dw580lt78e0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f4_supertaint.png" id="1_oc6nh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a4sla"]
 atlas = ExtResource("1_oc6nh")
@@ -181,7 +181,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_v081h")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -234,7 +234,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_btel6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"supertaint",
 "speed": 9.0
 }]

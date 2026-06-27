@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://brcl6l25830u1"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://brcl6l25830u1"]
 
-[ext_resource type="Texture2D" uid="uid://dhhj3hj2ekcn0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_bloodleechmask.png" id="1_5tg0e"]
+[ext_resource type="Texture2D" uid="uid://bt2tlqjctjo5j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_bloodleechmask.png" id="1_5tg0e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xt8lu"]
 atlas = ExtResource("1_5tg0e")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nexd7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mylw5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bloodleechmask",
 "speed": 9.0
 }]

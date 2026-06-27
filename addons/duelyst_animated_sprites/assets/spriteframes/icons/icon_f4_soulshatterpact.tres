@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://heacl1phxd8l"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://heacl1phxd8l"]
 
-[ext_resource type="Texture2D" uid="uid://myb3qjfhjsby" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_soulshatterpact.png" id="1_nigq0"]
+[ext_resource type="Texture2D" uid="uid://bfxuv23f2b2al" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_soulshatterpact.png" id="1_nigq0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_akv3i"]
 atlas = ExtResource("1_nigq0")
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_n5qjk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vkqjy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"soulshatterpact",
 "speed": 9.0
 }]

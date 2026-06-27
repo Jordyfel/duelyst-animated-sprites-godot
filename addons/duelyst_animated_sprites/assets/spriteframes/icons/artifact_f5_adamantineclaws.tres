@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dg4x0mp13p8qj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dg4x0mp13p8qj"]
 
-[ext_resource type="Texture2D" uid="uid://v00ipm7v1se2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_adamantineclaws.png" id="1_yw6pw"]
+[ext_resource type="Texture2D" uid="uid://cvdeaywg4l6n6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_adamantineclaws.png" id="1_yw6pw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iggmf"]
 atlas = ExtResource("1_yw6pw")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l46nr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sjrbp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"adamantineclaws",
 "speed": 9.0
 }]

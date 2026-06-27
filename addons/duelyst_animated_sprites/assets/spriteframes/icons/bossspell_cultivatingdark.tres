@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://c7iequ4lyfhvl"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c7iequ4lyfhvl"]
 
-[ext_resource type="Texture2D" uid="uid://bibpruvw2b1ix" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_cultivatingdark.png" id="1_424he"]
+[ext_resource type="Texture2D" uid="uid://bpdd6s8xugoym" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_cultivatingdark.png" id="1_424he"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3u36m"]
 atlas = ExtResource("1_424he")
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lq8qx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wp265")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cultivatingdark",
 "speed": 9.0
 }]

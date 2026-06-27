@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://c52ngxe6weacc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c52ngxe6weacc"]
 
-[ext_resource type="Texture2D" uid="uid://dcur3p3fur3fi" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_goldenvitriol.png" id="1_s1pfa"]
+[ext_resource type="Texture2D" uid="uid://c5f8gdmy62wgk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_goldenvitriol.png" id="1_s1pfa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m1bj1"]
 atlas = ExtResource("1_s1pfa")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_axbnm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_72yy4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"goldenvitriol",
 "speed": 9.0
 }]

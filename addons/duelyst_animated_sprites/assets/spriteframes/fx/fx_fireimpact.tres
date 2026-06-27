@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://i5cu4ukn8q8r"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://i5cu4ukn8q8r"]
 
-[ext_resource type="Texture2D" uid="uid://dpqjadnsf1hdo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_fireimpact.png" id="1_e2nw8"]
+[ext_resource type="Texture2D" uid="uid://c77ahlydbtfh7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_fireimpact.png" id="1_e2nw8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_thyyo"]
 atlas = ExtResource("1_e2nw8")
@@ -54,7 +54,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_c4y3o")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fireimpact",
 "speed": 9.0
 }]

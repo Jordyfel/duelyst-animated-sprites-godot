@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://c16s4l5a3gusw"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c16s4l5a3gusw"]
 
-[ext_resource type="Texture2D" uid="uid://qwfr5khvoimw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_godhammer.png" id="1_x55rm"]
+[ext_resource type="Texture2D" uid="uid://bjkf3vwxxkvft" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_godhammer.png" id="1_x55rm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5ktuf"]
 atlas = ExtResource("1_x55rm")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7joie")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lunex")
 }],
-"loop": true,
+"loop": 1,
 "name": &"godhammer",
 "speed": 9.0
 }]

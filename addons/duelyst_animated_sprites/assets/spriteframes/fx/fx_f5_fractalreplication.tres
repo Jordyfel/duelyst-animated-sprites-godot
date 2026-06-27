@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://qk7qs3ifs853"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://qk7qs3ifs853"]
 
-[ext_resource type="Texture2D" uid="uid://c531hsb64ckf4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_fractalreplication.png" id="1_7kf1b"]
+[ext_resource type="Texture2D" uid="uid://dnvm7y780en16" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_fractalreplication.png" id="1_7kf1b"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rofm0"]
 atlas = ExtResource("1_7kf1b")
@@ -166,7 +166,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xg8hk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fractalreplication",
 "speed": 9.0
 }]

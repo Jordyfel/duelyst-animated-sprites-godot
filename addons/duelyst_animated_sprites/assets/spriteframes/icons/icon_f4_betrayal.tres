@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://b346gqliktcco"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b346gqliktcco"]
 
-[ext_resource type="Texture2D" uid="uid://b8rrcqv8feu3t" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_betrayal.png" id="1_uhcab"]
+[ext_resource type="Texture2D" uid="uid://dniv3a33qu8ou" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_betrayal.png" id="1_uhcab"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1f4o3"]
 atlas = ExtResource("1_uhcab")
@@ -141,7 +141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ihl3r")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yba3s")
 }],
-"loop": true,
+"loop": 1,
 "name": &"betrayal",
 "speed": 9.0
 }]

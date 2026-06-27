@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=40 format=3 uid="uid://cmowaovmpp4m6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmowaovmpp4m6"]
 
-[ext_resource type="Texture2D" uid="uid://dstkcawyiush2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_marchbrontodon.png" id="1_awb5l"]
+[ext_resource type="Texture2D" uid="uid://dh3qiluux2ta4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_marchbrontodon.png" id="1_awb5l"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7idvc"]
 atlas = ExtResource("1_awb5l")
@@ -241,7 +241,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mn8t6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -276,7 +276,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rpbq3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"marchbrontodon",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://dw6bbncgd5mcm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dw6bbncgd5mcm"]
 
-[ext_resource type="Texture2D" uid="uid://cl83p54ufv0um" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_energyhaloground.png" id="1_ljofv"]
+[ext_resource type="Texture2D" uid="uid://ccat53gqw17if" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_energyhaloground.png" id="1_ljofv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_es7mm"]
 atlas = ExtResource("1_ljofv")
@@ -47,7 +47,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pdasx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"energyhaloground",
 "speed": 9.0
 }]

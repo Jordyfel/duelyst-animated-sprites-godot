@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://cfesx02xow2p6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfesx02xow2p6"]
 
-[ext_resource type="Texture2D" uid="uid://cxspqn7vcwypp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_inklingsurge.png" id="1_fo3bn"]
+[ext_resource type="Texture2D" uid="uid://boj8f4y1q4v35" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_inklingsurge.png" id="1_fo3bn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0t7eq"]
 atlas = ExtResource("1_fo3bn")
@@ -113,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yqvhm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_laob4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"inklingsurge",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://k2kaojf4iwwt"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://k2kaojf4iwwt"]
 
-[ext_resource type="Texture2D" uid="uid://doleq1mekca54" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_unboundedenergyamulet.png" id="1_r6gtf"]
+[ext_resource type="Texture2D" uid="uid://b01sosojohpce" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_unboundedenergyamulet.png" id="1_r6gtf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ujqvt"]
 atlas = ExtResource("1_r6gtf")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kyqrj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eryre")
 }],
-"loop": true,
+"loop": 1,
 "name": &"unboundedenergyamulet",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=60 format=3 uid="uid://b1mqes48hkjly"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b1mqes48hkjly"]
 
-[ext_resource type="Texture2D" uid="uid://dr7pxacjjp8wq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_riteundervault.png" id="1_hvabs"]
+[ext_resource type="Texture2D" uid="uid://bjydcn2q80e5u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_riteundervault.png" id="1_hvabs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_euxbm"]
 atlas = ExtResource("1_hvabs")
@@ -411,7 +411,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u3es3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"riteundervault",
 "speed": 9.0
 }]

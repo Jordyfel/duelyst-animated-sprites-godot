@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=92 format=3 uid="uid://ca3lomben88sb"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ca3lomben88sb"]
 
-[ext_resource type="Texture2D" uid="uid://3qje0ijbff02" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f6_motherofdrakes.png" id="1_ysbik"]
+[ext_resource type="Texture2D" uid="uid://dmiljuxmvqu3n" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f6_motherofdrakes.png" id="1_ysbik"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6bj07"]
 atlas = ExtResource("1_ysbik")
@@ -425,7 +425,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hkfva")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -472,7 +472,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hj1b5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -540,7 +540,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gx4gl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -554,7 +554,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qpnvl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -613,7 +613,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cbodh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -636,7 +636,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wvojt")
 }],
-"loop": true,
+"loop": 1,
 "name": &"projectile",
 "speed": 9.0
 }, {
@@ -665,7 +665,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sqta3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

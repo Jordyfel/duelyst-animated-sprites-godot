@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=37 format=3 uid="uid://bo3ys2nn1a7sa"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bo3ys2nn1a7sa"]
 
-[ext_resource type="Texture2D" uid="uid://cun57g2pnrrtk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_tornadoswirl.png" id="1_raeen"]
+[ext_resource type="Texture2D" uid="uid://cunirlre3anmo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_tornadoswirl.png" id="1_raeen"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i33ok"]
 atlas = ExtResource("1_raeen")
@@ -250,7 +250,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r1joa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tornadoswirl",
 "speed": 9.0
 }]

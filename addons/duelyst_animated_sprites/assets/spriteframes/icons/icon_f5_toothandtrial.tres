@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://dwqt0ycwybwbd"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dwqt0ycwybwbd"]
 
-[ext_resource type="Texture2D" uid="uid://c4efrsom8nyfh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_toothandtrial.png" id="1_acwqs"]
+[ext_resource type="Texture2D" uid="uid://ch2iqq3vclyk1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_toothandtrial.png" id="1_acwqs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_we0vq"]
 atlas = ExtResource("1_acwqs")
@@ -112,7 +112,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bsvy6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0h8hq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toothandtrial",
 "speed": 9.0
 }]

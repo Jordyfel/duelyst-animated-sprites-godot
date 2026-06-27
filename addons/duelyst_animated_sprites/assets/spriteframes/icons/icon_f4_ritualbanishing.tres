@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://tchqa5mq7dfu"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://tchqa5mq7dfu"]
 
-[ext_resource type="Texture2D" uid="uid://cl0gogo1w35y3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_ritualbanishing.png" id="1_rvjf6"]
+[ext_resource type="Texture2D" uid="uid://jfmkwpojqb0j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_ritualbanishing.png" id="1_rvjf6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cpuok"]
 atlas = ExtResource("1_rvjf6")
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5m45a")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ej7mw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ritualbanishing",
 "speed": 9.0
 }]

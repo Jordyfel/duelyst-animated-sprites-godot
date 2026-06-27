@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=29 format=3 uid="uid://tghpjc7wv0b0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://tghpjc7wv0b0"]
 
-[ext_resource type="Texture2D" uid="uid://d35odmsity4dh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_cryogenesis.png" id="1_w5cea"]
+[ext_resource type="Texture2D" uid="uid://dywpklv08wi15" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_cryogenesis.png" id="1_w5cea"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a7k6g"]
 atlas = ExtResource("1_w5cea")
@@ -194,7 +194,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_exvi4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cryogenesis",
 "speed": 9.0
 }]

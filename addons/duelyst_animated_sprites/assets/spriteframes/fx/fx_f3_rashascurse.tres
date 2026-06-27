@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://c0ctpk2qfbxcl"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c0ctpk2qfbxcl"]
 
-[ext_resource type="Texture2D" uid="uid://ck25l58xt8j46" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_rashascurse.png" id="1_1747p"]
+[ext_resource type="Texture2D" uid="uid://djr4dlvv33x7r" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_rashascurse.png" id="1_1747p"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q7ram"]
 atlas = ExtResource("1_1747p")
@@ -187,7 +187,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3fk44")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rashascurse",
 "speed": 9.0
 }]

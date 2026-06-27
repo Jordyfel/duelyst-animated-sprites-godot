@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://cjwyh55ro6f5i"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cjwyh55ro6f5i"]
 
-[ext_resource type="Texture2D" uid="uid://clpyowa6wyydo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_shadownova.png" id="1_n1n0f"]
+[ext_resource type="Texture2D" uid="uid://bxfn1m85hx40d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_shadownova.png" id="1_n1n0f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_127bj"]
 atlas = ExtResource("1_n1n0f")
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hhlpn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_comqp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shadownova",
 "speed": 9.0
 }]

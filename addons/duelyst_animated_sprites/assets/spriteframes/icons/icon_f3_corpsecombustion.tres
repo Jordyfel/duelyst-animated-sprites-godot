@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://c1qetrf7lh6eq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c1qetrf7lh6eq"]
 
-[ext_resource type="Texture2D" uid="uid://c1ggevtg0nfqy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_corpsecombustion.png" id="1_aym1m"]
+[ext_resource type="Texture2D" uid="uid://bp1hkf2cq3rxa" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_corpsecombustion.png" id="1_aym1m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ovpas"]
 atlas = ExtResource("1_aym1m")
@@ -151,7 +151,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ib8an")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_o1tdq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"corpsecombustion",
 "speed": 9.0
 }]

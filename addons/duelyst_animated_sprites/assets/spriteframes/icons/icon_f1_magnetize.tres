@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://cdh6am0bvjlqt"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cdh6am0bvjlqt"]
 
-[ext_resource type="Texture2D" uid="uid://b62a1sgd1pfiq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_magnetize.png" id="1_osiem"]
+[ext_resource type="Texture2D" uid="uid://bqh2r5jiap8qf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_magnetize.png" id="1_osiem"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_24t7a"]
 atlas = ExtResource("1_osiem")
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ijibi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1fepg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"magnetize",
 "speed": 9.0
 }]

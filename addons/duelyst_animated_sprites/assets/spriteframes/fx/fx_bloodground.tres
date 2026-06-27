@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=38 format=3 uid="uid://duosm7t01wxht"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://duosm7t01wxht"]
 
-[ext_resource type="Texture2D" uid="uid://bu8buso38fpo5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bloodground.png" id="1_k5ddm"]
+[ext_resource type="Texture2D" uid="uid://c1rnqcrgnjb64" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bloodground.png" id="1_k5ddm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dalre"]
 atlas = ExtResource("1_k5ddm")
@@ -173,7 +173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qg6rh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bloodground",
 "speed": 9.0
 }, {
@@ -205,7 +205,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_efhm0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bloodground2",
 "speed": 9.0
 }, {
@@ -234,7 +234,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1t3al")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bloodground3",
 "speed": 9.0
 }, {
@@ -272,7 +272,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_c3j6v")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bloodground4",
 "speed": 9.0
 }]

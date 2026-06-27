@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://dev8xyc8e2axo"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dev8xyc8e2axo"]
 
-[ext_resource type="Texture2D" uid="uid://bipfsx7de7dkp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_hellskitchen.png" id="1_lnm2x"]
+[ext_resource type="Texture2D" uid="uid://btiu1lja8qmkt" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_hellskitchen.png" id="1_lnm2x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rq4wp"]
 atlas = ExtResource("1_lnm2x")
@@ -141,7 +141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wpx88")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2ofay")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hellskitchen",
 "speed": 9.0
 }]

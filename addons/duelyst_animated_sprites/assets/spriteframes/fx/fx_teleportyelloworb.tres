@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://ckauauuihm08g"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ckauauuihm08g"]
 
-[ext_resource type="Texture2D" uid="uid://f34im5cbd3p1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportyelloworb.png" id="1_8hqwn"]
+[ext_resource type="Texture2D" uid="uid://bdy37t3e3agg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportyelloworb.png" id="1_8hqwn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qp7dt"]
 atlas = ExtResource("1_8hqwn")
@@ -138,7 +138,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vk5wc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"teleportyelloworb",
 "speed": 9.0
 }]

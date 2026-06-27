@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://dssdh6v4y7ma6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dssdh6v4y7ma6"]
 
-[ext_resource type="Texture2D" uid="uid://bor73th2l011j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_invincible.png" id="1_03sbt"]
+[ext_resource type="Texture2D" uid="uid://d2r0xcc5iluvg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_invincible.png" id="1_03sbt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fagov"]
 atlas = ExtResource("1_03sbt")
@@ -183,7 +183,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_frhi1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -206,7 +206,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mfcos")
 }],
-"loop": true,
+"loop": 1,
 "name": &"invincible",
 "speed": 9.0
 }]

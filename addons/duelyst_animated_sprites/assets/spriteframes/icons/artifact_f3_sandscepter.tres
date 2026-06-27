@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dys5h2ja21tl8"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dys5h2ja21tl8"]
 
-[ext_resource type="Texture2D" uid="uid://lk2b30pdrtpd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_sandscepter.png" id="1_gneph"]
+[ext_resource type="Texture2D" uid="uid://2to04nq1ueac" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_sandscepter.png" id="1_gneph"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mtytx"]
 atlas = ExtResource("1_gneph")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kcw6h")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ku0gi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"sandscepter",
 "speed": 9.0
 }]

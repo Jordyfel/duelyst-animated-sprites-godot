@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=93 format=3 uid="uid://cqipl0y1w6q8j"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cqipl0y1w6q8j"]
 
-[ext_resource type="Texture2D" uid="uid://b6pat076484q5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_moonlitsorcerer.png" id="1_c6r4b"]
+[ext_resource type="Texture2D" uid="uid://4j3psem1nxa2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_moonlitsorcerer.png" id="1_c6r4b"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ywtm1"]
 atlas = ExtResource("1_c6r4b")
@@ -456,7 +456,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8gk5c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -503,7 +503,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s1no1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -583,7 +583,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_e5igh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -597,7 +597,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_twwqk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -644,7 +644,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3k7gt")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -667,7 +667,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rlku8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

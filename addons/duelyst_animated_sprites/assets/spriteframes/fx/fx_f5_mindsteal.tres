@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://bed36fi511gk8"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bed36fi511gk8"]
 
-[ext_resource type="Texture2D" uid="uid://bombmqr3q0pdk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_mindsteal.png" id="1_2ick3"]
+[ext_resource type="Texture2D" uid="uid://c44nnlskrpoay" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_mindsteal.png" id="1_2ick3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8nwyq"]
 atlas = ExtResource("1_2ick3")
@@ -201,7 +201,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_oky51")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mindsteal",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://vkw7f0r3rcwo"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://vkw7f0r3rcwo"]
 
-[ext_resource type="Texture2D" uid="uid://cka6pabbi7syq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bladebreaker.png" id="1_sur65"]
+[ext_resource type="Texture2D" uid="uid://dxf2vexl38p26" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bladebreaker.png" id="1_sur65"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1dfoh"]
 atlas = ExtResource("1_sur65")
@@ -12,7 +12,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1dfoh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bladebreaker",
 "speed": 9.0
 }]

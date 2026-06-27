@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=44 format=3 uid="uid://cfnwunm3yb1h6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfnwunm3yb1h6"]
 
-[ext_resource type="Texture2D" uid="uid://brlplbf4h274p" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_bbs_kinectsurge.png" id="1_nnea1"]
+[ext_resource type="Texture2D" uid="uid://col1yhqjpnrrq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_bbs_kinectsurge.png" id="1_nnea1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mmrw3"]
 atlas = ExtResource("1_nnea1")
@@ -299,7 +299,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8pir2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"kinectsurge",
 "speed": 9.0
 }]

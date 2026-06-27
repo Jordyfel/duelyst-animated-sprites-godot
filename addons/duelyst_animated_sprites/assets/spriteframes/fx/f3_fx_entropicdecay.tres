@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=35 format=3 uid="uid://b7dsbi8hagp70"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7dsbi8hagp70"]
 
-[ext_resource type="Texture2D" uid="uid://8t4lq3sjv743" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/f3_fx_entropicdecay.png" id="1_alija"]
+[ext_resource type="Texture2D" uid="uid://bdoswcmuc1jba" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/f3_fx_entropicdecay.png" id="1_alija"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k5er5"]
 atlas = ExtResource("1_alija")
@@ -236,7 +236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6ng22")
 }],
-"loop": true,
+"loop": 1,
 "name": &"entropicdecay",
 "speed": 9.0
 }]

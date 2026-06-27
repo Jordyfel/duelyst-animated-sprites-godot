@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://bto66l1utt3yp"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bto66l1utt3yp"]
 
-[ext_resource type="Texture2D" uid="uid://dl4i1abxdkirp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_ghost_lightning.png" id="1_juwr5"]
+[ext_resource type="Texture2D" uid="uid://b8jsj877jjoxk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_ghost_lightning.png" id="1_juwr5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sw733"]
 atlas = ExtResource("1_juwr5")
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_h6kep")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_w2sq7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lightning",
 "speed": 9.0
 }]

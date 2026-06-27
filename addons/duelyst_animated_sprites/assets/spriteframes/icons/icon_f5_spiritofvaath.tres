@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://mr3j4fehrpg8"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://mr3j4fehrpg8"]
 
-[ext_resource type="Texture2D" uid="uid://c01e4khx7j3jn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_spiritofvaath.png" id="1_j6gwo"]
+[ext_resource type="Texture2D" uid="uid://q0boopwgxsqf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_spiritofvaath.png" id="1_j6gwo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_biaky"]
 atlas = ExtResource("1_j6gwo")
@@ -119,7 +119,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1sqqh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_h8kgi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spiritofvaath",
 "speed": 9.0
 }]

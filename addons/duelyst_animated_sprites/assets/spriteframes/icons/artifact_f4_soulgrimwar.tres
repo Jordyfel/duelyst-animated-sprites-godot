@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://tn8vrmyvbq2"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://tn8vrmyvbq2"]
 
-[ext_resource type="Texture2D" uid="uid://cugd2r6eyb721" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_soulgrimwar.png" id="1_uavwo"]
+[ext_resource type="Texture2D" uid="uid://jv7da7yf3dd0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_soulgrimwar.png" id="1_uavwo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k5pyq"]
 atlas = ExtResource("1_uavwo")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_n258c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bqnme")
 }],
-"loop": true,
+"loop": 1,
 "name": &"soulgrimwar",
 "speed": 9.0
 }]

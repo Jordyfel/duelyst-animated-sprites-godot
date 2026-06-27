@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=37 format=3 uid="uid://4qbgaxasfa35"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://4qbgaxasfa35"]
 
-[ext_resource type="Texture2D" uid="uid://hvsfoxbihtdg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_evolutionaryapex.png" id="1_qsqyg"]
+[ext_resource type="Texture2D" uid="uid://chooyqf8fqhkb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_evolutionaryapex.png" id="1_qsqyg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8dfm6"]
 atlas = ExtResource("1_qsqyg")
@@ -250,7 +250,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ufd0j")
 }],
-"loop": true,
+"loop": 1,
 "name": &"evolutionaryapex",
 "speed": 9.0
 }]

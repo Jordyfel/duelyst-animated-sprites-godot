@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=13 format=3 uid="uid://dl7yf3cpthjyf"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dl7yf3cpthjyf"]
 
-[ext_resource type="Texture2D" uid="uid://v4ni61h0h14c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_disintegrate.png" id="1_nslaa"]
+[ext_resource type="Texture2D" uid="uid://dqvfb0owb0ehb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_disintegrate.png" id="1_nslaa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wai64"]
 atlas = ExtResource("1_nslaa")
@@ -82,7 +82,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pjymd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"disintegrate",
 "speed": 9.0
 }]

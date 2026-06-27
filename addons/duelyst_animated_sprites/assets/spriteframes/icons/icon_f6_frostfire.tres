@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://dyt31euk6pkna"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dyt31euk6pkna"]
 
-[ext_resource type="Texture2D" uid="uid://cyjaotts4cubc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_frostfire.png" id="1_aix3k"]
+[ext_resource type="Texture2D" uid="uid://c3pagwvqy4h1i" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_frostfire.png" id="1_aix3k"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4qgsv"]
 atlas = ExtResource("1_aix3k")
@@ -144,7 +144,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kiefs")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yk8wy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frostfire",
 "speed": 9.0
 }]

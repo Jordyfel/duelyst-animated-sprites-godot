@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=37 format=3 uid="uid://cu2375dh8sxkl"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cu2375dh8sxkl"]
 
-[ext_resource type="Texture2D" uid="uid://dhpfhjrmaxtnw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bouldersphere.png" id="1_krjx4"]
+[ext_resource type="Texture2D" uid="uid://cny5ln1q2j2v3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_bouldersphere.png" id="1_krjx4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n7737"]
 atlas = ExtResource("1_krjx4")
@@ -250,7 +250,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_n35md")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bouldersphere",
 "speed": 9.0
 }]

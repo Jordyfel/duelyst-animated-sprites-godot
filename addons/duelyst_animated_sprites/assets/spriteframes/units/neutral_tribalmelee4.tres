@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=56 format=3 uid="uid://b1xppp6hiof5i"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b1xppp6hiof5i"]
 
-[ext_resource type="Texture2D" uid="uid://drak0xiqew0o1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_tribalmelee4.png" id="1_mdvwm"]
+[ext_resource type="Texture2D" uid="uid://cw43gn7mkun7b" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_tribalmelee4.png" id="1_mdvwm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_son5y"]
 atlas = ExtResource("1_mdvwm")
@@ -248,7 +248,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1fmeb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -295,7 +295,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_v5jxq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -324,7 +324,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bx680")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -338,7 +338,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_g6l8f")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -379,7 +379,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_02mk5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -408,7 +408,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ekh0f")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

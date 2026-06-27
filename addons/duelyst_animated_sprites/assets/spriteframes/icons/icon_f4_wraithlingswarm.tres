@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://c5rlnufj030ni"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5rlnufj030ni"]
 
-[ext_resource type="Texture2D" uid="uid://c1mtix0jdw4qb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_wraithlingswarm.png" id="1_qwihu"]
+[ext_resource type="Texture2D" uid="uid://xwxa70ngeh1w" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_wraithlingswarm.png" id="1_qwihu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c7qd7"]
 atlas = ExtResource("1_qwihu")
@@ -87,7 +87,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ftsfe")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qpi64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wraithlingswarm",
 "speed": 9.0
 }]

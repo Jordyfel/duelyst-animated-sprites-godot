@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=41 format=3 uid="uid://bhhlj116pln5y"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhhlj116pln5y"]
 
-[ext_resource type="Texture2D" uid="uid://btu2x2w007agn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_cataclysmicfault.png" id="1_q2kjj"]
+[ext_resource type="Texture2D" uid="uid://qnoxgg3xovon" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_cataclysmicfault.png" id="1_q2kjj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j7woy"]
 atlas = ExtResource("1_q2kjj")
@@ -278,7 +278,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yqni0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cataclysmicfault",
 "speed": 9.0
 }]

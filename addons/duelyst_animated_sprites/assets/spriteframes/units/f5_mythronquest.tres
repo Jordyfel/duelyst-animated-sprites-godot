@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=82 format=3 uid="uid://c3mlxhnsklkr5"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3mlxhnsklkr5"]
 
-[ext_resource type="Texture2D" uid="uid://ciwxxixoimpug" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f5_mythronquest.png" id="1_ojpmj"]
+[ext_resource type="Texture2D" uid="uid://b80tkywo0s46q" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f5_mythronquest.png" id="1_ojpmj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_et1qn"]
 atlas = ExtResource("1_ojpmj")
@@ -394,7 +394,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jxy2g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -441,7 +441,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ubpdi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -506,7 +506,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8bt6l")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -520,7 +520,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qh6ii")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -555,7 +555,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_o4l1r")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -590,7 +590,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sbjlx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

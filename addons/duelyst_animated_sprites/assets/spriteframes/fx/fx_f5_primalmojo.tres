@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://d34ksgcy5qmjv"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://d34ksgcy5qmjv"]
 
-[ext_resource type="Texture2D" uid="uid://sok6o5fyg4ov" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_primalmojo.png" id="1_c3kct"]
+[ext_resource type="Texture2D" uid="uid://bca4sfkuc66mm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_primalmojo.png" id="1_c3kct"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k0d62"]
 atlas = ExtResource("1_c3kct")
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_k0d62")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kpr6y")
 }],
-"loop": true,
+"loop": 1,
 "name": &"primalmojo",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=69 format=3 uid="uid://bn4xh112kb1nj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bn4xh112kb1nj"]
 
-[ext_resource type="Texture2D" uid="uid://bbxbcwyklfe8a" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f5_orphanoftheaspect.png" id="1_ocxdf"]
+[ext_resource type="Texture2D" uid="uid://dnr2lpmkk7gwg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f5_orphanoftheaspect.png" id="1_ocxdf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cb0gg"]
 atlas = ExtResource("1_ocxdf")
@@ -336,7 +336,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vauve")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -383,7 +383,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lhyn7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -460,7 +460,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_b3npg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -489,7 +489,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l2u0g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

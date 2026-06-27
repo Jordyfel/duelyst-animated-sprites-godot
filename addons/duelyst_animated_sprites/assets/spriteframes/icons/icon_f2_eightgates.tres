@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://da230pqltmbhg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://da230pqltmbhg"]
 
-[ext_resource type="Texture2D" uid="uid://c32eotppdrtt4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_eightgates.png" id="1_htwmv"]
+[ext_resource type="Texture2D" uid="uid://dhn3ldmq6cinu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_eightgates.png" id="1_htwmv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5faqi"]
 atlas = ExtResource("1_htwmv")
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t6afa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vi02p")
 }],
-"loop": true,
+"loop": 1,
 "name": &"eightgates",
 "speed": 9.0
 }]

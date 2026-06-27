@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://1jbcwussi8xj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://1jbcwussi8xj"]
 
-[ext_resource type="Texture2D" uid="uid://c8b6sn827ysgx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_snowball.png" id="1_wb5jn"]
+[ext_resource type="Texture2D" uid="uid://cgxji50fkscnq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_snowball.png" id="1_wb5jn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_csy8n"]
 atlas = ExtResource("1_wb5jn")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_epuae")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_041hn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"snowball",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=58 format=3 uid="uid://c0jlb3eo3hpyx"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c0jlb3eo3hpyx"]
 
-[ext_resource type="Texture2D" uid="uid://bcpoaquau0h0r" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_merctwinbladewarmonger.png" id="1_i071u"]
+[ext_resource type="Texture2D" uid="uid://dn6do78gt76e0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_merctwinbladewarmonger.png" id="1_i071u"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vbayo"]
 atlas = ExtResource("1_i071u")
@@ -259,7 +259,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vs3rq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -306,7 +306,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eyfqa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -335,7 +335,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p8whk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -349,7 +349,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8c5or")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -393,7 +393,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eaid2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -422,7 +422,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x8kty")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

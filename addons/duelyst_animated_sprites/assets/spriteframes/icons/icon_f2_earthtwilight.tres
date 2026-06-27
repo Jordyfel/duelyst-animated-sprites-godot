@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://dij64ofv85r48"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dij64ofv85r48"]
 
-[ext_resource type="Texture2D" uid="uid://bx6mhu6i7la7j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_earthtwilight.png" id="1_gmwkm"]
+[ext_resource type="Texture2D" uid="uid://lv7nd2kamkuc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_earthtwilight.png" id="1_gmwkm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0sahm"]
 atlas = ExtResource("1_gmwkm")
@@ -109,7 +109,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_34w2r")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lxi5k")
 }],
-"loop": true,
+"loop": 1,
 "name": &"earthtwilight",
 "speed": 9.0
 }]

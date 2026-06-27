@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://dk04n4svc3hos"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dk04n4svc3hos"]
 
-[ext_resource type="Texture2D" uid="uid://d3x67ddcbwaet" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_summoningstones.png" id="1_0cghw"]
+[ext_resource type="Texture2D" uid="uid://dw2fwdgydo8w6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_summoningstones.png" id="1_0cghw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kjhqn"]
 atlas = ExtResource("1_0cghw")
@@ -172,7 +172,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ed56s")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -192,7 +192,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_opt00")
 }],
-"loop": true,
+"loop": 1,
 "name": &"summoningstones",
 "speed": 9.0
 }]

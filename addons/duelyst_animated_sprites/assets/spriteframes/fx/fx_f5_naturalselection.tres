@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://bb2erkccnegmn"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bb2erkccnegmn"]
 
-[ext_resource type="Texture2D" uid="uid://dbomyqqkrkf2k" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_naturalselection.png" id="1_lpy04"]
+[ext_resource type="Texture2D" uid="uid://u1xqteetrmlt" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_naturalselection.png" id="1_lpy04"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m5sm5"]
 atlas = ExtResource("1_lpy04")
@@ -166,7 +166,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xccv2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"naturalselection",
 "speed": 9.0
 }]

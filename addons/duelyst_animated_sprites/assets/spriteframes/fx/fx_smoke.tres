@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://bu7qkb0ndbaf6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bu7qkb0ndbaf6"]
 
-[ext_resource type="Texture2D" uid="uid://1wfmqm5i1ql7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_smoke.png" id="1_7488t"]
+[ext_resource type="Texture2D" uid="uid://cfrxxe88keltq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_smoke.png" id="1_7488t"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vcb1o"]
 atlas = ExtResource("1_7488t")
@@ -132,7 +132,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0mu57")
 }],
-"loop": true,
+"loop": 1,
 "name": &"explosiondarkplume",
 "speed": 9.0
 }, {
@@ -167,7 +167,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hqvdu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"explosionwhitesmokemedium",
 "speed": 9.0
 }, {
@@ -190,7 +190,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wps3f")
 }],
-"loop": true,
+"loop": 1,
 "name": &"footstepdust",
 "speed": 9.0
 }]

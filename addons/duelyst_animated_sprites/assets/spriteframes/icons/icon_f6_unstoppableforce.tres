@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://dgultqcrml57s"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dgultqcrml57s"]
 
-[ext_resource type="Texture2D" uid="uid://dhu5f485d2lq8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_unstoppableforce.png" id="1_kvqfh"]
+[ext_resource type="Texture2D" uid="uid://cr278xv8oxfkf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_unstoppableforce.png" id="1_kvqfh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5kx4w"]
 atlas = ExtResource("1_kvqfh")
@@ -105,7 +105,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s7e0x")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_w3h35")
 }],
-"loop": true,
+"loop": 1,
 "name": &"unstoppableforce",
 "speed": 9.0
 }]

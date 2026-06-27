@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cm1yd4str7v4i"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cm1yd4str7v4i"]
 
-[ext_resource type="Texture2D" uid="uid://dg8ue2bd5ain8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_spellfan.png" id="1_l6rxp"]
+[ext_resource type="Texture2D" uid="uid://do656u2d11pn7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_spellfan.png" id="1_l6rxp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4jdgw"]
 atlas = ExtResource("1_l6rxp")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5jkye")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fmhc2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spellfan",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://rg1mgg3mii5f"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://rg1mgg3mii5f"]
 
-[ext_resource type="Texture2D" uid="uid://bfi0nmy3wupxt" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_firestormofagony.png" id="1_0tvco"]
+[ext_resource type="Texture2D" uid="uid://gqf3wvrpcvek" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_firestormofagony.png" id="1_0tvco"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_us2qi"]
 atlas = ExtResource("1_0tvco")
@@ -113,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1o88k")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rdyc7")
 }],
-"loop": true,
+"loop": 1,
 "name": &"firestormofagony",
 "speed": 9.0
 }]

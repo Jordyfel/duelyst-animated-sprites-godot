@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://phe5qb7ubqbo"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://phe5qb7ubqbo"]
 
-[ext_resource type="Texture2D" uid="uid://d4c4xof0god64" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_hailstoneprison.png" id="1_v0og2"]
+[ext_resource type="Texture2D" uid="uid://b1wp18agwqimi" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_hailstoneprison.png" id="1_v0og2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6wgry"]
 atlas = ExtResource("1_v0og2")
@@ -155,7 +155,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gfg2v")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rrfav")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hailstoneprison",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=49 format=3 uid="uid://dqkk5ll00wrx7"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dqkk5ll00wrx7"]
 
-[ext_resource type="Texture2D" uid="uid://dik8qhwx4n4hi" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_mercpiratebeast.png" id="1_kl4ur"]
+[ext_resource type="Texture2D" uid="uid://c8yyuxpxg4x7h" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_mercpiratebeast.png" id="1_kl4ur"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_60xgy"]
 atlas = ExtResource("1_kl4ur")
@@ -229,7 +229,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_uv0ip")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -270,7 +270,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3fswb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -299,7 +299,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sst46")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -313,7 +313,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hqf25")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -336,7 +336,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nxfmj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -359,7 +359,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_payfb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

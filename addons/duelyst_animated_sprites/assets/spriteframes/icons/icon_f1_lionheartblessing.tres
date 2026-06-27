@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=34 format=3 uid="uid://ymbbf0gi4e81"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ymbbf0gi4e81"]
 
-[ext_resource type="Texture2D" uid="uid://kbr6gcc6kthg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_lionheartblessing.png" id="1_m7v4e"]
+[ext_resource type="Texture2D" uid="uid://b2gcwd17b46sh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_lionheartblessing.png" id="1_m7v4e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gj12m"]
 atlas = ExtResource("1_m7v4e")
@@ -187,7 +187,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_geqnw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -234,7 +234,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yubyb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lionheartblessing",
 "speed": 9.0
 }]

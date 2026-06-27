@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://h5x8fh3ejq0w"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://h5x8fh3ejq0w"]
 
-[ext_resource type="Texture2D" uid="uid://bdlrpgkjpabf2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_moldingearth.png" id="1_vr4mu"]
+[ext_resource type="Texture2D" uid="uid://cclcbvlbq0imh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_moldingearth.png" id="1_vr4mu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vnlqm"]
 atlas = ExtResource("1_vr4mu")
@@ -174,7 +174,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ch1bo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -206,7 +206,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t0bgc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"moldingearth",
 "speed": 9.0
 }]

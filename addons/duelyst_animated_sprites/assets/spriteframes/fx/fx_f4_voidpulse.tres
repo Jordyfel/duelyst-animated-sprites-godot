@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://3cgwigphku1f"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://3cgwigphku1f"]
 
-[ext_resource type="Texture2D" uid="uid://s8shqitwy0bv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_voidpulse.png" id="1_0iv7c"]
+[ext_resource type="Texture2D" uid="uid://slm0w3ovvtfo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_voidpulse.png" id="1_0iv7c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_866qm"]
 atlas = ExtResource("1_0iv7c")
@@ -201,7 +201,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vcoh6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"voidpulse",
 "speed": 9.0
 }]

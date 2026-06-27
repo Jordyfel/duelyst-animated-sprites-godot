@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=101 format=3 uid="uid://daajxel4cw37e"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://daajxel4cw37e"]
 
-[ext_resource type="Texture2D" uid="uid://ctfc60u6rsmwh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_bonereaper.png" id="1_5idly"]
+[ext_resource type="Texture2D" uid="uid://canw5reqnlvv7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_bonereaper.png" id="1_5idly"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_421of"]
 atlas = ExtResource("1_5idly")
@@ -467,7 +467,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xbg2n")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -514,7 +514,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wggav")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -633,7 +633,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wkvjb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -647,7 +647,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dxpqw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -694,7 +694,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p6xjd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -723,7 +723,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_muvy6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

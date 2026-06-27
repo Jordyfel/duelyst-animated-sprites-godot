@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cx27ratygkwnf"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cx27ratygkwnf"]
 
-[ext_resource type="Texture2D" uid="uid://b2w2pjvjab4q4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportorangeorb.png" id="1_1x5ub"]
+[ext_resource type="Texture2D" uid="uid://liic6d0i6hwv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_teleportorangeorb.png" id="1_1x5ub"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ilujd"]
 atlas = ExtResource("1_1x5ub")
@@ -138,7 +138,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qvn24")
 }],
-"loop": true,
+"loop": 1,
 "name": &"teleportorangeorb",
 "speed": 9.0
 }]

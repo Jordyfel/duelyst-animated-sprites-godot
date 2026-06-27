@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://ciqek8xpcviif"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ciqek8xpcviif"]
 
-[ext_resource type="Texture2D" uid="uid://d1gri81jlpgmo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_carddraw.png" id="1_oigmk"]
+[ext_resource type="Texture2D" uid="uid://c3u8j2vsreupr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_carddraw.png" id="1_oigmk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4gnew"]
 atlas = ExtResource("1_oigmk")
@@ -201,7 +201,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6ut88")
 }],
-"loop": true,
+"loop": 1,
 "name": &"carddraw",
 "speed": 9.0
 }]

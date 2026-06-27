@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://xlj7ggw214ir"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://xlj7ggw214ir"]
 
-[ext_resource type="Texture2D" uid="uid://cnlx3wd64eepa" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_psychicconduit.png" id="1_1bw2w"]
+[ext_resource type="Texture2D" uid="uid://bi41kow6lmdsy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_psychicconduit.png" id="1_1bw2w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ysplu"]
 atlas = ExtResource("1_1bw2w")
@@ -161,7 +161,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6mlut")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r1rwm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"psychicconduit",
 "speed": 9.0
 }]

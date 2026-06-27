@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://bdmjux28yfsfr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bdmjux28yfsfr"]
 
-[ext_resource type="Texture2D" uid="uid://dsulv7pdy5h1m" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_mistletoe.png" id="1_pithd"]
+[ext_resource type="Texture2D" uid="uid://co7smjgubd1g7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/boss_christmas_mistletoe.png" id="1_pithd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_crs7m"]
 atlas = ExtResource("1_pithd")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4sn8q")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mpn3g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mistletoe",
 "speed": 9.0
 }]

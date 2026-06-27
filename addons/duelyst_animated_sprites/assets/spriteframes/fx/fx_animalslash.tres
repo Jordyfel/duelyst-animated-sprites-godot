@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cesl33wht7ibc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cesl33wht7ibc"]
 
-[ext_resource type="Texture2D" uid="uid://bwtbyr4ol3xls" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_animalslash.png" id="1_chb25"]
+[ext_resource type="Texture2D" uid="uid://b6jsbvie6hv4l" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_animalslash.png" id="1_chb25"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5ydds"]
 atlas = ExtResource("1_chb25")
@@ -215,7 +215,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x6eag")
 }],
-"loop": true,
+"loop": 1,
 "name": &"animalslash",
 "speed": 9.0
 }]

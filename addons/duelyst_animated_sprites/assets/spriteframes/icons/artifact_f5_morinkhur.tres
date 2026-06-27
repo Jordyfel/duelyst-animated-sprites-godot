@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://ciw11qptbm7e6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ciw11qptbm7e6"]
 
-[ext_resource type="Texture2D" uid="uid://cj2wawgrx7txj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_morinkhur.png" id="1_hla5c"]
+[ext_resource type="Texture2D" uid="uid://bcm34keqwnc25" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_morinkhur.png" id="1_hla5c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cpeut"]
 atlas = ExtResource("1_hla5c")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dfp47")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8ms41")
 }],
-"loop": true,
+"loop": 1,
 "name": &"morinkhur",
 "speed": 9.0
 }]

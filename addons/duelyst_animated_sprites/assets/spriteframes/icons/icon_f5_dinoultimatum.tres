@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://durifumffv3c4"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://durifumffv3c4"]
 
-[ext_resource type="Texture2D" uid="uid://bg3vlieuseuui" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_dinoultimatum.png" id="1_7vrgy"]
+[ext_resource type="Texture2D" uid="uid://kqhyedx2tgaw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_dinoultimatum.png" id="1_7vrgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lcjko"]
 atlas = ExtResource("1_7vrgy")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_estyq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bya0o")
 }],
-"loop": true,
+"loop": 1,
 "name": &"dinoultimatum",
 "speed": 9.0
 }]

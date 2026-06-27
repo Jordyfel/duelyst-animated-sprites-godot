@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://d3iiv7jrd5dg7"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://d3iiv7jrd5dg7"]
 
-[ext_resource type="Texture2D" uid="uid://bovu8otpvtfa4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_communalgifts.png" id="1_deon7"]
+[ext_resource type="Texture2D" uid="uid://biggi8vlopa40" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_communalgifts.png" id="1_deon7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qaovy"]
 atlas = ExtResource("1_deon7")
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_11w08")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xdld5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"communalgifts",
 "speed": 9.0
 }]

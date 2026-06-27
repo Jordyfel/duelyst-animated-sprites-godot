@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=35 format=3 uid="uid://byfs4a5xw8x04"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://byfs4a5xw8x04"]
 
-[ext_resource type="Texture2D" uid="uid://bihn08i2u8w7t" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_standtogether.png" id="1_63rio"]
+[ext_resource type="Texture2D" uid="uid://bx33r43q2160w" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_standtogether.png" id="1_63rio"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uv0s6"]
 atlas = ExtResource("1_63rio")
@@ -218,7 +218,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ag6n4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -241,7 +241,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pjrwj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"standtogether",
 "speed": 9.0
 }]

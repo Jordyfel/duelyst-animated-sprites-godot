@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://b2ddxvrgk35aj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b2ddxvrgk35aj"]
 
-[ext_resource type="Texture2D" uid="uid://vsc8stqfrgm5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_magitekupgrade.png" id="1_17igv"]
+[ext_resource type="Texture2D" uid="uid://c0fcxkbtljhpw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_magitekupgrade.png" id="1_17igv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f4bak"]
 atlas = ExtResource("1_17igv")
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bxpfs")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xpeis")
 }],
-"loop": true,
+"loop": 1,
 "name": &"magitekupgrade",
 "speed": 9.0
 }]

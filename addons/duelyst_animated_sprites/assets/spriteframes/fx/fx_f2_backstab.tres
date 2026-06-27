@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://kl8v88e7cp4d"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://kl8v88e7cp4d"]
 
-[ext_resource type="Texture2D" uid="uid://bcinag3o6emkr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_backstab.png" id="1_ivbdv"]
+[ext_resource type="Texture2D" uid="uid://bcy1wk8nwqs2b" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_backstab.png" id="1_ivbdv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4l21h"]
 atlas = ExtResource("1_ivbdv")
@@ -61,7 +61,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qo3nq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"backstab",
 "speed": 9.0
 }]

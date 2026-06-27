@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://bnkgep0vsdwoj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bnkgep0vsdwoj"]
 
-[ext_resource type="Texture2D" uid="uid://drxjjvubwc8bg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_shadowreflection.png" id="1_4bywq"]
+[ext_resource type="Texture2D" uid="uid://db13qa2mh0s6v" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_shadowreflection.png" id="1_4bywq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_py2y4"]
 atlas = ExtResource("1_4bywq")
@@ -208,7 +208,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_diyrm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shadowreflection",
 "speed": 9.0
 }]

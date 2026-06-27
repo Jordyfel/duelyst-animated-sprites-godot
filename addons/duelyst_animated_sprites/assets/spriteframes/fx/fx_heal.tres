@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://b8l68vanyn2wq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b8l68vanyn2wq"]
 
-[ext_resource type="Texture2D" uid="uid://old75wtxcylw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_heal.png" id="1_i08q5"]
+[ext_resource type="Texture2D" uid="uid://d2r3sysfd7pcx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_heal.png" id="1_i08q5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sq2lh"]
 atlas = ExtResource("1_i08q5")
@@ -110,7 +110,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eaesd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"heal",
 "speed": 9.0
 }]

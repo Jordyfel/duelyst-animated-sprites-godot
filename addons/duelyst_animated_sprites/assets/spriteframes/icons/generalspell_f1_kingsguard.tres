@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://5j0e0j8y7i3f"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://5j0e0j8y7i3f"]
 
-[ext_resource type="Texture2D" uid="uid://ct1mgkrwd5psy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f1_kingsguard.png" id="1_wph6u"]
+[ext_resource type="Texture2D" uid="uid://xgyfmtovi5fx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f1_kingsguard.png" id="1_wph6u"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sj2ji"]
 atlas = ExtResource("1_wph6u")
@@ -133,7 +133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_a6oph")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0mprb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"kingsguard",
 "speed": 9.0
 }]

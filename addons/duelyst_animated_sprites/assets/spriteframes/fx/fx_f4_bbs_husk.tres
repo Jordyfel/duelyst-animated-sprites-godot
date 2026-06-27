@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=57 format=3 uid="uid://ce0toa4k57bpp"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ce0toa4k57bpp"]
 
-[ext_resource type="Texture2D" uid="uid://d0vu02lf1mygj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_bbs_husk.png" id="1_nd8vj"]
+[ext_resource type="Texture2D" uid="uid://c0aysqqivhocu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_bbs_husk.png" id="1_nd8vj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nqmju"]
 atlas = ExtResource("1_nd8vj")
@@ -390,7 +390,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5d1gv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"husk",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=33 format=3 uid="uid://8ml2oke3lwhq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://8ml2oke3lwhq"]
 
-[ext_resource type="Texture2D" uid="uid://bbgdh4wi7ohxm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_perfectreflection.png" id="1_pys3g"]
+[ext_resource type="Texture2D" uid="uid://b58k3guintei2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_perfectreflection.png" id="1_pys3g"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_larsy"]
 atlas = ExtResource("1_pys3g")
@@ -222,7 +222,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_n7ltn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"perfectreflection",
 "speed": 9.0
 }]

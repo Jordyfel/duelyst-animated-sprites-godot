@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://c3uycap72aek6"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3uycap72aek6"]
 
-[ext_resource type="Texture2D" uid="uid://v326hejb2sf1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_thegibblecup.png" id="1_8t0ks"]
+[ext_resource type="Texture2D" uid="uid://ba5dyahhqj70n" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_thegibblecup.png" id="1_8t0ks"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vx3x1"]
 atlas = ExtResource("1_8t0ks")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_71pgh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_y6osm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"thegibblecup",
 "speed": 9.0
 }]

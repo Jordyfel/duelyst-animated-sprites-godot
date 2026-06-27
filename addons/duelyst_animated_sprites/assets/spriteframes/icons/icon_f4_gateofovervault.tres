@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://b40coks3kl7n"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b40coks3kl7n"]
 
-[ext_resource type="Texture2D" uid="uid://trrap7ajjje3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_gateofovervault.png" id="1_cl4po"]
+[ext_resource type="Texture2D" uid="uid://b5hipt3po2pad" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_gateofovervault.png" id="1_cl4po"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e336v"]
 atlas = ExtResource("1_cl4po")
@@ -130,7 +130,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2enet")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xqccu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gateofovervault",
 "speed": 9.0
 }]

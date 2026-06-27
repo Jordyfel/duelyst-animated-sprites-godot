@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://dd742r8spavjb"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dd742r8spavjb"]
 
-[ext_resource type="Texture2D" uid="uid://d1r1o878cruu5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_ninjutsumagics.png" id="1_amgcj"]
+[ext_resource type="Texture2D" uid="uid://3kmjx1tx45i" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_ninjutsumagics.png" id="1_amgcj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t1crr"]
 atlas = ExtResource("1_amgcj")
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eof58")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qusbu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ninjutsumagics",
 "speed": 9.0
 }]

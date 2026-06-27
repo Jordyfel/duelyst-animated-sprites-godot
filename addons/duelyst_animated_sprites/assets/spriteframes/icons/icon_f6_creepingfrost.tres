@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://ck5h62pnrg1bq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ck5h62pnrg1bq"]
 
-[ext_resource type="Texture2D" uid="uid://bywyueewxc7mp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_creepingfrost.png" id="1_aqmeg"]
+[ext_resource type="Texture2D" uid="uid://c7rekj5r0tsl3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_creepingfrost.png" id="1_aqmeg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i8j6k"]
 atlas = ExtResource("1_aqmeg")
@@ -191,7 +191,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kifah")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_e0l5g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"creepingfrost",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=42 format=3 uid="uid://brnthxfubhfn0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://brnthxfubhfn0"]
 
-[ext_resource type="Texture2D" uid="uid://cx2csmq40n1b6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_vortexswirl.png" id="1_nk3io"]
+[ext_resource type="Texture2D" uid="uid://bg6vop0870vj0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_vortexswirl.png" id="1_nk3io"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6hulw"]
 atlas = ExtResource("1_nk3io")
@@ -285,7 +285,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_acqac")
 }],
-"loop": true,
+"loop": 1,
 "name": &"vortexswirl",
 "speed": 9.0
 }]

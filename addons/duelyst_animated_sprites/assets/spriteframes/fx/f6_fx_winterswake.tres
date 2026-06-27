@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://cbvmcdqhg2c87"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbvmcdqhg2c87"]
 
-[ext_resource type="Texture2D" uid="uid://cwm0u65da07rf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/f6_fx_winterswake.png" id="1_kwhid"]
+[ext_resource type="Texture2D" uid="uid://coayatwav2md8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/f6_fx_winterswake.png" id="1_kwhid"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iispj"]
 atlas = ExtResource("1_kwhid")
@@ -208,7 +208,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mcdc8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"winterswake",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://bluxk5nbdfyyd"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bluxk5nbdfyyd"]
 
-[ext_resource type="Texture2D" uid="uid://bj1f5jo061td" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_aspectofthedrake.png" id="1_8gtce"]
+[ext_resource type="Texture2D" uid="uid://cnfrh5spifdxu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_aspectofthedrake.png" id="1_8gtce"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vfrq0"]
 atlas = ExtResource("1_8gtce")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bwgj6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0fqga")
 }],
-"loop": true,
+"loop": 1,
 "name": &"aspectofthedrake",
 "speed": 9.0
 }]

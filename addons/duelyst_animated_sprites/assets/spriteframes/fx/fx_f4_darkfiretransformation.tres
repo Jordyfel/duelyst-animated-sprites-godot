@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://qqmh2xfyaoig"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://qqmh2xfyaoig"]
 
-[ext_resource type="Texture2D" uid="uid://ct78xixc0g1ut" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_darkfiretransformation.png" id="1_13sje"]
+[ext_resource type="Texture2D" uid="uid://cd64paqb07mhn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_darkfiretransformation.png" id="1_13sje"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gulww"]
 atlas = ExtResource("1_13sje")
@@ -187,7 +187,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lkqjk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"darkfiretransformation",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://ccndhul41owmv"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ccndhul41owmv"]
 
-[ext_resource type="Texture2D" uid="uid://dgcujhfo8bgf6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionredelectrical.png" id="1_ryogd"]
+[ext_resource type="Texture2D" uid="uid://q8ytc0s8272d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionredelectrical.png" id="1_ryogd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pwr7k"]
 atlas = ExtResource("1_ryogd")
@@ -75,7 +75,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gfbvj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"explosionredelectrical",
 "speed": 9.0
 }]

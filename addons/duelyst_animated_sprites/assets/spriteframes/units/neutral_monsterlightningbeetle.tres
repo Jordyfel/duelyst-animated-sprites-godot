@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=76 format=3 uid="uid://ctxomw5n33wxn"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ctxomw5n33wxn"]
 
-[ext_resource type="Texture2D" uid="uid://dmxuej1sgcfqb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_monsterlightningbeetle.png" id="1_s3erl"]
+[ext_resource type="Texture2D" uid="uid://d3in2oufgrv2a" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_monsterlightningbeetle.png" id="1_s3erl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b8vof"]
 atlas = ExtResource("1_s3erl")
@@ -376,7 +376,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_javij")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -423,7 +423,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_355y1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -452,7 +452,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_66ss4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -466,7 +466,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ojabh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -507,7 +507,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_w1c41")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -548,7 +548,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_721t2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

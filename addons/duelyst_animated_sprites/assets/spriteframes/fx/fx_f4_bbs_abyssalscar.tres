@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=45 format=3 uid="uid://ccwkijmwx87tg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ccwkijmwx87tg"]
 
-[ext_resource type="Texture2D" uid="uid://bfj12qn417h13" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_bbs_abyssalscar.png" id="1_i5qbe"]
+[ext_resource type="Texture2D" uid="uid://b7djjgxybsan1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_bbs_abyssalscar.png" id="1_i5qbe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wni1w"]
 atlas = ExtResource("1_i5qbe")
@@ -306,7 +306,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_y78kr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"abyssalscar",
 "speed": 9.0
 }]

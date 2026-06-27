@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://cedtbvok6dlxs"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cedtbvok6dlxs"]
 
-[ext_resource type="Texture2D" uid="uid://doctbsnogvd0x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_perilousfooting.png" id="1_v8jnn"]
+[ext_resource type="Texture2D" uid="uid://gsfi63y4s881" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_perilousfooting.png" id="1_v8jnn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p0e3m"]
 atlas = ExtResource("1_v8jnn")
@@ -127,7 +127,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6ek5g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_g2fps")
 }],
-"loop": true,
+"loop": 1,
 "name": &"perilousfooting",
 "speed": 9.0
 }]

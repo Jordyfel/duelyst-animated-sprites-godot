@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://c2sunti5aoapk"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c2sunti5aoapk"]
 
-[ext_resource type="Texture2D" uid="uid://b84vhx80adud0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_tickletendril.png" id="1_00tt2"]
+[ext_resource type="Texture2D" uid="uid://b6dgftclrsvp8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_tickletendril.png" id="1_00tt2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pv585"]
 atlas = ExtResource("1_00tt2")
@@ -110,7 +110,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_70f8m")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_migid")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tickletendril",
 "speed": 9.0
 }]

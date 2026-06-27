@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=34 format=3 uid="uid://cj7rh5qd3dx2"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cj7rh5qd3dx2"]
 
-[ext_resource type="Texture2D" uid="uid://duwmsvw65j43w" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f4_supershadowspawn.png" id="1_m1o7o"]
+[ext_resource type="Texture2D" uid="uid://blc1h378c38cu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f4_supershadowspawn.png" id="1_m1o7o"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kt0m1"]
 atlas = ExtResource("1_m1o7o")
@@ -181,7 +181,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fq3oo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -234,7 +234,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6s2wv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"supershadowspawn",
 "speed": 9.0
 }]

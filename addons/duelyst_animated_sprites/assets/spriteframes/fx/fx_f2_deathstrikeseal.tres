@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=33 format=3 uid="uid://dnteamhb7vge5"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnteamhb7vge5"]
 
-[ext_resource type="Texture2D" uid="uid://c8a33aqvyklrf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_deathstrikeseal.png" id="1_mb02e"]
+[ext_resource type="Texture2D" uid="uid://dwhlxc15gn7ab" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_deathstrikeseal.png" id="1_mb02e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sfk0c"]
 atlas = ExtResource("1_mb02e")
@@ -222,7 +222,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_o5ect")
 }],
-"loop": true,
+"loop": 1,
 "name": &"deathstrikeseal",
 "speed": 9.0
 }]

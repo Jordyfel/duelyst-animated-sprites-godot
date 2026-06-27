@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://cuuu3ot74d5vm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cuuu3ot74d5vm"]
 
-[ext_resource type="Texture2D" uid="uid://dcms3i81nmbii" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_shatter.png" id="1_2q1wm"]
+[ext_resource type="Texture2D" uid="uid://dmghy5rr8wn3c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_shatter.png" id="1_2q1wm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_am8e6"]
 atlas = ExtResource("1_2q1wm")
@@ -141,7 +141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gfcq8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6tlei")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shatter",
 "speed": 9.0
 }]

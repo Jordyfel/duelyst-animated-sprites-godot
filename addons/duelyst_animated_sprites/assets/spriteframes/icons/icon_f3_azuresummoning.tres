@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://c5d0pu0hl68nw"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5d0pu0hl68nw"]
 
-[ext_resource type="Texture2D" uid="uid://c102j3msfx8t2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_azuresummoning.png" id="1_eiwt5"]
+[ext_resource type="Texture2D" uid="uid://cu8uccxf6g4sm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_azuresummoning.png" id="1_eiwt5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5soj2"]
 atlas = ExtResource("1_eiwt5")
@@ -192,7 +192,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wagg5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -206,7 +206,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4sr8x")
 }],
-"loop": true,
+"loop": 1,
 "name": &"azuresummoning",
 "speed": 9.0
 }]

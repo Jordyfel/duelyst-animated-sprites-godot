@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://dmv1i3bj44scs"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dmv1i3bj44scs"]
 
-[ext_resource type="Texture2D" uid="uid://dp1nk8v34vw33" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2.png" id="1_pjw6e"]
+[ext_resource type="Texture2D" uid="uid://dbgq3p6m2h44o" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2.png" id="1_pjw6e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_81bre"]
 atlas = ExtResource("1_pjw6e")
@@ -104,7 +104,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hv31l")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -133,7 +133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rdepk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"devour",
 "speed": 9.0
 }, {
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xkqmu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"syphon",
 "speed": 9.0
 }]

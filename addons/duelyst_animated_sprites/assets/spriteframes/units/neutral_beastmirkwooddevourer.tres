@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=65 format=3 uid="uid://c6bn3nskcwdh7"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c6bn3nskcwdh7"]
 
-[ext_resource type="Texture2D" uid="uid://dqy5duwqk7kbc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_beastmirkwooddevourer.png" id="1_qhkby"]
+[ext_resource type="Texture2D" uid="uid://drv024mepa401" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_beastmirkwooddevourer.png" id="1_qhkby"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_idbta"]
 atlas = ExtResource("1_qhkby")
@@ -323,7 +323,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8biuj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -358,7 +358,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1q2ee")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -393,7 +393,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p0agr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -407,7 +407,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8xe86")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -442,7 +442,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ox605")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -471,7 +471,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_irpfd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

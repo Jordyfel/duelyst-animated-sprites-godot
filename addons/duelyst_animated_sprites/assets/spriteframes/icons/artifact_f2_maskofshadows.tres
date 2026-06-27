@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dbv40fcrb1grv"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dbv40fcrb1grv"]
 
-[ext_resource type="Texture2D" uid="uid://b7gfl141tshwd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_maskofshadows.png" id="1_pb8dv"]
+[ext_resource type="Texture2D" uid="uid://kxjxfmgqq5db" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f2_maskofshadows.png" id="1_pb8dv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ifr2e"]
 atlas = ExtResource("1_pb8dv")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l6ph2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nnbrj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"maskofshadows",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://done73swepd2u"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://done73swepd2u"]
 
-[ext_resource type="Texture2D" uid="uid://ckggnto42suwo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_heartborrower.png" id="1_oahhw"]
+[ext_resource type="Texture2D" uid="uid://bw7aqddj10qul" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f4_heartborrower.png" id="1_oahhw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s1lho"]
 atlas = ExtResource("1_oahhw")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2yxts")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ifnya")
 }],
-"loop": true,
+"loop": 1,
 "name": &"heartborrower",
 "speed": 9.0
 }]

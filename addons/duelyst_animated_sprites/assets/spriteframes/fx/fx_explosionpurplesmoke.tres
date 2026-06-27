@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://b8xm6wsbgnr03"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b8xm6wsbgnr03"]
 
-[ext_resource type="Texture2D" uid="uid://g1un1htmn7x7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionpurplesmoke.png" id="1_2kvkc"]
+[ext_resource type="Texture2D" uid="uid://dicau3bhuj7s3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_explosionpurplesmoke.png" id="1_2kvkc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rckdw"]
 atlas = ExtResource("1_2kvkc")
@@ -54,7 +54,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tttcy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"explosionpurplesmoke",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://5frb8brbdjlr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://5frb8brbdjlr"]
 
-[ext_resource type="Texture2D" uid="uid://ceb1d60fp2p8f" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_dampeningwave.png" id="1_f4l5o"]
+[ext_resource type="Texture2D" uid="uid://jin5wr65jpmu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_dampeningwave.png" id="1_f4l5o"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rljuw"]
 atlas = ExtResource("1_f4l5o")
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qlghn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_m2xtl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"dampeningwave",
 "speed": 9.0
 }]

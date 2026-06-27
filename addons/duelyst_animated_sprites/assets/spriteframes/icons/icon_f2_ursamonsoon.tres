@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://c52s88aylx4kl"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c52s88aylx4kl"]
 
-[ext_resource type="Texture2D" uid="uid://dv3e6ll4g0ro4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_ursamonsoon.png" id="1_skcr2"]
+[ext_resource type="Texture2D" uid="uid://dy62k75pb1rht" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_ursamonsoon.png" id="1_skcr2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g33oe"]
 atlas = ExtResource("1_skcr2")
@@ -175,7 +175,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_q2bgs")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -192,7 +192,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u6wyc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ursamonsoon",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://ck0kvy8uvolpm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ck0kvy8uvolpm"]
 
-[ext_resource type="Texture2D" uid="uid://dkjt5s41jb77u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_blessing.png" id="1_odems"]
+[ext_resource type="Texture2D" uid="uid://d21ui4t35gsj0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_blessing.png" id="1_odems"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e1ni2"]
 atlas = ExtResource("1_odems")
@@ -127,7 +127,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pi5b0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_m3yne")
 }],
-"loop": true,
+"loop": 1,
 "name": &"blessing",
 "speed": 9.0
 }]

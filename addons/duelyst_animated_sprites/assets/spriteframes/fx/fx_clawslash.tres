@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=7 format=3 uid="uid://cyy5ieqb20cdc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyy5ieqb20cdc"]
 
-[ext_resource type="Texture2D" uid="uid://div3d3vjwgjcx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_clawslash.png" id="1_5j1hq"]
+[ext_resource type="Texture2D" uid="uid://cantd140c4wh3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_clawslash.png" id="1_5j1hq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pora6"]
 atlas = ExtResource("1_5j1hq")
@@ -40,7 +40,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wi7ts")
 }],
-"loop": true,
+"loop": 1,
 "name": &"clawslash",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://5x7gbohkoq2g"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://5x7gbohkoq2g"]
 
-[ext_resource type="Texture2D" uid="uid://do5oet2ekwpys" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_inkhorngaze.png" id="1_oa1ki"]
+[ext_resource type="Texture2D" uid="uid://disloc6knf7s7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_inkhorngaze.png" id="1_oa1ki"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eq8tf"]
 atlas = ExtResource("1_oa1ki")
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_043r6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_i08ng")
 }],
-"loop": true,
+"loop": 1,
 "name": &"inkhorngaze",
 "speed": 9.0
 }]

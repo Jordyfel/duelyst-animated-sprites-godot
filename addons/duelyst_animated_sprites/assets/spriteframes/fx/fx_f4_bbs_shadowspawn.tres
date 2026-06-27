@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=46 format=3 uid="uid://deoynt0hd8sgo"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://deoynt0hd8sgo"]
 
-[ext_resource type="Texture2D" uid="uid://cfchgk7wjmmhb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_bbs_shadowspawn.png" id="1_cpvdc"]
+[ext_resource type="Texture2D" uid="uid://cxklk1lscs3or" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_bbs_shadowspawn.png" id="1_cpvdc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_db5m8"]
 atlas = ExtResource("1_cpvdc")
@@ -313,7 +313,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fw3qo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shadowspawn",
 "speed": 9.0
 }]

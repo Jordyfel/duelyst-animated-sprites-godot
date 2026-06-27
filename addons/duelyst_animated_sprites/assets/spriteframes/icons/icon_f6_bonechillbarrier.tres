@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://d3c1rywpv42nf"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://d3c1rywpv42nf"]
 
-[ext_resource type="Texture2D" uid="uid://sa4punqtdxdn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_bonechillbarrier.png" id="1_5fjo8"]
+[ext_resource type="Texture2D" uid="uid://da3l8fweg12fr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_bonechillbarrier.png" id="1_5fjo8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5gk7o"]
 atlas = ExtResource("1_5fjo8")
@@ -84,7 +84,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dcey4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2y6p1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"bonechillbarrier",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://b8isrt1rnqnr5"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b8isrt1rnqnr5"]
 
-[ext_resource type="Texture2D" uid="uid://dxbmygnj8d8j3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f6_snowshovel.png" id="1_dn2lg"]
+[ext_resource type="Texture2D" uid="uid://2lj1yfaq06ed" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f6_snowshovel.png" id="1_dn2lg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m5q7o"]
 atlas = ExtResource("1_dn2lg")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2gdgv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_f06an")
 }],
-"loop": true,
+"loop": 1,
 "name": &"snowshovel",
 "speed": 9.0
 }]

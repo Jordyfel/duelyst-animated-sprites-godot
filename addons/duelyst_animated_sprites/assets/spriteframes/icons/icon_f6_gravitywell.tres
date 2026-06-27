@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://chyyke5crud6t"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://chyyke5crud6t"]
 
-[ext_resource type="Texture2D" uid="uid://cboas1wo4qntb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_gravitywell.png" id="1_3t6fv"]
+[ext_resource type="Texture2D" uid="uid://e31y4520620j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_gravitywell.png" id="1_3t6fv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xsfn0"]
 atlas = ExtResource("1_3t6fv")
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ifawo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_k5h4s")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravitywell",
 "speed": 9.0
 }]

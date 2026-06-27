@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=48 format=3 uid="uid://derd5h8i8ej0t"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://derd5h8i8ej0t"]
 
-[ext_resource type="Texture2D" uid="uid://c8fm3uoy402ib" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_starsfury.png" id="1_h88dp"]
+[ext_resource type="Texture2D" uid="uid://p0pgxo4dhyyi" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_starsfury.png" id="1_h88dp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mri6q"]
 atlas = ExtResource("1_h88dp")
@@ -327,7 +327,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l6in8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"starsfury",
 "speed": 9.0
 }]

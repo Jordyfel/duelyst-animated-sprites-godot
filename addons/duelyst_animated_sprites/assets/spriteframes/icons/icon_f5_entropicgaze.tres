@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://bwr4nyt76nhff"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bwr4nyt76nhff"]
 
-[ext_resource type="Texture2D" uid="uid://51j22kqtw30f" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_entropicgaze.png" id="1_dckil"]
+[ext_resource type="Texture2D" uid="uid://bt4406t105bn8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_entropicgaze.png" id="1_dckil"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3mbh3"]
 atlas = ExtResource("1_dckil")
@@ -158,7 +158,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_f4gb8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_v2st0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"entropicgaze",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://bj0dxay6hyixy"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bj0dxay6hyixy"]
 
-[ext_resource type="Texture2D" uid="uid://l4f3vs5pfn1k" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/f4_shadowblossom.png" id="1_3c87d"]
+[ext_resource type="Texture2D" uid="uid://cc5jr7xa0kjrq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/f4_shadowblossom.png" id="1_3c87d"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3x7a3"]
 atlas = ExtResource("1_3c87d")
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_w8x6u")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_g1hmy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shadowblossom",
 "speed": 9.0
 }]

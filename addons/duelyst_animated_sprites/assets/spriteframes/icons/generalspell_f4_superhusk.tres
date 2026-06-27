@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://ct0hh0n4xpum"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ct0hh0n4xpum"]
 
-[ext_resource type="Texture2D" uid="uid://j5t4nkqk3vh8" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f4_superhusk.png" id="1_6fkiw"]
+[ext_resource type="Texture2D" uid="uid://cqxrb5fme8iho" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f4_superhusk.png" id="1_6fkiw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eqj13"]
 atlas = ExtResource("1_6fkiw")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qcbpc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cf3en")
 }],
-"loop": true,
+"loop": 1,
 "name": &"superhusk",
 "speed": 9.0
 }]

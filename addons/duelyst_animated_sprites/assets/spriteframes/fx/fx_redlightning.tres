@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://83ulc8pnsfcb"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://83ulc8pnsfcb"]
 
-[ext_resource type="Texture2D" uid="uid://dhogasoalksjn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_redlightning.png" id="1_extts"]
+[ext_resource type="Texture2D" uid="uid://ct5out2vca0h6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_redlightning.png" id="1_extts"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eduvt"]
 atlas = ExtResource("1_extts")
@@ -47,7 +47,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l3jqg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"redlightning",
 "speed": 9.0
 }]

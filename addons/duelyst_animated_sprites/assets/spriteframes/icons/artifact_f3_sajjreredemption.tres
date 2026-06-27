@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://b127v3ykucmnl"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b127v3ykucmnl"]
 
-[ext_resource type="Texture2D" uid="uid://c1dxby2ihqypu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_sajjreredemption.png" id="1_iu0kx"]
+[ext_resource type="Texture2D" uid="uid://1easi1ipxgvq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_sajjreredemption.png" id="1_iu0kx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nruxp"]
 atlas = ExtResource("1_iu0kx")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vvjrl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3qfqd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"sajjreredemption",
 "speed": 9.0
 }]

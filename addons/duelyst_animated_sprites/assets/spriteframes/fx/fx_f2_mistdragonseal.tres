@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=33 format=3 uid="uid://ca7vkk7e7f3iu"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ca7vkk7e7f3iu"]
 
-[ext_resource type="Texture2D" uid="uid://iiyfpjnl7r7c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_mistdragonseal.png" id="1_5v80c"]
+[ext_resource type="Texture2D" uid="uid://jqnx5dclxn2q" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_mistdragonseal.png" id="1_5v80c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tx4sd"]
 atlas = ExtResource("1_5v80c")
@@ -222,7 +222,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3tpyy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mistdragonseal",
 "speed": 9.0
 }]

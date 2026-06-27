@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://b7jkdmab1m8xn"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7jkdmab1m8xn"]
 
-[ext_resource type="Texture2D" uid="uid://cs0bd2gmqcpmj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_deathfirecrescendo.png" id="1_kv2dc"]
+[ext_resource type="Texture2D" uid="uid://cl27jvmyqss2l" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_deathfirecrescendo.png" id="1_kv2dc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1ogst"]
 atlas = ExtResource("1_kv2dc")
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6lmjh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ge267")
 }],
-"loop": true,
+"loop": 1,
 "name": &"deathfirecrescendo",
 "speed": 9.0
 }]

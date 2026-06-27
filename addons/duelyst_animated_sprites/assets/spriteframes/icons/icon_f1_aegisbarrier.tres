@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://bce0gvppbwt8n"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bce0gvppbwt8n"]
 
-[ext_resource type="Texture2D" uid="uid://0uk3tft01g6k" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_aegisbarrier.png" id="1_4y3av"]
+[ext_resource type="Texture2D" uid="uid://chreov7113c5t" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_aegisbarrier.png" id="1_4y3av"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vi6sc"]
 atlas = ExtResource("1_4y3av")
@@ -169,7 +169,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4ugq8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -192,7 +192,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5l5ld")
 }],
-"loop": true,
+"loop": 1,
 "name": &"aegisbarrier",
 "speed": 9.0
 }]

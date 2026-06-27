@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=34 format=3 uid="uid://0n7sso0f7cxv"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://0n7sso0f7cxv"]
 
-[ext_resource type="Texture2D" uid="uid://unniffr3h4cv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_gonewithwind.png" id="1_ttwmx"]
+[ext_resource type="Texture2D" uid="uid://dqiiaf6c8wxv4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_gonewithwind.png" id="1_ttwmx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2d70"]
 atlas = ExtResource("1_ttwmx")
@@ -205,7 +205,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_iosoo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -234,7 +234,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u1g0g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gonewithwind",
 "speed": 9.0
 }]

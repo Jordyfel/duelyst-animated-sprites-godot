@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://b72b2gi8kbgei"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b72b2gi8kbgei"]
 
-[ext_resource type="Texture2D" uid="uid://dk8dtssxtvrqx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f3_windshroud2.png" id="1_6be0d"]
+[ext_resource type="Texture2D" uid="uid://cgqpt7efppat3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/generalspell_f3_windshroud2.png" id="1_6be0d"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jpyks"]
 atlas = ExtResource("1_6be0d")
@@ -133,7 +133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r55bb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xwtp4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windshroud2",
 "speed": 9.0
 }]

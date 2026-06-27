@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://gyowgvwq81gg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://gyowgvwq81gg"]
 
-[ext_resource type="Texture2D" uid="uid://c2bt7mbi748ry" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_matchtwo.png" id="1_8j84m"]
+[ext_resource type="Texture2D" uid="uid://cy6rm28hm7ykh" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_matchtwo.png" id="1_8j84m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pwk66"]
 atlas = ExtResource("1_8j84m")
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wg86e")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jwodv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"matchtwo",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://wqv0khh5sl7y"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://wqv0khh5sl7y"]
 
-[ext_resource type="Texture2D" uid="uid://bqrucj6u6daxm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_flashreincarnation.png" id="1_a7mr0"]
+[ext_resource type="Texture2D" uid="uid://hvocm6826tbt" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f5_flashreincarnation.png" id="1_a7mr0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xn7xd"]
 atlas = ExtResource("1_a7mr0")
@@ -173,7 +173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_go50e")
 }],
-"loop": true,
+"loop": 1,
 "name": &"flashreincarnation",
 "speed": 9.0
 }]

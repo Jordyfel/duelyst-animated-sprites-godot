@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://djij27wrrqy5p"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://djij27wrrqy5p"]
 
-[ext_resource type="Texture2D" uid="uid://c7lqaucl004cf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_arclyteregalia.png" id="1_2uyar"]
+[ext_resource type="Texture2D" uid="uid://cp42xsxn4q815" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_arclyteregalia.png" id="1_2uyar"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rvesu"]
 atlas = ExtResource("1_2uyar")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_uxxos")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ejvqn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"arclyteregalia",
 "speed": 9.0
 }]

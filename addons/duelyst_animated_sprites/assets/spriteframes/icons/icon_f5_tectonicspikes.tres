@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://clqdkxx77p17a"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://clqdkxx77p17a"]
 
-[ext_resource type="Texture2D" uid="uid://co1h71rai8kog" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_tectonicspikes.png" id="1_fj4eb"]
+[ext_resource type="Texture2D" uid="uid://bjq5a7yy0r24j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_tectonicspikes.png" id="1_fj4eb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2pv6k"]
 atlas = ExtResource("1_fj4eb")
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_auh7s")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pskjk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tectonicspikes",
 "speed": 9.0
 }]

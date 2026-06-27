@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://rpo6vf1aams3"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://rpo6vf1aams3"]
 
-[ext_resource type="Texture2D" uid="uid://s3td21n1bg2x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_chainlightning.png" id="1_v7s46"]
+[ext_resource type="Texture2D" uid="uid://cg56di30hd3te" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_chainlightning.png" id="1_v7s46"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_aftqo"]
 atlas = ExtResource("1_v7s46")
@@ -47,7 +47,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_i528h")
 }],
-"loop": true,
+"loop": 1,
 "name": &"chainlightningblue",
 "speed": 9.0
 }]

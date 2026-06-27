@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://c37avaqwtxwux"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c37avaqwtxwux"]
 
-[ext_resource type="Texture2D" uid="uid://b8nbesbxakdew" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_warsurge.png" id="1_18jax"]
+[ext_resource type="Texture2D" uid="uid://tp3w32b1ku6u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_warsurge.png" id="1_18jax"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1mx2q"]
 atlas = ExtResource("1_18jax")
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_teci4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1wchc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"warsurge",
 "speed": 9.0
 }]

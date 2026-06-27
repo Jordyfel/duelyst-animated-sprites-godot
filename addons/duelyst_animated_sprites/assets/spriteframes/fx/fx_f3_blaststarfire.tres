@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://cm7goohkq6hho"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cm7goohkq6hho"]
 
-[ext_resource type="Texture2D" uid="uid://dqyhxcfoyx6g3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_blaststarfire.png" id="1_kuevv"]
+[ext_resource type="Texture2D" uid="uid://bwkb5ykyp1g7x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_blaststarfire.png" id="1_kuevv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jy4em"]
 atlas = ExtResource("1_kuevv")
@@ -173,7 +173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qn03d")
 }],
-"loop": true,
+"loop": 1,
 "name": &"blaststarfire",
 "speed": 9.0
 }]

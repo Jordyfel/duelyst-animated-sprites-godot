@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cabe6kp07mkuo"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cabe6kp07mkuo"]
 
-[ext_resource type="Texture2D" uid="uid://c3tgtk2whbuw3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_shieldofphalanx.png" id="1_4an0r"]
+[ext_resource type="Texture2D" uid="uid://bcp6aehk8shfm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_shieldofphalanx.png" id="1_4an0r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rclfw"]
 atlas = ExtResource("1_4an0r")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nti1t")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r0f3c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shieldofphalanx",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=98 format=3 uid="uid://b6xoosqibn5py"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b6xoosqibn5py"]
 
-[ext_resource type="Texture2D" uid="uid://b6gp72a7yri6j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_hollowgrovekeeper.png" id="1_53k81"]
+[ext_resource type="Texture2D" uid="uid://c1jo6eii7yy87" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_hollowgrovekeeper.png" id="1_53k81"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wicgl"]
 atlas = ExtResource("1_53k81")
@@ -509,7 +509,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hqqxg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -556,7 +556,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_w1608")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -594,7 +594,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bbue0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -608,7 +608,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jl65l")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -673,7 +673,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sd1ch")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -702,7 +702,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ssxg5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

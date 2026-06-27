@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=33 format=3 uid="uid://beio23vwcvt17"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://beio23vwcvt17"]
 
-[ext_resource type="Texture2D" uid="uid://bn33moocudywn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_onyxbearseal.png" id="1_i3gyc"]
+[ext_resource type="Texture2D" uid="uid://6urguxd3kuqm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_onyxbearseal.png" id="1_i3gyc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7x7ci"]
 atlas = ExtResource("1_i3gyc")
@@ -222,7 +222,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vuh4v")
 }],
-"loop": true,
+"loop": 1,
 "name": &"onyxbearseal",
 "speed": 9.0
 }]

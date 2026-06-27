@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://xdrk0c44dcie"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://xdrk0c44dcie"]
 
-[ext_resource type="Texture2D" uid="uid://b802npglp3php" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_casterprojectile.png" id="1_51ugc"]
+[ext_resource type="Texture2D" uid="uid://bthhnupj8cy6e" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_casterprojectile.png" id="1_51ugc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pc7tg"]
 atlas = ExtResource("1_51ugc")
@@ -119,7 +119,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_plsn5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"f1casterprojectile",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ck3l3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"f1casterprojectilecharge",
 "speed": 9.0
 }]

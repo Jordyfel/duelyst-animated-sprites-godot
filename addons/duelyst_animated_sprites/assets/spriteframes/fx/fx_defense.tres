@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://c73d2ctm801eh"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c73d2ctm801eh"]
 
-[ext_resource type="Texture2D" uid="uid://cilk68d30o7ov" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_defense.png" id="1_cq7a6"]
+[ext_resource type="Texture2D" uid="uid://vcpi25oagxqc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_defense.png" id="1_cq7a6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gc1hi"]
 atlas = ExtResource("1_cq7a6")
@@ -76,7 +76,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8i8js")
 }],
-"loop": true,
+"loop": 1,
 "name": &"floatingshield",
 "speed": 9.0
 }, {
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rhyjl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"forcefield",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://b75v6pq1wraeb"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b75v6pq1wraeb"]
 
-[ext_resource type="Texture2D" uid="uid://cqy8cdhj7iptk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_laceratingfrost.png" id="1_t83nk"]
+[ext_resource type="Texture2D" uid="uid://djeuy4253kedv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_laceratingfrost.png" id="1_t83nk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fmsqv"]
 atlas = ExtResource("1_t83nk")
@@ -141,7 +141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1v6pq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -164,7 +164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ju832")
 }],
-"loop": true,
+"loop": 1,
 "name": &"laceratingfrost",
 "speed": 9.0
 }]

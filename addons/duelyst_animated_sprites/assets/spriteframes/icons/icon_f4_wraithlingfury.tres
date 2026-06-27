@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://qts8g6salop0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://qts8g6salop0"]
 
-[ext_resource type="Texture2D" uid="uid://bykwdaw8yymq1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_wraithlingfury.png" id="1_nktdu"]
+[ext_resource type="Texture2D" uid="uid://b78tdpj0wglkb" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_wraithlingfury.png" id="1_nktdu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sy0sb"]
 atlas = ExtResource("1_nktdu")
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vb37f")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ux25i")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wraithlingfury",
 "speed": 9.0
 }]

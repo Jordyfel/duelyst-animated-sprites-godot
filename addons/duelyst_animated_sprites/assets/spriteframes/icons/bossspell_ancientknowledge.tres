@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://bv6tpf3sps8ia"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bv6tpf3sps8ia"]
 
-[ext_resource type="Texture2D" uid="uid://b5micu3ubcd84" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_ancientknowledge.png" id="1_dewfb"]
+[ext_resource type="Texture2D" uid="uid://tjgumid6xebl" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_ancientknowledge.png" id="1_dewfb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_btm8x"]
 atlas = ExtResource("1_dewfb")
@@ -87,7 +87,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ns4ms")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mo5lh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ancientknowledge",
 "speed": 9.0
 }]

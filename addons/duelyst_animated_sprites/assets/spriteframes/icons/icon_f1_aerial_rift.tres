@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://m0kcncu2uotg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://m0kcncu2uotg"]
 
-[ext_resource type="Texture2D" uid="uid://dar7d0hox3kwq" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_aerial_rift.png" id="1_pimda"]
+[ext_resource type="Texture2D" uid="uid://c33un4w4ksd6b" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_aerial_rift.png" id="1_pimda"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_owkum"]
 atlas = ExtResource("1_pimda")
@@ -87,7 +87,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_joya3")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5vnij")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rift",
 "speed": 9.0
 }]

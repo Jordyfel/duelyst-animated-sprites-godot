@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dg6m0b0d34c12"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dg6m0b0d34c12"]
 
-[ext_resource type="Texture2D" uid="uid://jvgq5gibw16m" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_sunstonebracers.png" id="1_8twam"]
+[ext_resource type="Texture2D" uid="uid://cua3y4h6jr2ms" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_sunstonebracers.png" id="1_8twam"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3npaq"]
 atlas = ExtResource("1_8twam")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6nuuw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tq16y")
 }],
-"loop": true,
+"loop": 1,
 "name": &"sunstonebracers",
 "speed": 9.0
 }]

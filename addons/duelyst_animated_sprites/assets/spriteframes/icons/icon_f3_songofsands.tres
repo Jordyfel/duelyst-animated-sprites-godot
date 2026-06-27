@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://dbi47g8eo5g8"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dbi47g8eo5g8"]
 
-[ext_resource type="Texture2D" uid="uid://cmse8qo78pdaw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_songofsands.png" id="1_413n5"]
+[ext_resource type="Texture2D" uid="uid://boqwmpfh4jg63" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_songofsands.png" id="1_413n5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3ml4x"]
 atlas = ExtResource("1_413n5")
@@ -149,7 +149,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qifx8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1mh64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"songofsands",
 "speed": 9.0
 }]

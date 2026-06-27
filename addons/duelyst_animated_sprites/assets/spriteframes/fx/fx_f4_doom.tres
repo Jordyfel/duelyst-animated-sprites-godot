@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=35 format=3 uid="uid://ca6b88h754m7k"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ca6b88h754m7k"]
 
-[ext_resource type="Texture2D" uid="uid://cfupibp2qmnmf" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_doom.png" id="1_et2ny"]
+[ext_resource type="Texture2D" uid="uid://cjtf8mtr6ae1p" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_doom.png" id="1_et2ny"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gqrr0"]
 atlas = ExtResource("1_et2ny")
@@ -236,7 +236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4f8mp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"doom",
 "speed": 9.0
 }]

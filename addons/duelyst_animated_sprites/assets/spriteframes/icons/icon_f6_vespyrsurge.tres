@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://bqnvt7g5qfn0w"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bqnvt7g5qfn0w"]
 
-[ext_resource type="Texture2D" uid="uid://clp4syrvufc0x" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_vespyrsurge.png" id="1_8yoa3"]
+[ext_resource type="Texture2D" uid="uid://bqeei43hi7v6c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_vespyrsurge.png" id="1_8yoa3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o5ghk"]
 atlas = ExtResource("1_8yoa3")
@@ -191,7 +191,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fh3tl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ia8x8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"vespyrsurge",
 "speed": 9.0
 }]

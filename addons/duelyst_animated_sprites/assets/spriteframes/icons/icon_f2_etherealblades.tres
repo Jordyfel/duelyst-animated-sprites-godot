@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://dt4jw7vrqc6hg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dt4jw7vrqc6hg"]
 
-[ext_resource type="Texture2D" uid="uid://dlywv6utgh03w" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_etherealblades.png" id="1_3ojqe"]
+[ext_resource type="Texture2D" uid="uid://c2twc5mxiivah" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_etherealblades.png" id="1_3ojqe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ixymj"]
 atlas = ExtResource("1_3ojqe")
@@ -99,7 +99,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ye2vg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ijqpa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"etherealblades",
 "speed": 9.0
 }]

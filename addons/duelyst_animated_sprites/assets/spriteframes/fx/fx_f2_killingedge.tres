@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=44 format=3 uid="uid://bvocs1sa6tovt"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bvocs1sa6tovt"]
 
-[ext_resource type="Texture2D" uid="uid://b2oec1nm6j18" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_killingedge.png" id="1_wj5qt"]
+[ext_resource type="Texture2D" uid="uid://dbclvrau5skpv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_killingedge.png" id="1_wj5qt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lt6h5"]
 atlas = ExtResource("1_wj5qt")
@@ -299,7 +299,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s18yp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"killingedge",
 "speed": 9.0
 }]

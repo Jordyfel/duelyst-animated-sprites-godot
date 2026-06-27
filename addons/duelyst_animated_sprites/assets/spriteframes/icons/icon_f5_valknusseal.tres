@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://c8plxy271db5a"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c8plxy271db5a"]
 
-[ext_resource type="Texture2D" uid="uid://d3pm4v3kf7or3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_valknusseal.png" id="1_ee4sw"]
+[ext_resource type="Texture2D" uid="uid://bw5yn108pd53d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_valknusseal.png" id="1_ee4sw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rk7ta"]
 atlas = ExtResource("1_ee4sw")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8d4hw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6ppmw")
 }],
-"loop": true,
+"loop": 1,
 "name": &"valknusseal",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://bpmrwojjxnt0q"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bpmrwojjxnt0q"]
 
-[ext_resource type="Texture2D" uid="uid://bok86urev84qm" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_wildfireankh.png" id="1_ne6va"]
+[ext_resource type="Texture2D" uid="uid://x4jlteylbsai" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_wildfireankh.png" id="1_ne6va"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iua5y"]
 atlas = ExtResource("1_ne6va")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mx5wn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x12mn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wildfireankh",
 "speed": 9.0
 }]

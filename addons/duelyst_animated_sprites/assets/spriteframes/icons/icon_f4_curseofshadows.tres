@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://dgryt3opagp01"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dgryt3opagp01"]
 
-[ext_resource type="Texture2D" uid="uid://dv3s5a1vwlnfu" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_curseofshadows.png" id="1_bc5ss"]
+[ext_resource type="Texture2D" uid="uid://dbajsqqyywa0t" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f4_curseofshadows.png" id="1_bc5ss"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tb10w"]
 atlas = ExtResource("1_bc5ss")
@@ -85,7 +85,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cst1r")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7scol")
 }],
-"loop": true,
+"loop": 1,
 "name": &"curseofshadows",
 "speed": 9.0
 }]

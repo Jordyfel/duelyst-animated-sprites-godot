@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=3 uid="uid://b3vyii1lottwg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b3vyii1lottwg"]
 
-[ext_resource type="Texture2D" uid="uid://cqxbl4yv2vay2" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_boneswarm.png" id="1_fu8dt"]
+[ext_resource type="Texture2D" uid="uid://ms8bhw8gufjx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_boneswarm.png" id="1_fu8dt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qugd0"]
 atlas = ExtResource("1_fu8dt")
@@ -159,7 +159,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6vng4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"boneswarm",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://8vuxe1p5v34d"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://8vuxe1p5v34d"]
 
-[ext_resource type="Texture2D" uid="uid://cfh0p0nk18bet" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_hollowvortex.png" id="1_e8q4l"]
+[ext_resource type="Texture2D" uid="uid://db4juolym7hv1" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_hollowvortex.png" id="1_e8q4l"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dbyjs"]
 atlas = ExtResource("1_e8q4l")
@@ -105,7 +105,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wuxgk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s3up6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hollowvortex",
 "speed": 9.0
 }]

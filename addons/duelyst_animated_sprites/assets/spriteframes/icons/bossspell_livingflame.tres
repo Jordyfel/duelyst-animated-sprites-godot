@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://dro84xthfoshc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dro84xthfoshc"]
 
-[ext_resource type="Texture2D" uid="uid://ixhrf4ocq3ow" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_livingflame.png" id="1_x8mx3"]
+[ext_resource type="Texture2D" uid="uid://dy24acdhci4kr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/bossspell_livingflame.png" id="1_x8mx3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u1lje"]
 atlas = ExtResource("1_x8mx3")
@@ -151,7 +151,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cod40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5lefr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"livingflame",
 "speed": 9.0
 }]

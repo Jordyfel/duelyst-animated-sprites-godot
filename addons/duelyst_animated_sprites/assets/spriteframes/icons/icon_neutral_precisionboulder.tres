@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://b4kuoxd08vxdx"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4kuoxd08vxdx"]
 
-[ext_resource type="Texture2D" uid="uid://c43uo58g6qimo" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_precisionboulder.png" id="1_n1bkf"]
+[ext_resource type="Texture2D" uid="uid://vo5xhfy8d80h" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_precisionboulder.png" id="1_n1bkf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bn7gi"]
 atlas = ExtResource("1_n1bkf")
@@ -91,7 +91,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lfake")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -108,7 +108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ah38u")
 }],
-"loop": true,
+"loop": 1,
 "name": &"precisionboulder",
 "speed": 9.0
 }]

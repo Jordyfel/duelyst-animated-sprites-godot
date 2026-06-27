@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=50 format=3 uid="uid://c4upr7c3hefru"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c4upr7c3hefru"]
 
-[ext_resource type="Texture2D" uid="uid://r1v8nsspp868" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_bbs_arcaneheart.png" id="1_vep2l"]
+[ext_resource type="Texture2D" uid="uid://bv3d81b641gqi" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_bbs_arcaneheart.png" id="1_vep2l"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w435p"]
 atlas = ExtResource("1_vep2l")
@@ -341,7 +341,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wskei")
 }],
-"loop": true,
+"loop": 1,
 "name": &"arcaneheart",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://c73i24lbmxfjk"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://c73i24lbmxfjk"]
 
-[ext_resource type="Texture2D" uid="uid://rd5mrwmmi67g" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_irridiumscale.png" id="1_tpsgq"]
+[ext_resource type="Texture2D" uid="uid://ddjwt4g8q0kyx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f5_irridiumscale.png" id="1_tpsgq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f822u"]
 atlas = ExtResource("1_tpsgq")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8obdu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_okixv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"irridiumscale",
 "speed": 9.0
 }]

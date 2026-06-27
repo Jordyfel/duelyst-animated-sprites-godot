@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://drdwoyng301lk"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://drdwoyng301lk"]
 
-[ext_resource type="Texture2D" uid="uid://buwlmu1l2nfeg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_monsterblacksandburrower.png" id="1_5pmxw"]
+[ext_resource type="Texture2D" uid="uid://dswvw2k8bg16k" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/neutral_monsterblacksandburrower.png" id="1_5pmxw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3xf5i"]
 atlas = ExtResource("1_5pmxw")
@@ -283,7 +283,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qn3pc")
 }],
-"loop": true,
+"loop": 1,
 "name": &"attack",
 "speed": 9.0
 }, {
@@ -330,7 +330,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l7n2m")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -359,7 +359,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hhcdh")
 }],
-"loop": true,
+"loop": 1,
 "name": &"death",
 "speed": 9.0
 }, {
@@ -373,7 +373,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mymbo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hit",
 "speed": 9.0
 }, {
@@ -420,7 +420,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7jq6k")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -443,7 +443,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2tjgb")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

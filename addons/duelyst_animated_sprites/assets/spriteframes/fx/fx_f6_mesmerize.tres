@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=29 format=3 uid="uid://wvp3oir3q8vm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://wvp3oir3q8vm"]
 
-[ext_resource type="Texture2D" uid="uid://dc6xsqo1px0ll" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_mesmerize.png" id="1_or1f3"]
+[ext_resource type="Texture2D" uid="uid://lhgox28devja" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f6_mesmerize.png" id="1_or1f3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_em8uo"]
 atlas = ExtResource("1_or1f3")
@@ -194,7 +194,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x314h")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mesmerize",
 "speed": 9.0
 }]

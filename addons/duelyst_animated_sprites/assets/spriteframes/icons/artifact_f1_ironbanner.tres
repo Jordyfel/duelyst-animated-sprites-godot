@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://r3krt3yeby8m"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://r3krt3yeby8m"]
 
-[ext_resource type="Texture2D" uid="uid://ctlvokvd3jkoc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_ironbanner.png" id="1_i5h1w"]
+[ext_resource type="Texture2D" uid="uid://e4mkh1cq84so" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f1_ironbanner.png" id="1_i5h1w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ya6en"]
 atlas = ExtResource("1_i5h1w")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fnp2v")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vfwqu")
 }],
-"loop": true,
+"loop": 1,
 "name": &"ironbanner",
 "speed": 9.0
 }]

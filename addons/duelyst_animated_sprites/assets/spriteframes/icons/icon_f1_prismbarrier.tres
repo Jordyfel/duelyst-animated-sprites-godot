@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://ofdvr4pa0qgj"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ofdvr4pa0qgj"]
 
-[ext_resource type="Texture2D" uid="uid://cp4rovb6foyi5" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_prismbarrier.png" id="1_c8cwv"]
+[ext_resource type="Texture2D" uid="uid://cyknlfg6muqy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_prismbarrier.png" id="1_c8cwv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uj3w4"]
 atlas = ExtResource("1_c8cwv")
@@ -112,7 +112,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1biff")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vjvjo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"prismbarrier",
 "speed": 9.0
 }]

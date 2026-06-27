@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://dc34fgcn4pa4b"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dc34fgcn4pa4b"]
 
-[ext_resource type="Texture2D" uid="uid://bnl5qryggdmvw" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_polarity.png" id="1_babhe"]
+[ext_resource type="Texture2D" uid="uid://d1qssiq21ytjg" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_polarity.png" id="1_babhe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lrx0h"]
 atlas = ExtResource("1_babhe")
@@ -133,7 +133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kv85i")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -150,7 +150,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_eclvm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"polarity",
 "speed": 9.0
 }]

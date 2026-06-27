@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=33 format=3 uid="uid://dnuq0mo18tedx"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnuq0mo18tedx"]
 
-[ext_resource type="Texture2D" uid="uid://bfoos20mt7oix" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_eightgates_purpleflame.png" id="1_mhe6x"]
+[ext_resource type="Texture2D" uid="uid://bvnjyg42kyd3a" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_eightgates_purpleflame.png" id="1_mhe6x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tkbmt"]
 atlas = ExtResource("1_mhe6x")
@@ -222,7 +222,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ogxkg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"purpleflame",
 "speed": 9.0
 }]

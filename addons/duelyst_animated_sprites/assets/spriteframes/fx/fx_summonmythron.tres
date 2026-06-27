@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://bayuykcb3eayc"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bayuykcb3eayc"]
 
-[ext_resource type="Texture2D" uid="uid://c5a4l6t43u6x3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_summonmythron.png" id="1_k26gl"]
+[ext_resource type="Texture2D" uid="uid://bvalo1aic4wmr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_summonmythron.png" id="1_k26gl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q8i7y"]
 atlas = ExtResource("1_k26gl")
@@ -187,7 +187,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_au7et")
 }],
-"loop": true,
+"loop": 1,
 "name": &"summonmythron",
 "speed": 9.0
 }]

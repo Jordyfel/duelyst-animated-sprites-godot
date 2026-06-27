@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://nmyp4r1l67ih"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://nmyp4r1l67ih"]
 
-[ext_resource type="Texture2D" uid="uid://dilkwahjrqjg0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_darkfiresacrifice.png" id="1_tidnm"]
+[ext_resource type="Texture2D" uid="uid://575dg5mxii8j" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_darkfiresacrifice.png" id="1_tidnm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3h7m1"]
 atlas = ExtResource("1_tidnm")
@@ -180,7 +180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ykjps")
 }],
-"loop": true,
+"loop": 1,
 "name": &"darkfiresacrifice",
 "speed": 9.0
 }]

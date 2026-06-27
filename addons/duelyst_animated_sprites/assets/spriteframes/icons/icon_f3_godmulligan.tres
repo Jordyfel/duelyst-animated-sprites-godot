@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://bpljylcuj8gl7"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bpljylcuj8gl7"]
 
-[ext_resource type="Texture2D" uid="uid://ccsm7y6qx15b3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_godmulligan.png" id="1_mlifr"]
+[ext_resource type="Texture2D" uid="uid://blit5yy7hbq57" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_godmulligan.png" id="1_mlifr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fn7o6"]
 atlas = ExtResource("1_mlifr")
@@ -101,7 +101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_646if")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ueogy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"godmulligan",
 "speed": 9.0
 }]

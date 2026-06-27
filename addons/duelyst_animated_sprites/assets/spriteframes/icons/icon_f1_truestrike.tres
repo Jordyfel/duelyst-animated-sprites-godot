@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://bj7nwsi3oljqm"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bj7nwsi3oljqm"]
 
-[ext_resource type="Texture2D" uid="uid://bryoch8xcqtup" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_truestrike.png" id="1_4c83d"]
+[ext_resource type="Texture2D" uid="uid://drbblwaoq2v0d" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_truestrike.png" id="1_4c83d"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v4lmq"]
 atlas = ExtResource("1_4c83d")
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kbl4t")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -171,7 +171,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_j1nu2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"truestrike",
 "speed": 9.0
 }]

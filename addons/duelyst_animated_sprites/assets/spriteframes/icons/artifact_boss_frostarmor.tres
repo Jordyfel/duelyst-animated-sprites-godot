@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://dy7j8s4o7enic"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dy7j8s4o7enic"]
 
-[ext_resource type="Texture2D" uid="uid://d2soi2wdh3psk" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_boss_frostarmor.png" id="1_r3rg1"]
+[ext_resource type="Texture2D" uid="uid://dxg6gorrvn34h" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_boss_frostarmor.png" id="1_r3rg1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t7oqv"]
 atlas = ExtResource("1_r3rg1")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l07x8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4cgx0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frostarmor",
 "speed": 9.0
 }]

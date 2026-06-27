@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://cfw0snvxbiq65"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfw0snvxbiq65"]
 
-[ext_resource type="Texture2D" uid="uid://7mh58ki8k7l6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_kagelightning.png" id="1_hr0u3"]
+[ext_resource type="Texture2D" uid="uid://mlwilynhkcvd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_kagelightning.png" id="1_hr0u3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fow5s"]
 atlas = ExtResource("1_hr0u3")
@@ -92,7 +92,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6hj2w")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cgo6j")
 }],
-"loop": true,
+"loop": 1,
 "name": &"kagelightning",
 "speed": 9.0
 }]

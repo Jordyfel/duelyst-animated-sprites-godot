@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://btab1rlpsdwrs"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://btab1rlpsdwrs"]
 
-[ext_resource type="Texture2D" uid="uid://yb4f6soh5bnp" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_mistwalking.png" id="1_tfea1"]
+[ext_resource type="Texture2D" uid="uid://cc4lgmswilg0u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f2_mistwalking.png" id="1_tfea1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qmld1"]
 atlas = ExtResource("1_tfea1")
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5qc1y")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_cirs6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mistwalking",
 "speed": 9.0
 }]

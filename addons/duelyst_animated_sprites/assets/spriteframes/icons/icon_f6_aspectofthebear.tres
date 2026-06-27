@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=44 format=3 uid="uid://bop1b7dtv2cjp"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bop1b7dtv2cjp"]
 
-[ext_resource type="Texture2D" uid="uid://coi1olf36akr6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_aspectofthebear.png" id="1_miorh"]
+[ext_resource type="Texture2D" uid="uid://ctoufwkx4ke63" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_aspectofthebear.png" id="1_miorh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1dpx6"]
 atlas = ExtResource("1_miorh")
@@ -257,7 +257,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6un0m")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -304,7 +304,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2rix2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"aspectofthebear",
 "speed": 9.0
 }]

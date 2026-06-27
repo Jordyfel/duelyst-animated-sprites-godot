@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://dbmm3jbmmirwn"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dbmm3jbmmirwn"]
 
-[ext_resource type="Texture2D" uid="uid://c3cfjnphbkg4o" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_curseofagony.png" id="1_xgl1n"]
+[ext_resource type="Texture2D" uid="uid://cwydmcl886e6f" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_curseofagony.png" id="1_xgl1n"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bpvp0"]
 atlas = ExtResource("1_xgl1n")
@@ -152,7 +152,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fmacy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"curseofagony",
 "speed": 9.0
 }]

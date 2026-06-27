@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://drwvuy7vd0rab"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://drwvuy7vd0rab"]
 
-[ext_resource type="Texture2D" uid="uid://dj5v4gmaft7q7" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_popeyespinich.png" id="1_uvhui"]
+[ext_resource type="Texture2D" uid="uid://be7b82d7ibtc0" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f5_popeyespinich.png" id="1_uvhui"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c0fb1"]
 atlas = ExtResource("1_uvhui")
@@ -119,7 +119,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_o18tq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -136,7 +136,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6n5ex")
 }],
-"loop": true,
+"loop": 1,
 "name": &"popeyespinich",
 "speed": 9.0
 }]

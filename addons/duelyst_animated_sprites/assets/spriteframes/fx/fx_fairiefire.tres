@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=38 format=3 uid="uid://dv57rx27sno6x"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dv57rx27sno6x"]
 
-[ext_resource type="Texture2D" uid="uid://c7knobmp5782g" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_fairiefire.png" id="1_flkbe"]
+[ext_resource type="Texture2D" uid="uid://6l6y51g6kqju" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_fairiefire.png" id="1_flkbe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fhmfl"]
 atlas = ExtResource("1_flkbe")
@@ -167,7 +167,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ltb3d")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fairiefireblack",
 "speed": 9.0
 }, {
@@ -190,7 +190,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0k6v8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fairiefireblue",
 "speed": 9.0
 }, {
@@ -213,7 +213,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lx4vp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fairiefiregreen",
 "speed": 9.0
 }, {
@@ -236,7 +236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sq00s")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fairiefirepurple",
 "speed": 9.0
 }, {
@@ -259,7 +259,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xfups")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fairiefirered",
 "speed": 9.0
 }, {
@@ -282,7 +282,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_b6kmp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fairiefireyellow",
 "speed": 9.0
 }]

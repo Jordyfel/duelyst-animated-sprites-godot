@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://dmyuu6lpa5vh"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dmyuu6lpa5vh"]
 
-[ext_resource type="Texture2D" uid="uid://dl8nv7ltrqxly" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_blindscorch.png" id="1_ek738"]
+[ext_resource type="Texture2D" uid="uid://ceahndavaka8u" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f3_blindscorch.png" id="1_ek738"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_827tc"]
 atlas = ExtResource("1_ek738")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7o0sl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xibtk")
 }],
-"loop": true,
+"loop": 1,
 "name": &"blindscorch",
 "speed": 9.0
 }]

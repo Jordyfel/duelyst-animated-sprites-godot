@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://coain15im6jxv"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://coain15im6jxv"]
 
-[ext_resource type="Texture2D" uid="uid://clefujyepiaup" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_spinecleaver.png" id="1_w7xiy"]
+[ext_resource type="Texture2D" uid="uid://dauwo1e0c68s3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/artifact_f3_spinecleaver.png" id="1_w7xiy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cubni"]
 atlas = ExtResource("1_w7xiy")
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gnbke")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p3uxd")
 }],
-"loop": true,
+"loop": 1,
 "name": &"spinecleaver",
 "speed": 9.0
 }]

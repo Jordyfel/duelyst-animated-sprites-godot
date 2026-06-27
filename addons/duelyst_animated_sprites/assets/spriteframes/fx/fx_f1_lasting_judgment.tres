@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://coq3nwwtse52u"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://coq3nwwtse52u"]
 
-[ext_resource type="Texture2D" uid="uid://cg41ei640fhhr" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_lasting_judgment.png" id="1_u5h28"]
+[ext_resource type="Texture2D" uid="uid://dri4mii6wk25v" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_lasting_judgment.png" id="1_u5h28"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6nyii"]
 atlas = ExtResource("1_u5h28")
@@ -173,7 +173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_isn4n")
 }],
-"loop": true,
+"loop": 1,
 "name": &"judgment",
 "speed": 9.0
 }]

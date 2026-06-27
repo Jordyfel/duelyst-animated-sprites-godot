@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=42 format=3 uid="uid://bekwrh4yv156s"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bekwrh4yv156s"]
 
-[ext_resource type="Texture2D" uid="uid://bobi4xbcoasej" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_consumingrebirth.png" id="1_andol"]
+[ext_resource type="Texture2D" uid="uid://duftowfjraimj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f4_consumingrebirth.png" id="1_andol"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8gspc"]
 atlas = ExtResource("1_andol")
@@ -285,7 +285,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sdtoq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"consumingrebirth",
 "speed": 9.0
 }]

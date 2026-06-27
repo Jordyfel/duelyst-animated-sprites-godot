@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cv4h27huw23y4"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cv4h27huw23y4"]
 
-[ext_resource type="Texture2D" uid="uid://0ngwgccibnuc" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_trinitybreath.png" id="1_metji"]
+[ext_resource type="Texture2D" uid="uid://hfm70353j3r6" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_neutral_trinitybreath.png" id="1_metji"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g7qlp"]
 atlas = ExtResource("1_metji")
@@ -120,7 +120,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u4fu5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -143,7 +143,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3hlqg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trinitybreath",
 "speed": 9.0
 }]

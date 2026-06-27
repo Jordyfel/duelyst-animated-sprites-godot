@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://b38e3kywvkvw7"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://b38e3kywvkvw7"]
 
-[ext_resource type="Texture2D" uid="uid://br134obfabui" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_distortion_hex_shield.png" id="1_vpshd"]
+[ext_resource type="Texture2D" uid="uid://c4fott753og87" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_distortion_hex_shield.png" id="1_vpshd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6ykp8"]
 atlas = ExtResource("1_vpshd")
@@ -75,7 +75,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_01km1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"shield",
 "speed": 9.0
 }]

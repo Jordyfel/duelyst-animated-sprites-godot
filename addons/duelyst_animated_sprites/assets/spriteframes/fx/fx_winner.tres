@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=34 format=3 uid="uid://dylh4tad3j1gf"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://dylh4tad3j1gf"]
 
-[ext_resource type="Texture2D" uid="uid://dpgbg4ddhgl6i" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_winner.png" id="1_fetiy"]
+[ext_resource type="Texture2D" uid="uid://mqcbh1w7krxa" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_winner.png" id="1_fetiy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oa65e"]
 atlas = ExtResource("1_fetiy")
@@ -229,7 +229,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nnt8a")
 }],
-"loop": true,
+"loop": 1,
 "name": &"winner",
 "speed": 9.0
 }]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=46 format=3 uid="uid://rcm2d20861b8"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://rcm2d20861b8"]
 
-[ext_resource type="Texture2D" uid="uid://d2c04q4xp2v8c" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_bbs_blink.png" id="1_2os14"]
+[ext_resource type="Texture2D" uid="uid://bmny8jley76jj" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f2_bbs_blink.png" id="1_2os14"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oqgdw"]
 atlas = ExtResource("1_2os14")
@@ -313,7 +313,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8c0md")
 }],
-"loop": true,
+"loop": 1,
 "name": &"blink",
 "speed": 9.0
 }]

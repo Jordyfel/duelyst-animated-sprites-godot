@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://ci0d5h6xb04ik"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ci0d5h6xb04ik"]
 
-[ext_resource type="Texture2D" uid="uid://b27752er1qn38" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_drainmorale.png" id="1_k2h52"]
+[ext_resource type="Texture2D" uid="uid://eebcuted1rvx" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f3_drainmorale.png" id="1_k2h52"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6ve8g"]
 atlas = ExtResource("1_k2h52")
@@ -152,7 +152,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5igsr")
 }],
-"loop": true,
+"loop": 1,
 "name": &"drainmorale",
 "speed": 9.0
 }]

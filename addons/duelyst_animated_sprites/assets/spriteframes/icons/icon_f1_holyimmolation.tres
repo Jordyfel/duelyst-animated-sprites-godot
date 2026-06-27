@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://826ga7dn45ql"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://826ga7dn45ql"]
 
-[ext_resource type="Texture2D" uid="uid://cdgy4ipq6n5bd" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_holyimmolation.png" id="1_g4wes"]
+[ext_resource type="Texture2D" uid="uid://thfsp621ihq3" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f1_holyimmolation.png" id="1_g4wes"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h1n5e"]
 atlas = ExtResource("1_g4wes")
@@ -109,7 +109,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pmj3p")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u41uv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"holyimmolation",
 "speed": 9.0
 }]

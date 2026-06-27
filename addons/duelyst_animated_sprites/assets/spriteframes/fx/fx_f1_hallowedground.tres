@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://bw2xrdcpkr50d"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bw2xrdcpkr50d"]
 
-[ext_resource type="Texture2D" uid="uid://nv2rv6kxs4dn" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_hallowedground.png" id="1_4rcd2"]
+[ext_resource type="Texture2D" uid="uid://d1ie2cv8exnq4" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_f1_hallowedground.png" id="1_4rcd2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nnuev"]
 atlas = ExtResource("1_4rcd2")
@@ -170,7 +170,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ys84c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"hallowedground",
 "speed": 9.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fjg14")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }]

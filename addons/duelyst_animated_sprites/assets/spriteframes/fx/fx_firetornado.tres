@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://bgspwhmj1avqq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bgspwhmj1avqq"]
 
-[ext_resource type="Texture2D" uid="uid://cpddnbwwu278" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_firetornado.png" id="1_wxiu4"]
+[ext_resource type="Texture2D" uid="uid://b1ir2a6tk0sv" path="res://addons/duelyst_animated_sprites/assets/spritesheets/fx/fx_firetornado.png" id="1_wxiu4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_grjnm"]
 atlas = ExtResource("1_wxiu4")
@@ -96,7 +96,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0dtai")
 }],
-"loop": true,
+"loop": 1,
 "name": &"firetornado",
 "speed": 9.0
 }]

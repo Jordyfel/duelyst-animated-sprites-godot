@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://ccoxv6sgmp62b"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://ccoxv6sgmp62b"]
 
-[ext_resource type="Texture2D" uid="uid://q38f12mr1q6g" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f2_pandabear.png" id="1_msm6b"]
+[ext_resource type="Texture2D" uid="uid://c1wk785ntgfir" path="res://addons/duelyst_animated_sprites/assets/spritesheets/units/f2_pandabear.png" id="1_msm6b"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tw1wi"]
 atlas = ExtResource("1_msm6b")
@@ -147,7 +147,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lnhor")
 }],
-"loop": true,
+"loop": 1,
 "name": &"breathing",
 "speed": 9.0
 }, {
@@ -182,7 +182,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ivbuy")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 9.0
 }, {
@@ -211,7 +211,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_atucv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 9.0
 }]

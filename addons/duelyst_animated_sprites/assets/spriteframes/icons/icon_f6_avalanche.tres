@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://jdpc1fbh2jk"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://jdpc1fbh2jk"]
 
-[ext_resource type="Texture2D" uid="uid://p1gm5s6wmvvy" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_avalanche.png" id="1_8wiw6"]
+[ext_resource type="Texture2D" uid="uid://colalmd3vhe7n" path="res://addons/duelyst_animated_sprites/assets/spritesheets/icons/icon_f6_avalanche.png" id="1_8wiw6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wntb3"]
 atlas = ExtResource("1_8wiw6")
@@ -140,7 +140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fecm2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"active",
 "speed": 9.0
 }, {
@@ -157,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dwegi")
 }],
-"loop": true,
+"loop": 1,
 "name": &"avalanche",
 "speed": 9.0
 }]
