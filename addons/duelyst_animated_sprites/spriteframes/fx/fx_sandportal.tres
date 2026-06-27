@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://4en30na3j1jr"]
+
+[ext_resource type="Texture2D" uid="uid://ddsneibe358cf" path="res://addons/duelyst_animated_sprites/spritesheets/fx/fx_sandportal.png" id="1_ayjsx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_81285"]
+atlas = ExtResource("1_ayjsx")
+region = Rect2(0, 0, 150, 150)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_81285")
+}],
+"loop": 1,
+"name": &"sandportal",
+"speed": 9.0
+}]
